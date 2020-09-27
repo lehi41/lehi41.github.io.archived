@@ -2990,12 +2990,29 @@ const SACRAMENT_PROGRAMS = [
         benediction: PEOPLE.jaredAva
     }
 ];
-const RELEASES = [];
+const RELEASES = [
+    { name: 'Havea Saafi', calling: 'Primary Worker' },
+    { name: 'Jane Saafi', calling: 'Primary Worker' },
+    { name: 'Leilani Sauer', calling: 'Primary Worker' },
+    { name: 'Leilani Sauer', calling: 'Primary Worker' },
+    { name: 'Ashley Havili', calling: 'Relief Society Activity committee leader' },
+];
+// Callings
+// Lazel Gamil - activity days
+// Emily Iongi - activity days
+// Charlotte Afu - Primary worker
+// Filimone Afu - Primary Worker
+// Nau Simeona - Relief Society Activity committee leader
 const SUSTAININGS = [
     { name: 'Lindsey Tafengatoto', calling: 'Relief Society - Activity Comm' },
     { name: 'Fiaki Fetokai', calling: 'Relief Society - Activity Comm' },
     { name: 'Jen Teriipaia', calling: 'Relief Society - Ministering Sec' },
     { name: 'Kacey Kinikini', calling: 'Relief Society - Ministering Sec' },
+    { name: 'Lazel Gamil', calling: 'Primary - Activity days' },
+    { name: 'Emily Iongi', calling: 'Primary - Activity days' },
+    { name: 'Charlotte Afu', calling: 'Primary - Activity days' },
+    { name: 'Filimone Afu', calling: 'Primary - Activity days' },
+    { name: 'Nau Simeona', calling: 'Primary - Activity days' },
     { name: 'Alexis Finau', calling: 'Primary - Nursery' },
 ];
 const NEW_MEMBERS = [
