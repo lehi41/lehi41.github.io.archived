@@ -3778,6 +3778,12 @@ const ZOOM_LINKS = [
         meetingId: '862 8129 6866'
     },
     {
+        label: 'Today at 1pm - Zoom - Relief Society',
+        link: 'https://us02web.zoom.us/j/88585159016?pwd=MnRaa1Q3cUlFcDhhN1VwcDlKVnJQdz09',
+        passcode: 'lehifataha',
+        meetingId: '885 8515 9016'
+    },
+    {
         label: 'Today at 1pm - Zoom - Young Women Meeting',
         link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
         passcode: 'strivetobe',
