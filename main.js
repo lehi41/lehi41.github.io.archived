@@ -989,7 +989,7 @@ function CheatSheetZoomSacramentComponent_div_0_Template(rf, ctx) { if (rf & 1) 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Zoom Testimony Meeting");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Zoom Sacrament Meeting");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
@@ -1148,7 +1148,7 @@ CheatSheetZoomSacramentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_
                 template: `
     <div class="row" *ngIf="cheatSheet">
       <div class="col-12 mb-2 mt-2">
-        <h1 class="h2 mb-0">Zoom Testimony Meeting</h1>
+        <h1 class="h2 mb-0">Zoom Sacrament Meeting</h1>
       </div>
       <div class="col-12 mt-2">
 
