@@ -3615,7 +3615,7 @@ function ZoomListComponent_li_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](zoomItem_r1.link);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" MeetingId: ", zoomItem_r1.meetingId, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Meeting Id: ", zoomItem_r1.meetingId, "");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Passcode: ", zoomItem_r1.passcode, " ");
 } }
@@ -3625,7 +3625,7 @@ class ZoomListComponent {
     }
 }
 ZoomListComponent.ɵfac = function ZoomListComponent_Factory(t) { return new (t || ZoomListComponent)(); };
-ZoomListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ZoomListComponent, selectors: [["app-zoom-list"]], decls: 7, vars: 4, consts: [[1, "row", "mb-4"], [1, "col-12"], [1, "list-group", "list-group-flush"], ["class", "list-group-item ml-0 pl-0 mr-0 pr-0", 4, "ngFor", "ngForOf"], [1, "list-group-item", "ml-0", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "text-center"], [1, "fa-3x"], [1, "fas", "fa-calendar-day"], [1, "ml-4", "mt-2"], [1, "h6", "font-weight-bold"], [3, "href"]], template: function ZoomListComponent_Template(rf, ctx) { if (rf & 1) {
+ZoomListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ZoomListComponent, selectors: [["app-zoom-list"]], decls: 7, vars: 4, consts: [[1, "row", "mb-4"], [1, "col-12"], [1, "list-group", "list-group-flush"], ["class", "list-group-item ml-0 pl-0 mr-0 pr-0", 4, "ngFor", "ngForOf"], [1, "list-group-item", "ml-0", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "text-center"], [1, "fa-3x"], [1, "fas", "fa-calendar-day"], [1, "ml-4", "mt-2"], [1, "h6", "font-weight-bold"], ["target", "_blank", 3, "href"]], template: function ZoomListComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "ul", 2);
@@ -3665,8 +3665,8 @@ ZoomListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                   {{ zoomItem.label }}
                 </h2>
                 <p>
-                  Link: <a href="{{ zoomItem.link}}">{{ zoomItem.link }}</a><br/>
-                  MeetingId: {{ zoomItem.meetingId }}<br/>
+                  Link: <a href="{{ zoomItem.link}}" target="_blank">{{ zoomItem.link }}</a><br/>
+                  Meeting Id: {{ zoomItem.meetingId }}<br/>
                   Passcode: {{ zoomItem.passcode }}
                 </p>
               </div>
