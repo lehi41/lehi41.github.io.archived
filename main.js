@@ -3767,7 +3767,7 @@ const HYMNS = {
 const ZOOM_LINKS = [
     {
         label: 'Today at 10:30am - Zoom - Sacrament',
-        link: 'https://us02web.zoom.us/j/88602272334',
+        link: 'https://us02web.zoom.us/j/89646695998',
         passcode: '685172',
         meetingId: '896 4669 5998'
     },
