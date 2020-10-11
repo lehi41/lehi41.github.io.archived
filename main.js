@@ -40,7 +40,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_safety_tips_page_safety_tips_page_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/safety-tips-page/safety-tips-page.component */ "./src/app/pages/safety-tips-page/safety-tips-page.component.ts");
 /* harmony import */ var _pages_cheat_sheet_page_cheat_sheet_page_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/cheat-sheet-page/cheat-sheet-page.component */ "./src/app/pages/cheat-sheet-page/cheat-sheet-page.component.ts");
 /* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _pages_testimony_meeting_page_testimony_meeting_page_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/testimony-meeting-page/testimony-meeting-page.component */ "./src/app/pages/testimony-meeting-page/testimony-meeting-page.component.ts");
+/* harmony import */ var _pages_zoom_sacrament_meeting_page_zoom_sacrament_meeting_page_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/zoom-sacrament-meeting-page/zoom-sacrament-meeting-page.component */ "./src/app/pages/zoom-sacrament-meeting-page/zoom-sacrament-meeting-page.component.ts");
 
 
 
@@ -59,7 +59,7 @@ const routes = [
     },
     {
         path: 'home',
-        component: _pages_testimony_meeting_page_testimony_meeting_page_component__WEBPACK_IMPORTED_MODULE_7__["TestimonyMeetingPageComponent"]
+        component: _pages_zoom_sacrament_meeting_page_zoom_sacrament_meeting_page_component__WEBPACK_IMPORTED_MODULE_7__["ZoomSacramentMeetingPageComponent"]
     },
     // {
     //   path: 'home',
@@ -158,6 +158,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_cheat_sheet_page_cheat_sheet_page_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/cheat-sheet-page/cheat-sheet-page.component */ "./src/app/pages/cheat-sheet-page/cheat-sheet-page.component.ts");
 /* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
 /* harmony import */ var _pages_testimony_meeting_page_testimony_meeting_page_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/testimony-meeting-page/testimony-meeting-page.component */ "./src/app/pages/testimony-meeting-page/testimony-meeting-page.component.ts");
+/* harmony import */ var _pages_zoom_sacrament_meeting_page_zoom_sacrament_meeting_page_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/zoom-sacrament-meeting-page/zoom-sacrament-meeting-page.component */ "./src/app/pages/zoom-sacrament-meeting-page/zoom-sacrament-meeting-page.component.ts");
+
 
 
 
@@ -186,7 +188,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _pages_sacrament_program_page_sacrament_program_page_component__WEBPACK_IMPORTED_MODULE_6__["SacramentProgramPageComponent"],
         _pages_safety_tips_page_safety_tips_page_component__WEBPACK_IMPORTED_MODULE_8__["SafetyTipsPageComponent"],
         _pages_cheat_sheet_page_cheat_sheet_page_component__WEBPACK_IMPORTED_MODULE_9__["CheatSheetPageComponent"],
-        _pages_testimony_meeting_page_testimony_meeting_page_component__WEBPACK_IMPORTED_MODULE_11__["TestimonyMeetingPageComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _pages_testimony_meeting_page_testimony_meeting_page_component__WEBPACK_IMPORTED_MODULE_11__["TestimonyMeetingPageComponent"],
+        _pages_zoom_sacrament_meeting_page_zoom_sacrament_meeting_page_component__WEBPACK_IMPORTED_MODULE_12__["ZoomSacramentMeetingPageComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_4__["SharedModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
@@ -201,6 +204,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _pages_safety_tips_page_safety_tips_page_component__WEBPACK_IMPORTED_MODULE_8__["SafetyTipsPageComponent"],
                     _pages_cheat_sheet_page_cheat_sheet_page_component__WEBPACK_IMPORTED_MODULE_9__["CheatSheetPageComponent"],
                     _pages_testimony_meeting_page_testimony_meeting_page_component__WEBPACK_IMPORTED_MODULE_11__["TestimonyMeetingPageComponent"],
+                    _pages_zoom_sacrament_meeting_page_zoom_sacrament_meeting_page_component__WEBPACK_IMPORTED_MODULE_12__["ZoomSacramentMeetingPageComponent"],
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -571,7 +575,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TestimonyMeetingPageComponent", function() { return TestimonyMeetingPageComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/components/navigation/navigation.component */ "./src/app/shared/components/navigation/navigation.component.ts");
-/* harmony import */ var _shared_components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component */ "./src/app/shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component.ts");
+/* harmony import */ var _shared_components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/cheat-sheet-zoom-testimony/cheat-sheet-zoom-testimony.component */ "./src/app/shared/components/cheat-sheet-zoom-testimony/cheat-sheet-zoom-testimony.component.ts");
 /* harmony import */ var _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/components/footer/footer.component */ "./src/app/shared/components/footer/footer.component.ts");
 
 
@@ -579,22 +583,65 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class TestimonyMeetingPageComponent {
-    constructor() { }
-    ngOnInit() {
-    }
 }
 TestimonyMeetingPageComponent.ɵfac = function TestimonyMeetingPageComponent_Factory(t) { return new (t || TestimonyMeetingPageComponent)(); };
 TestimonyMeetingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TestimonyMeetingPageComponent, selectors: [["app-testimony-meeting-page"]], decls: 4, vars: 0, consts: [[1, "l41-container", "container", "pt-4", "mrg-horizon-auto"]], template: function TestimonyMeetingPageComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navigation");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-cheat-sheet-zoom-testimory");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-footer");
+    } }, directives: [_shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__["NavigationComponent"], _shared_components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_2__["CheatSheetZoomTestimonyComponent"], _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], encapsulation: 2 });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TestimonyMeetingPageComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-testimony-meeting-page',
+                template: `
+    <app-navigation></app-navigation>
+    <div class="l41-container container pt-4 mrg-horizon-auto">
+      <app-cheat-sheet-zoom-testimory></app-cheat-sheet-zoom-testimory>
+    </div>
+    <app-footer></app-footer>
+  `
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/pages/zoom-sacrament-meeting-page/zoom-sacrament-meeting-page.component.ts":
+/*!********************************************************************************************!*\
+  !*** ./src/app/pages/zoom-sacrament-meeting-page/zoom-sacrament-meeting-page.component.ts ***!
+  \********************************************************************************************/
+/*! exports provided: ZoomSacramentMeetingPageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ZoomSacramentMeetingPageComponent", function() { return ZoomSacramentMeetingPageComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/components/navigation/navigation.component */ "./src/app/shared/components/navigation/navigation.component.ts");
+/* harmony import */ var _shared_components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component */ "./src/app/shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component.ts");
+/* harmony import */ var _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/components/footer/footer.component */ "./src/app/shared/components/footer/footer.component.ts");
+
+
+
+
+
+class ZoomSacramentMeetingPageComponent {
+}
+ZoomSacramentMeetingPageComponent.ɵfac = function ZoomSacramentMeetingPageComponent_Factory(t) { return new (t || ZoomSacramentMeetingPageComponent)(); };
+ZoomSacramentMeetingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ZoomSacramentMeetingPageComponent, selectors: [["app-zoom-sacrament-meeting-page"]], decls: 4, vars: 0, consts: [[1, "l41-container", "container", "pt-4", "mrg-horizon-auto"]], template: function ZoomSacramentMeetingPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navigation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-cheat-sheet-zoom-sacrament");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-footer");
     } }, directives: [_shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__["NavigationComponent"], _shared_components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_2__["CheatSheetZoomSacramentComponent"], _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], encapsulation: 2 });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TestimonyMeetingPageComponent, [{
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ZoomSacramentMeetingPageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
-                selector: 'app-testimony-meeting-page',
+                selector: 'app-zoom-sacrament-meeting-page',
                 template: `
     <app-navigation></app-navigation>
     <div class="l41-container container pt-4 mrg-horizon-auto">
@@ -603,7 +650,7 @@ TestimonyMeetingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__
     <app-footer></app-footer>
   `
             }]
-    }], function () { return []; }, null); })();
+    }], null, null); })();
 
 
 /***/ }),
@@ -3747,13 +3794,13 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
         _angular_forms__WEBPACK_IMPORTED_MODULE_12__["ReactiveFormsModule"]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](SharedModule, { declarations: [_components_announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_5__["AnnouncementListComponent"],
         _components_cheat_sheet_cheat_sheet_component__WEBPACK_IMPORTED_MODULE_10__["CheatSheetComponent"],
+        _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
+        _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"],
         _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
         _components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_6__["NavigationComponent"],
         _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
         _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
-        _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
-        _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
-        _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"]], imports: [
+        _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"]], imports: [
         // Modules
         _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
@@ -3771,25 +3818,25 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
         _components_announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_5__["AnnouncementListComponent"],
         _components_cheat_sheet_cheat_sheet_component__WEBPACK_IMPORTED_MODULE_10__["CheatSheetComponent"],
         _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
+        _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"],
         _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
         _components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_6__["NavigationComponent"],
         _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
         _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
-        _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
-        _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"]] }); })();
+        _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SharedModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
                 declarations: [
                     _components_announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_5__["AnnouncementListComponent"],
                     _components_cheat_sheet_cheat_sheet_component__WEBPACK_IMPORTED_MODULE_10__["CheatSheetComponent"],
+                    _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
+                    _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"],
                     _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
                     _components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_6__["NavigationComponent"],
                     _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
                     _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
                     _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
-                    _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
-                    _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"]
                 ],
                 imports: [
                     // Modules
@@ -3810,12 +3857,12 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
                     _components_announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_5__["AnnouncementListComponent"],
                     _components_cheat_sheet_cheat_sheet_component__WEBPACK_IMPORTED_MODULE_10__["CheatSheetComponent"],
                     _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
+                    _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"],
                     _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
                     _components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_6__["NavigationComponent"],
                     _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
                     _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
                     _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
-                    _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"],
                 ],
                 providers: [
                     ngx_cookie_service__WEBPACK_IMPORTED_MODULE_11__["CookieService"],
