@@ -3766,6 +3766,12 @@ const HYMNS = {
 };
 const ZOOM_LINKS = [
     {
+        label: 'Today at 10:30am - Zoom - Sacrament',
+        link: 'https://us02web.zoom.us/j/88602272334',
+        passcode: '685172',
+        meetingId: '896 4669 5998'
+    },
+    {
         label: 'Today at 1pm - Zoom - Elders Quorum Meeting',
         link: 'https://us02web.zoom.us/j/86281296866?pwd=SnN2Q25pWE9FSFRLdm5hU1g1ODZ5QT09',
         passcode: '434644',
