@@ -3461,6 +3461,7 @@ const PEOPLE = {
     samBrown: { name: 'Sam Brown' },
     adamChase: { name: 'Adam Chase' },
     mekeFinau: { name: 'Meke Finau' },
+    keliiUnga: { name: 'Kelii Unga' },
     saaneQoro: { name: 'Saane Qoro' }
 };
 const ADDRESSES = {
@@ -3654,7 +3655,7 @@ const CHEAT_SHEETS = [
     {
         sacrament: SACRAMENT_PROGRAMS[3],
         stakeVisitors: [],
-        stakeBusinessAssignment: PEOPLE.jasonFaga,
+        stakeBusinessAssignment: PEOPLE.keliiUnga,
         announcements: ANNOUNCEMENTS,
         releases: RELEASES,
         sustainings: SUSTAININGS,
