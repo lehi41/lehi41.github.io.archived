@@ -571,7 +571,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TestimonyMeetingPageComponent", function() { return TestimonyMeetingPageComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/components/navigation/navigation.component */ "./src/app/shared/components/navigation/navigation.component.ts");
-/* harmony import */ var _shared_components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/cheat-sheet-zoom-testimony/cheat-sheet-zoom-testimony.component */ "./src/app/shared/components/cheat-sheet-zoom-testimony/cheat-sheet-zoom-testimony.component.ts");
+/* harmony import */ var _shared_components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component */ "./src/app/shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component.ts");
 /* harmony import */ var _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/components/footer/footer.component */ "./src/app/shared/components/footer/footer.component.ts");
 
 
@@ -587,10 +587,10 @@ TestimonyMeetingPageComponent.ɵfac = function TestimonyMeetingPageComponent_Fac
 TestimonyMeetingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TestimonyMeetingPageComponent, selectors: [["app-testimony-meeting-page"]], decls: 4, vars: 0, consts: [[1, "l41-container", "container", "pt-4", "mrg-horizon-auto"]], template: function TestimonyMeetingPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navigation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-cheat-sheet-zoom-testimory");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-cheat-sheet-zoom-sacrament");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-footer");
-    } }, directives: [_shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__["NavigationComponent"], _shared_components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_2__["CheatSheetZoomTestimonyComponent"], _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], encapsulation: 2 });
+    } }, directives: [_shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__["NavigationComponent"], _shared_components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_2__["CheatSheetZoomSacramentComponent"], _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TestimonyMeetingPageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -598,7 +598,7 @@ TestimonyMeetingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__
                 template: `
     <app-navigation></app-navigation>
     <div class="l41-container container pt-4 mrg-horizon-auto">
-      <app-cheat-sheet-zoom-testimory></app-cheat-sheet-zoom-testimory>
+      <app-cheat-sheet-zoom-sacrament></app-cheat-sheet-zoom-sacrament>
     </div>
     <app-footer></app-footer>
   `
@@ -716,6 +716,559 @@ AnnouncementListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
             </ul>
           </div>
         </div>
+      </div>
+    </div>
+  `
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component.ts":
+/*!******************************************************************************************************!*\
+  !*** ./src/app/shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component.ts ***!
+  \******************************************************************************************************/
+/*! exports provided: CheatSheetZoomSacramentComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheatSheetZoomSacramentComponent", function() { return CheatSheetZoomSacramentComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../data */ "./src/app/shared/data.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+function CheatSheetZoomSacramentComponent_div_0_section_46_li_4_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "small");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const announcement_r9 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](announcement_r9.title);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](announcement_r9.description);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_46_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Announcements:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetZoomSacramentComponent_div_0_section_46_li_4_Template, 6, 2, "li", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.cheatSheet.announcements);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_47_li_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "small");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const person_r11 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r11.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r11.calling);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_47_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Releases:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "We would like to release the following members:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, CheatSheetZoomSacramentComponent_div_0_section_47_li_6_Template, 6, 2, "li", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " ... and we propose that [he/she/they] be given a vote of thanks for [his/her/their] service. Those who wish to join with us in expressing appreciation may manifest it by the uplifted hand. [No dissenting vote is called for.] ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r2.cheatSheet.releases);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_48_li_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "br");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "small");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const person_r13 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r13.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r13.calling);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_48_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Sustainings:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " (If they are here) will the following please stand to be recognized, and remain standing while their names are presented. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, CheatSheetZoomSacramentComponent_div_0_section_48_li_6_Template, 6, 2, "li", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " ... and we propose that [he/she/they] be sustained. Those in favor may manifest it by the uplifted hand. [Pause for vote.] Those opposed, if any, may manifest it. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r3.cheatSheet.sustainings);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_49_li_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const person_r15 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r15.name);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_49_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Move In Members:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " If they are here, will the following please stand to be recognized while their names are presented. It is proposed that we welcome the following new members to the ward: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, CheatSheetZoomSacramentComponent_div_0_section_49_li_6_Template, 3, 1, "li", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Those wishing to join with us in doing so may manifest it by the uplifted hand. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r4.cheatSheet.newMembers);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_50_li_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const person_r17 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r17.name);
+} }
+function CheatSheetZoomSacramentComponent_div_0_section_50_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Baptisms:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " If they are here, will the following please stand to be recognized while their names are presented. It is proposed that we welcome the following newly baptised members to the ward: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, CheatSheetZoomSacramentComponent_div_0_section_50_li_6_Template, 3, 1, "li", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Those wishing to join with us in doing so may manifest it by the uplifted hand. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r5.cheatSheet.baptisms);
+} }
+function CheatSheetZoomSacramentComponent_div_0_div_51_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Stake Business:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " We now turn the time over to ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " to conduct some stake business. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r6.cheatSheet.stakeBusinessAssignment.name);
+} }
+function CheatSheetZoomSacramentComponent_div_0_li_57_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const speaker_r18 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", speaker_r18.person.name, " ");
+} }
+function CheatSheetZoomSacramentComponent_div_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Zoom Testimony Meeting");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Welcome:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Malo e lelei and Talofa Brothers and Sisters. Thank you for being here this morning. We welcome those who are visiting us today. We pray that the Spirit of the Lord will be with us. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " Presiding today is ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, ". ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "We wish to recognize:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "ul");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Other members of the Bishopric");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Members of the Stake");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " I am ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, ", and I will be conducting this meeting. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Opening Hymn & Prayer:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, " We will open our services by singing hymn, ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Following the singing, ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " has been invited to give the opening prayer. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Ward Business:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](46, CheatSheetZoomSacramentComponent_div_0_section_46_Template, 5, 1, "section", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](47, CheatSheetZoomSacramentComponent_div_0_section_47_Template, 9, 1, "section", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](48, CheatSheetZoomSacramentComponent_div_0_section_48_Template, 9, 1, "section", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](49, CheatSheetZoomSacramentComponent_div_0_section_49_Template, 9, 1, "section", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](50, CheatSheetZoomSacramentComponent_div_0_section_50_Template, 9, 1, "section", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](51, CheatSheetZoomSacramentComponent_div_0_div_51_Template, 9, 1, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Speakers:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](57, CheatSheetZoomSacramentComponent_div_0_li_57_Template, 2, 1, "li", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Closing:");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, " We will close our meeting by singing: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "a", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, ". Following the singing, ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " has been invited to give the closing prayer. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.cheatSheet.sacrament.presiding.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.cheatSheet.sacrament.conducting.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx_r0.cheatSheet.sacrament.openingSong.link, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", ctx_r0.cheatSheet.sacrament.openingSong.title, " (", ctx_r0.cheatSheet.sacrament.openingSong.page, ") ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.cheatSheet.sacrament.invocation.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.cheatSheet.announcements);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.cheatSheet.releases && ctx_r0.cheatSheet.releases.length);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.cheatSheet.sustainings && ctx_r0.cheatSheet.sustainings.length);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.cheatSheet.newMembers && ctx_r0.cheatSheet.newMembers.length);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.cheatSheet.newMembers && ctx_r0.cheatSheet.baptisms.length);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.cheatSheet.stakeBusinessAssignment);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.cheatSheet.sacrament.speakers);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx_r0.cheatSheet.sacrament.closingSong.link, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", ctx_r0.cheatSheet.sacrament.closingSong.title, " (", ctx_r0.cheatSheet.sacrament.closingSong.page, ") ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.cheatSheet.sacrament.benediction.name);
+} }
+class CheatSheetZoomSacramentComponent {
+    constructor() {
+        this.cheatSheet = _data__WEBPACK_IMPORTED_MODULE_1__["CHEAT_SHEETS"][3];
+    }
+}
+CheatSheetZoomSacramentComponent.ɵfac = function CheatSheetZoomSacramentComponent_Factory(t) { return new (t || CheatSheetZoomSacramentComponent)(); };
+CheatSheetZoomSacramentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CheatSheetZoomSacramentComponent, selectors: [["app-cheat-sheet-zoom-sacrament"]], decls: 1, vars: 1, consts: [["class", "row", 4, "ngIf"], [1, "row"], [1, "col-12", "mb-2", "mt-2"], [1, "h2", "mb-0"], [1, "col-12", "mt-2"], [1, "card", "mb-4"], [1, "card-header"], [1, "card-body"], [1, "highlight"], ["target", "_blank", 1, "highlight", 3, "href"], [4, "ngIf"], ["class", "card mb-4", 4, "ngIf"], [4, "ngFor", "ngForOf"], [1, "h6"]], template: function CheatSheetZoomSacramentComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, CheatSheetZoomSacramentComponent_div_0_Template, 70, 17, "div", 0);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.cheatSheet);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".highlight[_ngcontent-%COMP%] { color: #b8323e;}", ".assignment[_ngcontent-%COMP%] {color: darkgreen;}"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CheatSheetZoomSacramentComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-cheat-sheet-zoom-sacrament',
+                styles: [
+                    '.highlight { color: #b8323e;}',
+                    '.assignment {color: darkgreen;}'
+                ],
+                template: `
+    <div class="row" *ngIf="cheatSheet">
+      <div class="col-12 mb-2 mt-2">
+        <h1 class="h2 mb-0">Zoom Testimony Meeting</h1>
+      </div>
+      <div class="col-12 mt-2">
+
+        <div class="card mb-4">
+          <div class="card-header">Welcome:</div>
+          <div class="card-body">
+            <p>
+              Malo e lelei and Talofa Brothers and Sisters. Thank you for being here this morning.
+              We welcome those who are visiting us today. We pray that the Spirit of the Lord will be with us.
+            </p>
+
+            <p>
+              Presiding today is <span class="highlight">{{ cheatSheet.sacrament.presiding.name }}</span>.
+            </p>
+
+            <p>We wish to recognize:</p>
+            <ul>
+              <li><span class="highlight">Other members of the Bishopric</span></li>
+              <li><span class="highlight">Members of the Stake</span></li>
+            </ul>
+
+            <p>
+              I am <span class="highlight">{{ cheatSheet.sacrament.conducting.name }}</span>, and I will be conducting
+              this meeting.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header">Opening Hymn & Prayer:</div>
+          <div class="card-body">
+            <p>
+              We will open our services by singing hymn,
+              <a class="highlight" [href]="cheatSheet.sacrament.openingSong.link" target="_blank">
+                {{ cheatSheet.sacrament.openingSong.title}} ({{ cheatSheet.sacrament.openingSong.page}})
+              </a>Following the singing,
+              <span class="highlight">{{cheatSheet.sacrament.invocation.name}}</span> has been invited to give the
+              opening prayer.
+            </p>
+          </div>
+        </div>
+
+        <!-- WARD BUSINESS -->
+        <div class="card mb-4">
+          <div class="card-header">Ward Business:</div>
+          <div class="card-body">
+
+            <!-- WARD BUSINESS: Announcements -->
+            <section *ngIf="cheatSheet.announcements">
+              <h3 class="h6">Announcements:</h3>
+              <ul class="highlight">
+                <li *ngFor="let announcement of cheatSheet.announcements">
+                  <span>{{ announcement.title }}</span><br/>
+                  <small>{{ announcement.description }}</small>
+                </li>
+              </ul>
+            </section>
+
+            <!-- WARD BUSINESS: Releases -->
+            <section *ngIf="cheatSheet.releases && cheatSheet.releases.length">
+              <h3 class="h6">Releases:</h3>
+              <p>We would like to release the following members:</p>
+              <ul class="highlight">
+                <li *ngFor="let person of cheatSheet.releases">
+                  <span>{{ person.name }}</span><br/>
+                  <small>{{ person.calling }}</small>
+                </li>
+              </ul>
+              <p>
+                ... and we propose that [he/she/they] be given a vote of thanks for [his/her/their] service.
+                Those who wish to join with us in expressing appreciation may manifest it by the uplifted hand.
+                [No dissenting vote is called for.]
+              </p>
+            </section>
+
+            <!-- WARD BUSINESS: Sustainings -->
+            <section *ngIf="cheatSheet.sustainings && cheatSheet.sustainings.length">
+              <h3 class="h6">Sustainings:</h3>
+              <p>
+                (If they are here) will the following please stand to be recognized, and remain standing
+                while their names are presented.
+              </p>
+              <ul class="highlight">
+                <li *ngFor="let person of cheatSheet.sustainings">
+                  <span>{{ person.name }}</span><br/>
+                  <small>{{ person.calling }}</small>
+                </li>
+              </ul>
+              <p>
+                ... and we propose that [he/she/they] be sustained. Those in favor may manifest it by the uplifted
+                hand. [Pause for vote.] Those opposed, if any, may manifest it.
+              </p>
+            </section>
+
+            <!-- WARD BUSINESS: Move Ins -->
+            <section *ngIf="cheatSheet.newMembers && cheatSheet.newMembers.length">
+              <h3 class="h6">Move In Members:</h3>
+              <p>
+                If they are here, will the following please stand to be recognized while their names are presented.
+                It is proposed that we welcome the following new members to the ward:
+              </p>
+              <ul class="highlight">
+                <li *ngFor="let person of cheatSheet.newMembers">
+                  <span>{{ person.name }}</span>
+                </li>
+              </ul>
+
+              <p>
+                Those wishing to join with us in doing so may manifest it by the uplifted hand.
+              </p>
+            </section>
+
+            <!-- WARD BUSINESS: Baptisms -->
+            <section *ngIf="cheatSheet.newMembers && cheatSheet.baptisms.length">
+              <h3 class="h6">Baptisms:</h3>
+              <p>
+                If they are here, will the following please stand to be recognized while their names are presented.
+                It is proposed that we welcome the following newly baptised members to the ward:
+              </p>
+              <ul class="highlight">
+                <li *ngFor="let person of cheatSheet.baptisms">
+                  <span>{{ person.name }}</span>
+                </li>
+              </ul>
+
+              <p>
+                Those wishing to join with us in doing so may manifest it by the uplifted hand.
+              </p>
+            </section>
+
+          </div>
+        </div>
+
+        <div class="card mb-4" *ngIf="cheatSheet.stakeBusinessAssignment">
+          <div class="card-header">Stake Business:</div>
+          <div class="card-body">
+            <p>
+              We now turn the time over to <span class="highlight">{{ cheatSheet.stakeBusinessAssignment.name }}</span>
+              to conduct some stake business.
+            </p>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header">Speakers:</div>
+          <div class="card-body">
+            <ul class="highlight">
+              <li *ngFor="let speaker of cheatSheet.sacrament.speakers">
+                {{ speaker.person.name }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header">Closing:</div>
+          <div class="card-body">
+            <p>
+              We will close our meeting by singing:
+              <a class="highlight" [href]="cheatSheet.sacrament.closingSong.link" target="_blank">
+                {{ cheatSheet.sacrament.closingSong.title}} ({{ cheatSheet.sacrament.closingSong.page}})
+              </a>. Following the singing, <span class="highlight">{{ cheatSheet.sacrament.benediction.name}}</span>
+              has been invited to give the closing prayer.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   `
@@ -2832,7 +3385,7 @@ SafeSacramentComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
 /*!********************************!*\
   !*** ./src/app/shared/data.ts ***!
   \********************************/
-/*! exports provided: PEOPLE, ADDRESSES, HYMNS, SACRAMENT_PROGRAMS, RELEASES, SUSTAININGS, NEW_MEMBERS, BAPTISMS, CHEAT_SHEETS, ANNOUNCEMENTS */
+/*! exports provided: PEOPLE, ADDRESSES, HYMNS, ANNOUNCEMENTS, SACRAMENT_PROGRAMS, RELEASES, SUSTAININGS, NEW_MEMBERS, BAPTISMS, CHEAT_SHEETS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2840,13 +3393,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PEOPLE", function() { return PEOPLE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADDRESSES", function() { return ADDRESSES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HYMNS", function() { return HYMNS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ANNOUNCEMENTS", function() { return ANNOUNCEMENTS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SACRAMENT_PROGRAMS", function() { return SACRAMENT_PROGRAMS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RELEASES", function() { return RELEASES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SUSTAININGS", function() { return SUSTAININGS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NEW_MEMBERS", function() { return NEW_MEMBERS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BAPTISMS", function() { return BAPTISMS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CHEAT_SHEETS", function() { return CHEAT_SHEETS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ANNOUNCEMENTS", function() { return ANNOUNCEMENTS; });
 /* harmony import */ var _enums_zone_enum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./enums/zone.enum */ "./src/app/shared/enums/zone.enum.ts");
 
 const PEOPLE = {
@@ -2858,6 +3411,10 @@ const PEOPLE = {
     jasonFaga: { name: 'Jason Faga' },
     gursteenMoeai: { name: 'Gursteen Moeai' },
     jaredAva: { name: 'Jared Ava' },
+    samBrown: { name: 'Sam Brown' },
+    adamChase: { name: 'Adam Chase' },
+    mekeFinau: { name: 'Meke Finau' },
+    saaneQoro: { name: 'Saane Qoro' }
 };
 const ADDRESSES = {
     chapel: {
@@ -2876,6 +3433,16 @@ const HYMNS = {
         page: 19,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/we-thank-thee-o-god-for-a-prophet?lang=eng'
     },
+    83: {
+        title: 'Guide Us, O Thou Great Jehovah',
+        page: 83,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/guide-us-o-thou-great-jehovah?lang=eng'
+    },
+    85: {
+        title: 'How Firm a Foundation',
+        page: 85,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=eng'
+    },
     136: {
         title: 'I Know That My Redeemer Lives',
         page: 136,
@@ -2892,6 +3459,18 @@ const HYMNS = {
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/there-is-sunshine-in-my-soul-today?lang=eng'
     }
 };
+const ANNOUNCEMENTS = [
+    {
+        date: new Date(2020, 10, 15),
+        title: 'Thurs 15 Nov - Food Bank',
+        description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.'
+    },
+    {
+        date: new Date(2020, 10, 15),
+        title: 'Today at 1pm - Zoom - Elders Quorum Meeting',
+        description: 'details should have been shared to all families, if not please reach out to Jared Ava'
+    }
+];
 const SACRAMENT_PROGRAMS = [
     {
         id: 1,
@@ -2971,87 +3550,37 @@ const SACRAMENT_PROGRAMS = [
         date: new Date(2020, 9, 26),
         startTime: '10:30 AM',
         endTime: '11:10 AM',
-        address: ADDRESSES.chapel,
-        presiding: PEOPLE.memberOfBishopric,
-        conducting: PEOPLE.memberOfBishopric,
-        chorister: PEOPLE.chorister,
-        organist: PEOPLE.organist,
-        invocation: PEOPLE.gursteenMoeai,
-        openingSong: HYMNS['19'],
-        sacramentSong: null,
+        presiding: PEOPLE.samBrown,
+        conducting: PEOPLE.samBrown,
+        invocation: PEOPLE.mekeFinau,
+        openingSong: HYMNS['85'],
         speakers: [
             {
-                person: PEOPLE.memberOfBishopric,
+                person: PEOPLE.adamChase,
                 index: 1,
                 beforeRestHymn: true
             }
         ],
-        closingSong: HYMNS['136'],
-        benediction: PEOPLE.jaredAva
+        closingSong: HYMNS['83'],
+        benediction: PEOPLE.saaneQoro
     }
 ];
-const RELEASES = [
-    { name: 'Havea Saafi', calling: 'Primary Worker' },
-    { name: 'Jane Saafi', calling: 'Primary Worker' },
-    { name: 'Leilani Sauer', calling: 'Primary Worker' },
-    { name: 'Leilani Sauer', calling: 'Primary Worker' },
-    { name: 'Ashley Havili', calling: 'Relief Society Activity committee leader' },
-];
-const SUSTAININGS = [
-    { name: 'Lindsey Tafengatoto', calling: 'Relief Society - Activity Comm' },
-    { name: 'Fiaki Fetokai', calling: 'Relief Society - Activity Comm' },
-    { name: 'Jen Teriipaia', calling: 'Relief Society - Ministering Sec' },
-    { name: 'Kacey Kinikini', calling: 'Relief Society - Ministering Sec' },
-    { name: 'Lazel Gamil', calling: 'Primary - Activity days' },
-    { name: 'Emily Iongi', calling: 'Primary - Activity days' },
-    { name: 'Charlotte Afu', calling: 'Primary - Primary Worker' },
-    { name: 'Filimone Afu', calling: 'Primary - Primary Worker' },
-    { name: 'Nau Simeona', calling: 'Relief Society Activity committee leader' },
-    { name: 'Alexis Finau', calling: 'Primary - Nursery' },
-];
+const RELEASES = [];
+const SUSTAININGS = [];
 const NEW_MEMBERS = [
-    { name: 'Nancy Bell' },
-    { name: 'Christopher Bell' },
-    { name: 'Sione Tafengatoto' },
-    { name: 'Lindsey Tafengatoto' },
-    { name: 'Tilisa Tafengatoto' },
-    { name: 'Viliamu Nau' },
-    { name: 'Tupou Nau' },
-    { name: 'Katinia Nau' },
-    { name: 'Viliamu Katoa Nau' },
-    { name: 'Mele Nau' },
-    { name: 'Manase Tonga' },
-    { name: 'Lolohea Tonga' },
-    { name: 'Michael Tonga' },
-    { name: 'Leila Tonga' },
-    { name: 'Hettie Tonga' },
-    { name: 'Latai Tonga' },
-    { name: 'Cheif Matangi Tonga' },
-    { name: 'Savianna Funa' },
-    { name: 'Solofa Funa' },
-    { name: 'Siosiua Militoni' },
-    { name: 'Kiersten Militoni' },
-    { name: 'Emmalee Militoni' },
-    { name: 'Siosiua Atlas Militoni' },
-    { name: 'Siosifa Militoni' },
-    { name: 'William Halafuka' },
-    { name: 'Iona Teriipaia' },
-    { name: 'Jenna Teriipaia' },
-    { name: 'Treyzen Teriipaia' },
-    { name: 'Mya Teriipaia' },
-    { name: 'Tia Teriipaia' },
-    { name: 'Mosiah Teriipaia' },
-    { name: 'Mapu Lavaka' }
+    { name: 'Ana Salt' },
+    { name: 'Eric Salt' },
+    { name: 'Sioeli Salt' },
+    { name: 'Maloni Mataele' },
+    { name: 'Elesi Adele' }
 ];
-const BAPTISMS = [
-    { name: 'Pesalili Laker Nau' },
-    { name: 'Ilaise Hauloto Mila' },
-];
+const BAPTISMS = [];
 const CHEAT_SHEETS = [
     {
         sacrament: SACRAMENT_PROGRAMS[0],
         stakeVisitors: [],
         stakeBusinessAssignment: PEOPLE.jasonFaga,
+        announcements: ANNOUNCEMENTS,
         releases: RELEASES,
         sustainings: SUSTAININGS,
         newMembers: NEW_MEMBERS,
@@ -3060,6 +3589,7 @@ const CHEAT_SHEETS = [
     {
         sacrament: SACRAMENT_PROGRAMS[1],
         stakeVisitors: [],
+        announcements: ANNOUNCEMENTS,
         releases: RELEASES,
         sustainings: SUSTAININGS,
         newMembers: NEW_MEMBERS,
@@ -3068,6 +3598,7 @@ const CHEAT_SHEETS = [
     {
         sacrament: SACRAMENT_PROGRAMS[2],
         stakeVisitors: [],
+        announcements: ANNOUNCEMENTS,
         releases: RELEASES,
         sustainings: SUSTAININGS,
         newMembers: NEW_MEMBERS,
@@ -3077,28 +3608,12 @@ const CHEAT_SHEETS = [
         sacrament: SACRAMENT_PROGRAMS[3],
         stakeVisitors: [],
         stakeBusinessAssignment: PEOPLE.jasonFaga,
+        announcements: ANNOUNCEMENTS,
         releases: RELEASES,
         sustainings: SUSTAININGS,
         newMembers: NEW_MEMBERS,
         baptisms: BAPTISMS
     },
-];
-const ANNOUNCEMENTS = [
-    {
-        date: new Date(2020, 7, 27),
-        title: 'Food Bank',
-        description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.'
-    },
-    {
-        date: new Date(2020, 8, 5),
-        title: 'Primary Baptism',
-        description: 'Ward Level, 8:00am, Lehi YSA Stake Building 1550 South 1100 West, Lehi'
-    },
-    {
-        date: new Date(2020, 8, 6),
-        title: 'Fast Sunday',
-        description: ''
-    }
 ];
 
 
@@ -3192,6 +3707,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 /* harmony import */ var _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/cheat-sheet-zoom-testimony/cheat-sheet-zoom-testimony.component */ "./src/app/shared/components/cheat-sheet-zoom-testimony/cheat-sheet-zoom-testimony.component.ts");
+/* harmony import */ var _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component */ "./src/app/shared/components/cheat-sheet-zoom-sacrament/cheat-sheet-zoom-sacrament.component.ts");
+
 
 
 
@@ -3235,7 +3752,8 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
         _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
         _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
         _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
-        _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"]], imports: [
+        _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
+        _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"]], imports: [
         // Modules
         _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_7__["NgbModule"],
@@ -3257,7 +3775,8 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
         _components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_6__["NavigationComponent"],
         _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
         _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
-        _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"]] }); })();
+        _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
+        _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SharedModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
@@ -3269,7 +3788,8 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
                     _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
                     _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
                     _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
-                    _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"]
+                    _components_cheat_sheet_zoom_testimony_cheat_sheet_zoom_testimony_component__WEBPACK_IMPORTED_MODULE_14__["CheatSheetZoomTestimonyComponent"],
+                    _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"]
                 ],
                 imports: [
                     // Modules
@@ -3295,6 +3815,7 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
                     _components_sacrament_program_sacrament_program_component__WEBPACK_IMPORTED_MODULE_3__["SacramentProgramComponent"],
                     _components_sacrament_program_list_sacrament_program_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentProgramListComponent"],
                     _components_safe_sacrament_safe_sacrament_component__WEBPACK_IMPORTED_MODULE_8__["SafeSacramentComponent"],
+                    _components_cheat_sheet_zoom_sacrament_cheat_sheet_zoom_sacrament_component__WEBPACK_IMPORTED_MODULE_15__["CheatSheetZoomSacramentComponent"],
                 ],
                 providers: [
                     ngx_cookie_service__WEBPACK_IMPORTED_MODULE_11__["CookieService"],
