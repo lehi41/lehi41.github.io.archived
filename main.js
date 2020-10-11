@@ -3509,12 +3509,16 @@ const HYMNS = {
 };
 const ANNOUNCEMENTS = [
     {
-        title: 'Thurs 15 Nov - Food Bank',
+        title: 'Today at 1pm - Zoom - Elders Quorum Meeting',
+        description: 'Details as follows: Meeting ID: 862 8129 6866, Passcode: 434644, Join Zoom Meeting: https://us02web.zoom.us/j/86281296866?pwd=SnN2Q25pWE9FSFRLdm5hU1g1ODZ5QT09'
+    },
+    {
+        title: 'Thurs 15 Oct - Food Bank',
         description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.'
     },
     {
-        title: 'Today at 1pm - Zoom - Elders Quorum Meeting',
-        description: 'Details as follows: Meeting ID: 862 8129 6866, Passcode: 434644, Join Zoom Meeting: https://us02web.zoom.us/j/86281296866?pwd=SnN2Q25pWE9FSFRLdm5hU1g1ODZ5QT09'
+        title: 'Thurs 31 Oct - Stake Baptisms',
+        description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi'
     }
 ];
 const SACRAMENT_PROGRAMS = [
