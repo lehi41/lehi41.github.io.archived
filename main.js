@@ -3509,14 +3509,12 @@ const HYMNS = {
 };
 const ANNOUNCEMENTS = [
     {
-        date: new Date(2020, 10, 15),
         title: 'Thurs 15 Nov - Food Bank',
         description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.'
     },
     {
-        date: new Date(2020, 10, 15),
         title: 'Today at 1pm - Zoom - Elders Quorum Meeting',
-        description: 'details should have been shared to all families, if not please reach out to Jared Ava'
+        description: 'Details as follows: Meeting ID: 862 8129 6866, Passcode: 434644, Join Zoom Meeting: https://us02web.zoom.us/j/86281296866?pwd=SnN2Q25pWE9FSFRLdm5hU1g1ODZ5QT09'
     }
 ];
 const SACRAMENT_PROGRAMS = [
