@@ -312,42 +312,42 @@ class HomePageComponent {
                 label: 'Today at 10:30am - Zoom - Sacrament',
                 link: 'https://us02web.zoom.us/j/89646695998',
                 passcode: '685172',
-                meetingId: '896 4669 5998'
+                meetingId: '896 4669 5998',
             },
             {
                 label: 'Today at 1pm - Zoom - Elders Quorum Meeting',
                 link: 'https://us02web.zoom.us/j/86281296866?pwd=SnN2Q25pWE9FSFRLdm5hU1g1ODZ5QT09',
                 passcode: '434644',
-                meetingId: '862 8129 6866'
+                meetingId: '862 8129 6866',
             },
             {
                 label: 'Today at 1pm - Zoom - Relief Society',
                 link: 'https://us02web.zoom.us/j/88585159016?pwd=MnRaa1Q3cUlFcDhhN1VwcDlKVnJQdz09',
                 passcode: 'lehifataha',
-                meetingId: '885 8515 9016'
+                meetingId: '885 8515 9016',
             },
             {
                 label: 'Today at 1pm - Zoom - Young Women Meeting',
                 link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
                 passcode: 'strivetobe',
-                meetingId: '853 3058 6967'
+                meetingId: '853 3058 6967',
             },
             {
                 label: 'Today at 1pm - Zoom - Young Men Meeting',
                 link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
                 passcode: '434644',
-                meetingId: '862 8129 6866'
-            }
+                meetingId: '862 8129 6866',
+            },
         ];
         this.announcements = [
             {
                 title: 'Thurs 15 Oct - Food Bank',
-                description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.'
+                description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.',
             },
             {
                 title: 'Thurs 31 Oct - Stake Baptisms',
-                description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi.'
-            }
+                description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi.',
+            },
         ];
     }
 }
@@ -392,27 +392,30 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                 template: `
     <lehi41-navigation></lehi41-navigation>
     <div class="l41-container container pt-4 mrg-horizon-auto">
-<!--      <lehi41-video-->
-<!--        [title]="'Rejoice the Lord is King'"-->
-<!--        [source]="'./assets/video/rejoice-the-lord-is-king.mp4'"-->
-<!--      ></lehi41-video>-->
-<!--      <lehi41-video-->
-<!--        [title]="'Redeemer of Israel'"-->
-<!--        [source]="'./assets/video/redeemer-of-israel.mp4'"-->
-<!--      ></lehi41-video>-->
+      <!--      <lehi41-video-->
+      <!--        [title]="'Rejoice the Lord is King'"-->
+      <!--        [source]="'./assets/video/rejoice-the-lord-is-king.mp4'"-->
+      <!--      ></lehi41-video>-->
+      <!--      <lehi41-video-->
+      <!--        [title]="'Redeemer of Israel'"-->
+      <!--        [source]="'./assets/video/redeemer-of-israel.mp4'"-->
+      <!--      ></lehi41-video>-->
 
       <div class="row mb-4">
         <div class="col-12">
-
           <div class="card border-light">
-            <img class="card-img-top l41-img-thumbnail" src="./assets/images/safe-sacrament/sacrament-seating-01.jpg"
-                 alt="Announcements Thumbnail">
+            <img
+              class="card-img-top l41-img-thumbnail"
+              src="./assets/images/safe-sacrament/sacrament-seating-01.jpg"
+              alt="Announcements Thumbnail"
+            />
             <div class="card-body">
-
               <h1 class="h4">Meeting Links</h1>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item ml-0 pl-0 mr-0 pr-0" *ngFor="let zoomItem of zoomLinks">
-
+                <li
+                  class="list-group-item ml-0 pl-0 mr-0 pr-0"
+                  *ngFor="let zoomItem of zoomLinks"
+                >
                   <div class="d-flex justify-content-start">
                     <div class="text-center">
                       <div class="fa-3x">
@@ -424,8 +427,10 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                         {{ zoomItem.label }}
                       </h2>
                       <p>
-                        Link: <a href="{{ zoomItem.link}}">{{ zoomItem.link }}</a><br/>
-                        MeetingId: {{ zoomItem.meetingId }}<br/>
+                        Link:
+                        <a href="{{ zoomItem.link }}">{{ zoomItem.link }}</a
+                        ><br />
+                        MeetingId: {{ zoomItem.meetingId }}<br />
                         Passcode: {{ zoomItem.passcode }}
                       </p>
                     </div>
@@ -435,15 +440,19 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
 
               <h1 class="h4">Announcements</h1>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item ml-0 pl-0 mr-0 pr-0" *ngFor="let announcement of announcements">
-
+                <li
+                  class="list-group-item ml-0 pl-0 mr-0 pr-0"
+                  *ngFor="let announcement of announcements"
+                >
                   <div class="d-flex justify-content-start">
                     <div class="text-center">
                       <div class="fa-3x">
                         <i class="fas fa-calendar-day"></i>
                       </div>
                       <span
-                        class="text-uppercase font-weight-bold font-size-10">{{ announcement.date | date : 'd MMM' }}</span>
+                        class="text-uppercase font-weight-bold font-size-10"
+                        >{{ announcement.date | date: 'd MMM' }}</span
+                      >
                     </div>
                     <div class="ml-4 mt-2">
                       <h2 class="h6 font-weight-bold">
@@ -454,7 +463,6 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                   </div>
                 </li>
               </ul>
-
             </div>
           </div>
         </div>
@@ -1041,14 +1049,14 @@ class NavigationComponent {
                 active: true,
                 routerLink: '/cheat-sheet',
                 label: 'Cheat Sheet',
-            }
+            },
         ];
-        this.links$ = new rxjs__WEBPACK_IMPORTED_MODULE_4__["BehaviorSubject"](this.linksList.filter(l => l.active && !l.protected));
+        this.links$ = new rxjs__WEBPACK_IMPORTED_MODULE_4__["BehaviorSubject"](this.linksList.filter((l) => l.active && !l.protected));
     }
     ngOnInit() {
         this.authenticated = this.authService.isLoggedIn();
         if (this.authenticated) {
-            const links = this.linksList.filter(l => l.active);
+            const links = this.linksList.filter((l) => l.active);
             this.links$.next(links);
         }
     }
@@ -1101,7 +1109,7 @@ NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
                 selector: 'lehi41-navigation',
                 styles: [
                     '.logo { height: 50px; width: 50px;}',
-                    '.nav-item { cursor: pointer; }'
+                    '.nav-item { cursor: pointer; }',
                 ],
                 template: `
     <nav class="navbar navbar-expand-lg navbar-light mt-3">
@@ -1129,8 +1137,9 @@ NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         <div class="collapse navbar-collapse" id="navbar-items">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item" *ngFor="let link of links$ | async">
-              <a class="nav-item nav-link"
-                 routerLink="{{link.routerLink}}">{{ link.label}}</a>
+              <a class="nav-item nav-link" routerLink="{{ link.routerLink }}">{{
+                link.label
+              }}</a>
             </li>
             <li class="nav-item">
               <a
@@ -1138,12 +1147,14 @@ NavigationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
                 (click)="setDocTitle('Lehi Fataha | Home')"
                 routerLink="/login"
                 *ngIf="!authenticated"
-              >Login</a>
+                >Login</a
+              >
               <a
                 class="nav-item nav-link"
                 *ngIf="authenticated"
                 (click)="logout()"
-              >Logout</a>
+                >Logout</a
+              >
             </li>
           </ul>
         </div>
