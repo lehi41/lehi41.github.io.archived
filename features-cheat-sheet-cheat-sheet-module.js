@@ -48,22 +48,18 @@ CheatSheetModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheatSheetComponent", function() { return CheatSheetComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/components/navigation/navigation.component */ "mFvv");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "2kYt");
-/* harmony import */ var _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/components/footer/footer.component */ "aF9I");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
 
 
 
-
-
-function CheatSheetComponent_div_2_span_41_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_span_41_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " will be our chorister, and");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " will be our organist. Following the singing,");
@@ -76,7 +72,7 @@ function CheatSheetComponent_div_2_span_41_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r1.cheatSheet.sacrament.organist.name);
 } }
-function CheatSheetComponent_div_2_section_49_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_49_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -93,13 +89,13 @@ function CheatSheetComponent_div_2_section_49_div_3_li_4_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r12.calling);
 } }
-function CheatSheetComponent_div_2_section_49_div_3_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_49_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "We would like to release the following members:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_49_div_3_li_4_Template, 6, 2, "li", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_49_div_3_li_4_Template, 6, 2, "li", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " ... and we propose that [he/she/they] be given a vote of thanks for [his/her/their] service. Those who wish to join with us in expressing appreciation may manifest it by the uplifted hand. [No dissenting vote is called for.] ");
@@ -110,18 +106,18 @@ function CheatSheetComponent_div_2_section_49_div_3_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r9.cheatSheet.releases);
 } }
-function CheatSheetComponent_div_2_section_49_div_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_49_div_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "No releases today");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function CheatSheetComponent_div_2_section_49_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 16);
+function CheatSheetComponent_div_0_section_49_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Releases:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_2_section_49_div_3_Template, 7, 1, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_49_div_4_Template, 2, 0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_0_section_49_div_3_Template, 7, 1, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_49_div_4_Template, 2, 0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -130,7 +126,7 @@ function CheatSheetComponent_div_2_section_49_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r2.cheatSheet.releases.length);
 } }
-function CheatSheetComponent_div_2_section_50_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_50_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -147,13 +143,13 @@ function CheatSheetComponent_div_2_section_50_div_3_li_4_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r16.calling);
 } }
-function CheatSheetComponent_div_2_section_50_div_3_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_50_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " (If they are here) will the following please stand to be recognized, and remain standing while their names are presented. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_50_div_3_li_4_Template, 6, 2, "li", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_50_div_3_li_4_Template, 6, 2, "li", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " ... and we propose that [he/she/they] be sustained. Those in favor may manifest it by the uplifted hand. [Pause for vote.] Those opposed, if any, may manifest it. ");
@@ -164,18 +160,18 @@ function CheatSheetComponent_div_2_section_50_div_3_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r13.cheatSheet.sustainings);
 } }
-function CheatSheetComponent_div_2_section_50_div_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_50_div_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " No sustainings today ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function CheatSheetComponent_div_2_section_50_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 16);
+function CheatSheetComponent_div_0_section_50_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Sustainings:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_2_section_50_div_3_Template, 7, 1, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_50_div_4_Template, 2, 0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_0_section_50_div_3_Template, 7, 1, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_50_div_4_Template, 2, 0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -184,7 +180,7 @@ function CheatSheetComponent_div_2_section_50_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r3.cheatSheet.sustainings.length);
 } }
-function CheatSheetComponent_div_2_section_51_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_51_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -195,13 +191,13 @@ function CheatSheetComponent_div_2_section_51_div_3_li_4_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r20.name);
 } }
-function CheatSheetComponent_div_2_section_51_div_3_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_51_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " If they are here, will the following please stand to be recognized while their names are presented. It is proposed that we welcome the following new members to the ward: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_51_div_3_li_4_Template, 3, 1, "li", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_51_div_3_li_4_Template, 3, 1, "li", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Those wishing to join with us in doing so may manifest it by the uplifted hand. ");
@@ -212,18 +208,18 @@ function CheatSheetComponent_div_2_section_51_div_3_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r17.cheatSheet.newMembers);
 } }
-function CheatSheetComponent_div_2_section_51_div_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_51_div_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " No new members this past week ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function CheatSheetComponent_div_2_section_51_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 16);
+function CheatSheetComponent_div_0_section_51_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Move In Members:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_2_section_51_div_3_Template, 7, 1, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_51_div_4_Template, 2, 0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_0_section_51_div_3_Template, 7, 1, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_51_div_4_Template, 2, 0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -232,7 +228,7 @@ function CheatSheetComponent_div_2_section_51_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r4.cheatSheet.newMembers.length);
 } }
-function CheatSheetComponent_div_2_section_52_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_52_div_3_li_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -243,13 +239,13 @@ function CheatSheetComponent_div_2_section_52_div_3_li_4_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](person_r24.name);
 } }
-function CheatSheetComponent_div_2_section_52_div_3_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_52_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " If they are here, will the following please stand to be recognized while their names are presented. It is proposed that we welcome the following newly baptised members to the ward: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_52_div_3_li_4_Template, 3, 1, "li", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_52_div_3_li_4_Template, 3, 1, "li", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " Those wishing to join with us in doing so may manifest it by the uplifted hand. ");
@@ -260,18 +256,18 @@ function CheatSheetComponent_div_2_section_52_div_3_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r21.cheatSheet.baptisms);
 } }
-function CheatSheetComponent_div_2_section_52_div_4_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_section_52_div_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " No Baptisms this past week ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function CheatSheetComponent_div_2_section_52_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 16);
+function CheatSheetComponent_div_0_section_52_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Baptisms:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_2_section_52_div_3_Template, 7, 1, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_2_section_52_div_4_Template, 2, 0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, CheatSheetComponent_div_0_section_52_div_3_Template, 7, 1, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, CheatSheetComponent_div_0_section_52_div_4_Template, 2, 0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -280,15 +276,15 @@ function CheatSheetComponent_div_2_section_52_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r5.cheatSheet.baptisms.length);
 } }
-function CheatSheetComponent_div_2_div_53_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 7);
+function CheatSheetComponent_div_0_div_53_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Stake Business:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " We now turn the time over to ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " to conduct some stake business. ");
@@ -300,16 +296,16 @@ function CheatSheetComponent_div_2_div_53_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r6.cheatSheet.stakeBusinessAssignment.name);
 } }
-function CheatSheetComponent_div_2_div_60_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 7);
+function CheatSheetComponent_div_0_div_60_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Sacrament Administration:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " We will now prepare for the sacrament by singing:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
@@ -330,7 +326,7 @@ function CheatSheetComponent_div_2_div_60_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", ctx_r7.cheatSheet.sacrament.sacramentSong.title, " (", ctx_r7.cheatSheet.sacrament.sacramentSong.page, ") ");
 } }
-function CheatSheetComponent_div_2_li_68_Template(rf, ctx) { if (rf & 1) {
+function CheatSheetComponent_div_0_li_68_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -341,25 +337,25 @@ function CheatSheetComponent_div_2_li_68_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](speaker_r25.person.name);
 } }
-function CheatSheetComponent_div_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 4);
+function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Cheat Sheet");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Welcome:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Malo e lelei and Talofa Brothers and Sisters. Thank you for being here this morning. We welcome those who are visiting us today. We pray that the Spirit of the Lord will be with us. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " Presiding today is ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, ". ");
@@ -369,12 +365,12 @@ function CheatSheetComponent_div_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "ul");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Other members of the Bishopric");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Members of the Stake");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -384,81 +380,81 @@ function CheatSheetComponent_div_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " I am ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, ", and I will be conducting this meeting. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Opening Hymn & Prayer:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " We will open our services by singing hymn, ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](41, CheatSheetComponent_div_2_span_41_Template, 9, 2, "span", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](41, CheatSheetComponent_div_0_span_41_Template, 9, 2, "span", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, " has been invited to give the opening prayer. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Ward Business:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](49, CheatSheetComponent_div_2_section_49_Template, 5, 2, "section", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](50, CheatSheetComponent_div_2_section_50_Template, 5, 2, "section", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](51, CheatSheetComponent_div_2_section_51_Template, 5, 2, "section", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](52, CheatSheetComponent_div_2_section_52_Template, 5, 2, "section", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](49, CheatSheetComponent_div_0_section_49_Template, 5, 2, "section", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](50, CheatSheetComponent_div_0_section_50_Template, 5, 2, "section", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](51, CheatSheetComponent_div_0_section_51_Template, 5, 2, "section", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](52, CheatSheetComponent_div_0_section_52_Template, 5, 2, "section", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](53, CheatSheetComponent_div_2_div_53_Template, 9, 1, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](53, CheatSheetComponent_div_0_div_53_Template, 9, 1, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Other Business:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Baby blessings etc");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](60, CheatSheetComponent_div_2_div_60_Template, 15, 3, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](60, CheatSheetComponent_div_0_div_60_Template, 15, 3, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Sacrament Speakers:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, " Today we will be honored to hear from the following speakers: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "ul", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](68, CheatSheetComponent_div_2_li_68_Template, 3, 1, "li", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "ul", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](68, CheatSheetComponent_div_0_li_68_Template, 3, 1, "li", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Closing:");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, " We will close our meeting by singing: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "a", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "a", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](77, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " Following the singing, ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "span", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, " has been invited to give the closing prayer. ");
@@ -698,285 +694,276 @@ class CheatSheetComponent {
     }
 }
 CheatSheetComponent.ɵfac = function CheatSheetComponent_Factory(t) { return new (t || CheatSheetComponent)(); };
-CheatSheetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CheatSheetComponent, selectors: [["lehi41-cheat-sheet"]], decls: 4, vars: 1, consts: [[1, "l41-container", "container", "pt-4", "mrg-horizon-auto"], ["class", "row", 4, "ngIf"], [1, "row"], [1, "col-12", "mb-2", "mt-2"], [1, "h2", "mb-0"], [1, "col-12", "mt-2"], [1, "card", "mb-4"], [1, "card-header"], [1, "card-body"], [1, "highlight"], ["target", "_blank", 1, "highlight", 3, "href"], [4, "ngIf"], ["class", "pt-3", 4, "ngIf"], ["class", "card mb-4", 4, "ngIf"], [4, "ngFor", "ngForOf"], [1, "pt-3"], [1, "h6"]], template: function CheatSheetComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "lehi41-navigation");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, CheatSheetComponent_div_2_Template, 82, 18, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "lehi41-footer");
+CheatSheetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CheatSheetComponent, selectors: [["lehi41-cheat-sheet"]], decls: 1, vars: 1, consts: [["class", "row", 4, "ngIf"], [1, "row"], [1, "col-12", "mb-2", "mt-2"], [1, "h2", "mb-0"], [1, "col-12", "mt-2"], [1, "card", "mb-4"], [1, "card-header"], [1, "card-body"], [1, "highlight"], ["target", "_blank", 1, "highlight", 3, "href"], [4, "ngIf"], ["class", "pt-3", 4, "ngIf"], ["class", "card mb-4", 4, "ngIf"], [4, "ngFor", "ngForOf"], [1, "pt-3"], [1, "h6"]], template: function CheatSheetComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, CheatSheetComponent_div_0_Template, 82, 18, "div", 0);
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.cheatSheet);
-    } }, directives: [_shared_components_navigation_navigation_component__WEBPACK_IMPORTED_MODULE_1__["NavigationComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _shared_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".highlight[_ngcontent-%COMP%] { color: #b8323e;}", ".assignment[_ngcontent-%COMP%] {color: darkgreen;}"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: [".highlight[_ngcontent-%COMP%] { color: #b8323e;}", ".assignment[_ngcontent-%COMP%] {color: darkgreen;}"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CheatSheetComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'lehi41-cheat-sheet',
                 styles: ['.highlight { color: #b8323e;}', '.assignment {color: darkgreen;}'],
                 template: `
-    <lehi41-navigation></lehi41-navigation>
-    <div class="l41-container container pt-4 mrg-horizon-auto">
-      <div class="row" *ngIf="cheatSheet">
-        <div class="col-12 mb-2 mt-2">
-          <h1 class="h2 mb-0">Cheat Sheet</h1>
+    <div class="row" *ngIf="cheatSheet">
+      <div class="col-12 mb-2 mt-2">
+        <h1 class="h2 mb-0">Cheat Sheet</h1>
+      </div>
+      <div class="col-12 mt-2">
+        <div class="card mb-4">
+          <div class="card-header">Welcome:</div>
+          <div class="card-body">
+            <p>
+              Malo e lelei and Talofa Brothers and Sisters. Thank you for being
+              here this morning. We welcome those who are visiting us today. We
+              pray that the Spirit of the Lord will be with us.
+            </p>
+
+            <p>
+              Presiding today is
+              <span class="highlight">{{
+                cheatSheet.sacrament.presiding.name
+              }}</span
+              >.
+            </p>
+
+            <p>We wish to recognize:</p>
+            <ul>
+              <li>
+                <span class="highlight">Other members of the Bishopric</span>
+              </li>
+              <li><span class="highlight">Members of the Stake</span></li>
+            </ul>
+            <p>who are all seated up here on the stand.</p>
+
+            <p>
+              I am
+              <span class="highlight">{{
+                cheatSheet.sacrament.conducting.name
+              }}</span
+              >, and I will be conducting this meeting.
+            </p>
+          </div>
         </div>
-        <div class="col-12 mt-2">
-          <div class="card mb-4">
-            <div class="card-header">Welcome:</div>
-            <div class="card-body">
-              <p>
-                Malo e lelei and Talofa Brothers and Sisters. Thank you for
-                being here this morning. We welcome those who are visiting us
-                today. We pray that the Spirit of the Lord will be with us.
-              </p>
 
-              <p>
-                Presiding today is
+        <div class="card mb-4">
+          <div class="card-header">Opening Hymn & Prayer:</div>
+          <div class="card-body">
+            <p>
+              We will open our services by singing hymn,
+              <a
+                class="highlight"
+                [href]="cheatSheet.sacrament.openingSong.link"
+                target="_blank"
+              >
+                {{ cheatSheet.sacrament.openingSong.title }} ({{
+                  cheatSheet.sacrament.openingSong.page
+                }}) </a
+              ><br />
+              <span *ngIf="!cheatSheet.zoomSession">
                 <span class="highlight">{{
-                  cheatSheet.sacrament.presiding.name
-                }}</span
-                >.
-              </p>
-
-              <p>We wish to recognize:</p>
-              <ul>
-                <li>
-                  <span class="highlight">Other members of the Bishopric</span>
-                </li>
-                <li><span class="highlight">Members of the Stake</span></li>
-              </ul>
-              <p>who are all seated up here on the stand.</p>
-
-              <p>
-                I am
-                <span class="highlight">{{
-                  cheatSheet.sacrament.conducting.name
-                }}</span
-                >, and I will be conducting this meeting.
-              </p>
-            </div>
-          </div>
-
-          <div class="card mb-4">
-            <div class="card-header">Opening Hymn & Prayer:</div>
-            <div class="card-body">
-              <p>
-                We will open our services by singing hymn,
-                <a
-                  class="highlight"
-                  [href]="cheatSheet.sacrament.openingSong.link"
-                  target="_blank"
-                >
-                  {{ cheatSheet.sacrament.openingSong.title }} ({{
-                    cheatSheet.sacrament.openingSong.page
-                  }}) </a
-                ><br />
-                <span *ngIf="!cheatSheet.zoomSession">
-                  <span class="highlight">{{
-                    cheatSheet.sacrament.chorister.name
-                  }}</span>
-                  will be our chorister, and<br />
-                  <span class="highlight">{{
-                    cheatSheet.sacrament.organist.name
-                  }}</span>
-                  will be our organist. Following the singing,<br />
-                </span>
-
-                <span class="highlight">{{
-                  cheatSheet.sacrament.invocation.name
+                  cheatSheet.sacrament.chorister.name
                 }}</span>
-                has been invited to give the opening prayer.
-              </p>
-            </div>
-          </div>
-
-          <div class="card mb-4">
-            <div class="card-header">Ward Business:</div>
-            <div class="card-body">
-              <section class="pt-3" *ngIf="cheatSheet.releases">
-                <h3 class="h6">Releases:</h3>
-                <div *ngIf="cheatSheet.releases.length">
-                  <p>We would like to release the following members:</p>
-                  <ul class="highlight">
-                    <li *ngFor="let person of cheatSheet.releases">
-                      <span>{{ person.name }}</span
-                      ><br />
-                      <small>{{ person.calling }}</small>
-                    </li>
-                  </ul>
-                  <p>
-                    ... and we propose that [he/she/they] be given a vote of
-                    thanks for [his/her/their] service. Those who wish to join
-                    with us in expressing appreciation may manifest it by the
-                    uplifted hand. [No dissenting vote is called for.]
-                  </p>
-                </div>
-                <div *ngIf="!cheatSheet.releases.length">No releases today</div>
-              </section>
-
-              <section class="pt-3" *ngIf="cheatSheet.sustainings">
-                <h3 class="h6">Sustainings:</h3>
-                <div *ngIf="cheatSheet.sustainings.length">
-                  <p>
-                    (If they are here) will the following please stand to be
-                    recognized, and remain standing while their names are
-                    presented.
-                  </p>
-                  <ul class="highlight">
-                    <li *ngFor="let person of cheatSheet.sustainings">
-                      <span>{{ person.name }}</span
-                      ><br />
-                      <small>{{ person.calling }}</small>
-                    </li>
-                  </ul>
-                  <p>
-                    ... and we propose that [he/she/they] be sustained. Those in
-                    favor may manifest it by the uplifted hand. [Pause for
-                    vote.] Those opposed, if any, may manifest it.
-                  </p>
-                </div>
-                <div *ngIf="!cheatSheet.sustainings.length">
-                  No sustainings today
-                </div>
-              </section>
-
-              <section class="pt-3" *ngIf="cheatSheet.newMembers">
-                <h3 class="h6">Move In Members:</h3>
-                <div *ngIf="cheatSheet.newMembers.length">
-                  <p>
-                    If they are here, will the following please stand to be
-                    recognized while their names are presented. It is proposed
-                    that we welcome the following new members to the ward:
-                  </p>
-                  <ul class="highlight">
-                    <li *ngFor="let person of cheatSheet.newMembers">
-                      <span>{{ person.name }}</span>
-                    </li>
-                  </ul>
-
-                  <p>
-                    Those wishing to join with us in doing so may manifest it by
-                    the uplifted hand.
-                  </p>
-                </div>
-                <div *ngIf="!cheatSheet.newMembers.length">
-                  No new members this past week
-                </div>
-              </section>
-
-              <section class="pt-3" *ngIf="cheatSheet.baptisms">
-                <h3 class="h6">Baptisms:</h3>
-                <div *ngIf="cheatSheet.baptisms.length">
-                  <p>
-                    If they are here, will the following please stand to be
-                    recognized while their names are presented. It is proposed
-                    that we welcome the following newly baptised members to the
-                    ward:
-                  </p>
-                  <ul class="highlight">
-                    <li *ngFor="let person of cheatSheet.baptisms">
-                      <span>{{ person.name }}</span>
-                    </li>
-                  </ul>
-
-                  <p>
-                    Those wishing to join with us in doing so may manifest it by
-                    the uplifted hand.
-                  </p>
-                </div>
-                <div *ngIf="!cheatSheet.baptisms.length">
-                  No Baptisms this past week
-                </div>
-              </section>
-            </div>
-          </div>
-
-          <div class="card mb-4" *ngIf="cheatSheet.stakeBusinessAssignment">
-            <div class="card-header">Stake Business:</div>
-            <div class="card-body">
-              <p>
-                We now turn the time over to
+                will be our chorister, and<br />
                 <span class="highlight">{{
-                  cheatSheet.stakeBusinessAssignment.name
+                  cheatSheet.sacrament.organist.name
                 }}</span>
-                to conduct some stake business.
-              </p>
-            </div>
+                will be our organist. Following the singing,<br />
+              </span>
+
+              <span class="highlight">{{
+                cheatSheet.sacrament.invocation.name
+              }}</span>
+              has been invited to give the opening prayer.
+            </p>
           </div>
+        </div>
 
-          <div class="card mb-4">
-            <div class="card-header">Other Business:</div>
-            <div class="card-body">
-              <p>Baby blessings etc</p>
-            </div>
+        <div class="card mb-4">
+          <div class="card-header">Ward Business:</div>
+          <div class="card-body">
+            <section class="pt-3" *ngIf="cheatSheet.releases">
+              <h3 class="h6">Releases:</h3>
+              <div *ngIf="cheatSheet.releases.length">
+                <p>We would like to release the following members:</p>
+                <ul class="highlight">
+                  <li *ngFor="let person of cheatSheet.releases">
+                    <span>{{ person.name }}</span
+                    ><br />
+                    <small>{{ person.calling }}</small>
+                  </li>
+                </ul>
+                <p>
+                  ... and we propose that [he/she/they] be given a vote of
+                  thanks for [his/her/their] service. Those who wish to join
+                  with us in expressing appreciation may manifest it by the
+                  uplifted hand. [No dissenting vote is called for.]
+                </p>
+              </div>
+              <div *ngIf="!cheatSheet.releases.length">No releases today</div>
+            </section>
+
+            <section class="pt-3" *ngIf="cheatSheet.sustainings">
+              <h3 class="h6">Sustainings:</h3>
+              <div *ngIf="cheatSheet.sustainings.length">
+                <p>
+                  (If they are here) will the following please stand to be
+                  recognized, and remain standing while their names are
+                  presented.
+                </p>
+                <ul class="highlight">
+                  <li *ngFor="let person of cheatSheet.sustainings">
+                    <span>{{ person.name }}</span
+                    ><br />
+                    <small>{{ person.calling }}</small>
+                  </li>
+                </ul>
+                <p>
+                  ... and we propose that [he/she/they] be sustained. Those in
+                  favor may manifest it by the uplifted hand. [Pause for vote.]
+                  Those opposed, if any, may manifest it.
+                </p>
+              </div>
+              <div *ngIf="!cheatSheet.sustainings.length">
+                No sustainings today
+              </div>
+            </section>
+
+            <section class="pt-3" *ngIf="cheatSheet.newMembers">
+              <h3 class="h6">Move In Members:</h3>
+              <div *ngIf="cheatSheet.newMembers.length">
+                <p>
+                  If they are here, will the following please stand to be
+                  recognized while their names are presented. It is proposed
+                  that we welcome the following new members to the ward:
+                </p>
+                <ul class="highlight">
+                  <li *ngFor="let person of cheatSheet.newMembers">
+                    <span>{{ person.name }}</span>
+                  </li>
+                </ul>
+
+                <p>
+                  Those wishing to join with us in doing so may manifest it by
+                  the uplifted hand.
+                </p>
+              </div>
+              <div *ngIf="!cheatSheet.newMembers.length">
+                No new members this past week
+              </div>
+            </section>
+
+            <section class="pt-3" *ngIf="cheatSheet.baptisms">
+              <h3 class="h6">Baptisms:</h3>
+              <div *ngIf="cheatSheet.baptisms.length">
+                <p>
+                  If they are here, will the following please stand to be
+                  recognized while their names are presented. It is proposed
+                  that we welcome the following newly baptised members to the
+                  ward:
+                </p>
+                <ul class="highlight">
+                  <li *ngFor="let person of cheatSheet.baptisms">
+                    <span>{{ person.name }}</span>
+                  </li>
+                </ul>
+
+                <p>
+                  Those wishing to join with us in doing so may manifest it by
+                  the uplifted hand.
+                </p>
+              </div>
+              <div *ngIf="!cheatSheet.baptisms.length">
+                No Baptisms this past week
+              </div>
+            </section>
           </div>
+        </div>
 
-          <div class="card mb-4" *ngIf="!cheatSheet.zoomSession">
-            <div class="card-header">Sacrament Administration:</div>
-            <div class="card-body">
-              <p>
-                We will now prepare for the sacrament by singing:<br />
-                <a
-                  class="highlight"
-                  [href]="cheatSheet.sacrament.sacramentSong.link"
-                  target="_blank"
-                >
-                  {{ cheatSheet.sacrament.sacramentSong.title }} ({{
-                    cheatSheet.sacrament.sacramentSong.page
-                  }}) </a
-                ><br />
-                Following the singing, the sacrament will be administered to the
-                congregation by the priesthood.
-              </p>
-              <p>[Hymn & Sacrament]</p>
-              <p>
-                We would like to thank the priesthood for administering the
-                sacrament. We now excuse them to sit with their families.
-              </p>
-            </div>
+        <div class="card mb-4" *ngIf="cheatSheet.stakeBusinessAssignment">
+          <div class="card-header">Stake Business:</div>
+          <div class="card-body">
+            <p>
+              We now turn the time over to
+              <span class="highlight">{{
+                cheatSheet.stakeBusinessAssignment.name
+              }}</span>
+              to conduct some stake business.
+            </p>
           </div>
+        </div>
 
-          <div class="card mb-4">
-            <div class="card-header">Sacrament Speakers:</div>
-            <div class="card-body">
-              <p>
-                Today we will be honored to hear from the following speakers:
-              </p>
-              <ul class="highlight">
-                <li *ngFor="let speaker of cheatSheet.sacrament.speakers">
-                  <span>{{ speaker.person.name }}</span>
-                </li>
-              </ul>
-            </div>
+        <div class="card mb-4">
+          <div class="card-header">Other Business:</div>
+          <div class="card-body">
+            <p>Baby blessings etc</p>
           </div>
+        </div>
 
-          <div class="card mb-4">
-            <div class="card-header">Closing:</div>
-            <div class="card-body">
-              <p>
-                We will close our meeting by singing:
-                <a
-                  class="highlight"
-                  [href]="cheatSheet.sacrament.closingSong.link"
-                  target="_blank"
-                >
-                  {{ cheatSheet.sacrament.closingSong.title }} ({{
-                    cheatSheet.sacrament.closingSong.page
-                  }}) </a
-                ><br />
+        <div class="card mb-4" *ngIf="!cheatSheet.zoomSession">
+          <div class="card-header">Sacrament Administration:</div>
+          <div class="card-body">
+            <p>
+              We will now prepare for the sacrament by singing:<br />
+              <a
+                class="highlight"
+                [href]="cheatSheet.sacrament.sacramentSong.link"
+                target="_blank"
+              >
+                {{ cheatSheet.sacrament.sacramentSong.title }} ({{
+                  cheatSheet.sacrament.sacramentSong.page
+                }}) </a
+              ><br />
+              Following the singing, the sacrament will be administered to the
+              congregation by the priesthood.
+            </p>
+            <p>[Hymn & Sacrament]</p>
+            <p>
+              We would like to thank the priesthood for administering the
+              sacrament. We now excuse them to sit with their families.
+            </p>
+          </div>
+        </div>
 
-                Following the singing,
-                <span class="highlight">{{
-                  cheatSheet.sacrament.benediction.name
-                }}</span>
-                has been invited to give the closing prayer.
-              </p>
-            </div>
+        <div class="card mb-4">
+          <div class="card-header">Sacrament Speakers:</div>
+          <div class="card-body">
+            <p>
+              Today we will be honored to hear from the following speakers:
+            </p>
+            <ul class="highlight">
+              <li *ngFor="let speaker of cheatSheet.sacrament.speakers">
+                <span>{{ speaker.person.name }}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header">Closing:</div>
+          <div class="card-body">
+            <p>
+              We will close our meeting by singing:
+              <a
+                class="highlight"
+                [href]="cheatSheet.sacrament.closingSong.link"
+                target="_blank"
+              >
+                {{ cheatSheet.sacrament.closingSong.title }} ({{
+                  cheatSheet.sacrament.closingSong.page
+                }}) </a
+              ><br />
+
+              Following the singing,
+              <span class="highlight">{{
+                cheatSheet.sacrament.benediction.name
+              }}</span>
+              has been invited to give the closing prayer.
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <lehi41-footer></lehi41-footer>
   `,
             }]
     }], null, null); })();
