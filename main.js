@@ -634,7 +634,7 @@ class NavigationComponent {
         this.titleService = titleService;
         this.linksList = [
             {
-                protected: false,
+                protected: true,
                 active: false,
                 routerLink: '/meet',
                 label: 'Meet',
@@ -647,7 +647,7 @@ class NavigationComponent {
             },
             {
                 protected: true,
-                active: true,
+                active: false,
                 routerLink: '/zoom-meeting',
                 label: 'Zoom Meeting',
             },
