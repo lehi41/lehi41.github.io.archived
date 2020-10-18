@@ -641,20 +641,20 @@ class CheatSheetComponent {
         this.sustainings = [];
         this.newMembers = [
             {
-                name: 'Maloni Mataele'
+                name: 'Maloni Mataele',
             },
             {
-                name: 'Elesi Adele Taito'
+                name: 'Elesi Adele Taito',
             },
             {
-                name: 'Tessie Tahia Uluwehi Teriipaia'
+                name: 'Tessie Tahia Uluwehi Teriipaia',
             },
             {
-                name: 'Miriam Teriipaia'
+                name: 'Miriam Teriipaia',
             },
             {
-                name: 'Tua Teriipaia'
-            }
+                name: 'Tua Teriipaia',
+            },
         ];
         this.baptisms = [];
         this.cheatSheet = {

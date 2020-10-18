@@ -169,7 +169,7 @@ const environment = {
 /*! exports provided: firebaseConfig, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"firebaseConfig\":{\"apiKey\":\"AIzaSyDA1u2jKZj4oUS-PrelGx2ydZrn08UiIRI\",\"authDomain\":\"lehi41.firebaseapp.com\",\"databaseURL\":\"https://lehi41.firebaseio.com\",\"projectId\":\"lehi41\",\"storageBucket\":\"lehi41.appspot.com\",\"messagingSenderId\":\"1013729335532\",\"appId\":\"1:1013729335532:web:53a666427e5b11af95edc9\",\"measurementId\":\"G-VFV4136BY6\"}}");
+module.exports = JSON.parse("{\"firebaseConfig\":{\"apiKey\":\"AIzaSyDA1u2jKZj4oUS-PrelGx2ydZrn08UiIRI\",\"authDomain\":\"lehi41.firebaseapp.com\\\",\",\"databaseURL\":\"https://lehi41.firebaseio.com\\\",\",\"projectId\":\"lehi41\\\",\",\"storageBucket\":\"lehi41.appspot.com\\\",\",\"messagingSenderId\":\"1013729335532\\\",\",\"appId\":\"1:1013729335532:web:53a666427e5b11af95edc9\\\",\",\"measurementId\":\"G-VFV4136BY6\"}}");
 
 /***/ }),
 
@@ -290,9 +290,9 @@ function HomePageComponent_li_15_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](7, "date");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -386,11 +386,11 @@ class HomePageComponent {
                 description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi.',
             },
         ];
-        this.zoomItems$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.zoomLinks.filter(z => z.active));
+        this.zoomItems$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.zoomLinks.filter((z) => z.active));
     }
 }
 HomePageComponent.ɵfac = function HomePageComponent_Factory(t) { return new (t || HomePageComponent)(); };
-HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomePageComponent, selectors: [["lehi41-home-page"]], decls: 17, vars: 4, consts: [[1, "l41-container", "container", "pt-4", "mrg-horizon-auto"], [1, "row", "mb-4"], [1, "col-12"], [1, "card", "border-light"], ["src", "./assets/images/safe-sacrament/sacrament-seating-01.jpg", "alt", "Announcements Thumbnail", 1, "card-img-top", "l41-img-thumbnail"], [1, "card-body"], [1, "h4"], [1, "list-group", "list-group-flush"], ["class", "list-group-item ml-0 pl-0 mr-0 pr-0", 4, "ngFor", "ngForOf"], [1, "list-group-item", "ml-0", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "text-center"], [1, "fa-3x"], [1, "fas", "fa-calendar-day"], [1, "ml-4", "mt-2"], [1, "h6", "font-weight-bold"], [3, "href"], [4, "ngIf"], [1, "text-uppercase", "font-weight-bold", "font-size-10"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
+HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomePageComponent, selectors: [["lehi41-home-page"]], decls: 17, vars: 4, consts: [[1, "l41-container", "container", "pt-4", "mrg-horizon-auto"], [1, "row", "mb-4"], [1, "col-12"], [1, "card", "border-light"], ["src", "./assets/images/safe-sacrament/sacrament-seating-01.jpg", "alt", "Announcements Thumbnail", 1, "card-img-top", "l41-img-thumbnail"], [1, "card-body"], [1, "h4"], [1, "list-group", "list-group-flush"], ["class", "list-group-item ml-0 pl-0 mr-0 pr-0", 4, "ngFor", "ngForOf"], [1, "list-group-item", "ml-0", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "text-center"], [1, "fa-3x"], [1, "fas", "fa-calendar-day"], [1, "ml-4", "mt-2"], [1, "h6", "font-weight-bold"], ["target", "_blank", 3, "href"], [4, "ngIf"], [1, "far", "fa-calendar"], [1, "text-uppercase", "font-weight-bold", "font-size-10"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "lehi41-navigation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -466,9 +466,7 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                         {{ zoomItem.label }}
                       </h2>
                       <p>
-                        Link:
-                        <a href="{{ zoomItem.link }}">{{ zoomItem.link }}</a
-                        ><br />
+                        Link: <a href="{{ zoomItem.link }}" target="_blank">{{ zoomItem.link }}</a><br />
                         Meeting ID: {{ zoomItem.meetingId }}<br />
                         <span *ngIf="zoomItem.passcode.length">Passcode: {{ zoomItem.passcode }}</span>
                       </p>
@@ -486,7 +484,7 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                   <div class="d-flex justify-content-start">
                     <div class="text-center">
                       <div class="fa-3x">
-                        <i class="fas fa-calendar-day"></i>
+                        <i class="far fa-calendar"></i>
                       </div>
                       <span
                         class="text-uppercase font-weight-bold font-size-10"
