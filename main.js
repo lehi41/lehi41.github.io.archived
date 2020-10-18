@@ -454,7 +454,7 @@ class HomePageComponent {
                 description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.',
             },
             {
-                title: 'Thurs 31 Oct - Stake Baptisms',
+                title: 'Thurs 30 Oct - Stake Baptisms',
                 description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi.',
             },
         ];
