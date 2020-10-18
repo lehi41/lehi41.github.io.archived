@@ -639,7 +639,23 @@ class CheatSheetComponent {
         ];
         this.releases = [];
         this.sustainings = [];
-        this.newMembers = [];
+        this.newMembers = [
+            {
+                name: 'Maloni Mataele'
+            },
+            {
+                name: 'Elesi Adele Taito'
+            },
+            {
+                name: 'Tessie Tahia Uluwehi Teriipaia'
+            },
+            {
+                name: 'Miriam Teriipaia'
+            },
+            {
+                name: 'Tua Teriipaia'
+            }
+        ];
         this.baptisms = [];
         this.cheatSheet = {
             zoomSession: true,
