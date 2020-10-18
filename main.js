@@ -328,6 +328,13 @@ class HomePageComponent {
             },
             {
                 active: true,
+                label: 'Sunday 12:30pm - Zoom - Tongan - Gospel Doctrine',
+                link: 'https://zoom.us/j/6740059762?pwd=cTB0dkl4S3hmb0NOa2o0N1FFeTdOZz09',
+                passcode: 'FATAHA',
+                meetingId: '674 005 9762',
+            },
+            {
+                active: true,
                 label: 'Sunday 1:00pm - Zoom - Gospel Doctrine',
                 link: 'https://us02web.zoom.us/j/84878042125',
                 passcode: '391307',
