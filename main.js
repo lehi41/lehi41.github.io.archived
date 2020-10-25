@@ -457,6 +457,10 @@ class HomePageComponent {
                 title: 'Thurs 30 Oct - Stake Baptisms',
                 description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi.',
             },
+            {
+                title: 'Sun 1 Nov - Fast Sunday',
+                description: '',
+            },
         ];
         this.zoomItems$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.zoomLinks.filter((z) => z.active));
     }
