@@ -454,6 +454,10 @@ class HomePageComponent {
                 description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.',
             },
             {
+                title: 'Thur 29 Oct - Trunk or Treat Drive Through',
+                description: '1550s 1100w, Lehi UT. 5:30pm to 6:30pm.  Please enter through the North parking lot!.  Our Primary leaders will guide you between booths!  Don`t forget your costumes and trick or treat bag!',
+            },
+            {
                 title: 'Thurs 30 Oct - Stake Baptisms',
                 description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi.',
             },
