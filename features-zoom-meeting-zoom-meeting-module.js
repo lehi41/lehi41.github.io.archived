@@ -51,22 +51,46 @@ ZoomMeetingRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ZoomMeetingComponent", function() { return ZoomMeetingComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _shared_components_video_video_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/components/video/video.component */ "kEUT");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "+kfY");
+/* harmony import */ var _shared_components_video_video_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/video/video.component */ "kEUT");
+
 
 
 
 class ZoomMeetingComponent {
-    // people: BehaviorSubject<Person[]> = new BehaviorSubject([]);
-    //
-    // constructor(private personService: PersonService) {}
-    //
-    // ngOnInit(): void {
-    //   // this.personService.get().subscribe(d => {
-    //   //   this.people = d;
-    //   // });
-    // }
-    constructor() { }
-    ngOnInit() { }
+    constructor() {
+        // people: BehaviorSubject<Person[]> = new BehaviorSubject([]);
+        //
+        // constructor(private personService: PersonService) {}
+        //
+        // ngOnInit(): void {
+        //   // this.personService.get().subscribe(d => {
+        //   //   this.people = d;
+        //   // });
+        // }
+        this.countDown$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](null);
+    }
+    ngOnInit() {
+        setInterval(() => {
+            this.countDown$.next(this.getTimeRemaining('2020-10-18T16:30:00.000Z'));
+            // console.log()
+        }, 1000);
+    }
+    getTimeRemaining(endtime) {
+        const today = new Date().toISOString();
+        const total = Date.parse(endtime) - Date.parse(today);
+        const seconds = Math.floor((total / 1000) % 60);
+        const minutes = Math.floor((total / 1000 / 60) % 60);
+        const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+        const days = Math.floor(total / (1000 * 60 * 60 * 24));
+        return {
+            total,
+            days,
+            hours,
+            minutes,
+            seconds
+        };
+    }
 }
 ZoomMeetingComponent.ɵfac = function ZoomMeetingComponent_Factory(t) { return new (t || ZoomMeetingComponent)(); };
 ZoomMeetingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ZoomMeetingComponent, selectors: [["lehi41-zoom-meeting"]], decls: 4, vars: 4, consts: [[3, "title", "source"]], template: function ZoomMeetingComponent_Template(rf, ctx) { if (rf & 1) {
@@ -80,13 +104,15 @@ ZoomMeetingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", "Rejoice the Lord is King")("source", "./assets/video/rejoice-the-lord-is-king.mp4");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("title", "Redeemer of Israel")("source", "./assets/video/redeemer-of-israel.mp4");
-    } }, directives: [_shared_components_video_video_component__WEBPACK_IMPORTED_MODULE_1__["VideoComponent"]], encapsulation: 2 });
+    } }, directives: [_shared_components_video_video_component__WEBPACK_IMPORTED_MODULE_2__["VideoComponent"]], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ZoomMeetingComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'lehi41-zoom-meeting',
                 template: `
     <h2>Zoom Meeting Assets</h2>
+
+<!--    <pre>{{ countDown$ | async | json  }}</pre>-->
 
     <lehi41-video
       [title]="'Rejoice the Lord is King'"

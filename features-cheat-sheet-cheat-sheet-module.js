@@ -518,6 +518,8 @@ class CheatSheetComponent {
             kikiAmosa: { name: 'Kiki Amosa' },
             melekisetekiFetokai: { name: 'Melekiseteki Fetokai' },
             felofiakiFetokai: { name: 'Felofiaki Fetokai' },
+            natalieUnga: { name: 'Natalie Unga' },
+            koloFunaki: { name: 'Kolo Funaki' },
         };
         this.addresses = {
             chapel: {
@@ -526,6 +528,11 @@ class CheatSheetComponent {
             },
         };
         this.hymns = {
+            5: {
+                title: 'High on the Mountain Top',
+                page: 6,
+                link: 'https://www.churchofjesuschrist.org/music/library/hymns/high-on-the-mountain-top?lang=eng',
+            },
             6: {
                 title: 'Redeemer of Israel',
                 page: 6,
@@ -570,6 +577,11 @@ class CheatSheetComponent {
                 title: 'There Is Sunshine in My Soul Today',
                 page: 227,
                 link: 'https://www.churchofjesuschrist.org/music/library/hymns/there-is-sunshine-in-my-soul-today?lang=eng',
+            },
+            239: {
+                title: 'Choose the Right',
+                page: 239,
+                link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng',
             },
         };
         this.zoomLinks = [
@@ -637,20 +649,23 @@ class CheatSheetComponent {
         this.sustainings = [];
         this.newMembers = [
             {
-                name: 'Maloni Mataele',
+                name: 'Berrett, Chris',
             },
             {
-                name: 'Elesi Adele Taito',
+                name: 'Berrett, Summer Kristen',
             },
             {
-                name: 'Tessie Tahia Uluwehi Teriipaia',
+                name: 'Berrett, London-Rayn',
             },
             {
-                name: 'Miriam Teriipaia',
+                name: 'Berrett, Bodhi',
             },
             {
-                name: 'Tua Teriipaia',
+                name: 'Berrett, Jade',
             },
+            {
+                name: 'Iloa-Nautu, Ma`a',
+            }
         ];
         this.baptisms = [];
         this.cheatSheet = {
@@ -665,8 +680,8 @@ class CheatSheetComponent {
                 conducting: this.people.memberOfBishopric,
                 chorister: this.people.chorister,
                 organist: this.people.organist,
-                invocation: this.people.folauKaveinga,
-                openingSong: this.hymns['6'],
+                invocation: this.people.natalieUnga,
+                openingSong: this.hymns['5'],
                 sacramentSong: this.hymns['194'],
                 speakers: [
                     {
@@ -675,16 +690,21 @@ class CheatSheetComponent {
                         beforeRestHymn: true,
                     },
                     {
-                        person: this.people.felofiakiFetokai,
+                        person: { name: 'Titiana - Musical Number' },
                         index: 1,
                         beforeRestHymn: true,
                     },
+                    {
+                        person: this.people.felofiakiFetokai,
+                        index: 1,
+                        beforeRestHymn: false,
+                    },
                 ],
-                closingSong: this.hymns['66'],
-                benediction: this.people.kikiAmosa,
+                closingSong: this.hymns['239'],
+                benediction: this.people.koloFunaki,
             },
             stakeVisitors: [],
-            stakeBusinessAssignment: this.people.jasonFaga,
+            stakeBusinessAssignment: this.people.keliiUnga,
             announcements: this.announcements,
             releases: this.releases,
             sustainings: this.sustainings,
