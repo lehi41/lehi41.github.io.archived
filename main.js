@@ -450,7 +450,7 @@ class HomePageComponent {
         ];
         this.announcements = [
             {
-                title: 'Thurs 22 Oct - Food Bank',
+                title: 'Thurs 29 Oct - Food Bank',
                 description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.',
             },
             {
