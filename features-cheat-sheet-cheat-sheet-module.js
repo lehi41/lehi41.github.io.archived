@@ -584,57 +584,6 @@ class CheatSheetComponent {
                 link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng',
             },
         };
-        this.zoomLinks = [
-            {
-                active: true,
-                label: 'Sunday 10:30am - Zoom - Sacrament',
-                link: 'https://us02web.zoom.us/j/89646695998',
-                passcode: '',
-                meetingId: '896 4669 5998',
-            },
-            {
-                active: true,
-                label: 'Sunday 1:00pm - Zoom - Gospel Doctrine',
-                link: 'https://us02web.zoom.us/j/84878042125',
-                passcode: '391307',
-                meetingId: '848 7804 2125',
-            },
-            {
-                active: true,
-                label: 'Sunday 1:00pm - Zoom - Youth Sunday School Class',
-                link: 'https://us02web.zoom.us/j/4614041790',
-                passcode: '7M0uSP',
-                meetingId: '461 404 1790',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Elders Quorum Meeting',
-                link: 'https://us02web.zoom.us/j/86281296866?pwd=SnN2Q25pWE9FSFRLdm5hU1g1ODZ5QT09',
-                passcode: '434644',
-                meetingId: '862 8129 6866',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Relief Society',
-                link: 'https://us02web.zoom.us/j/88585159016?pwd=MnRaa1Q3cUlFcDhhN1VwcDlKVnJQdz09',
-                passcode: 'lehifataha',
-                meetingId: '885 8515 9016',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Young Women Meeting',
-                link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
-                passcode: 'strivetobe',
-                meetingId: '853 3058 6967',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Young Men Meeting',
-                link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
-                passcode: '434644',
-                meetingId: '862 8129 6866',
-            },
-        ];
         this.announcements = [
             {
                 title: 'Thurs 22 Oct - Food Bank',
