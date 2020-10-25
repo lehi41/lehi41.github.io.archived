@@ -455,7 +455,7 @@ class HomePageComponent {
             },
             {
                 title: 'Thur 29 Oct - 5:30pm - Trunk or Treat Drive Through',
-                description: '1550s 1100w, Lehi UT. 5:30pm to 6:30pm.  Please enter through the North parking lot!.  Our Primary leaders will guide you between booths!  Don`t forget your costumes and trick or treat bag!',
+                description: '1550s 1100w, Lehi UT. 5:30pm to 6:30pm.  Please enter through the North parking lot.  Our Primary leaders will guide you between booths!  Don`t forget your costumes and trick or treat bag!',
             },
             {
                 title: 'Thurs 30 Oct - Stake Baptisms',
