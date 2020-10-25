@@ -429,9 +429,9 @@ class HomePageComponent {
             {
                 active: true,
                 label: 'Sunday 1:00pm - Zoom - Relief Society',
-                link: 'https://us02web.zoom.us/j/88585159016?pwd=MnRaa1Q3cUlFcDhhN1VwcDlKVnJQdz09',
-                passcode: 'lehifataha',
-                meetingId: '885 8515 9016',
+                link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
+                passcode: '',
+                meetingId: '801 628 0153',
             },
             {
                 active: true,
@@ -441,7 +441,7 @@ class HomePageComponent {
                 meetingId: '210 183 4721',
             },
             {
-                active: false,
+                active: true,
                 label: 'Sunday 1:00pm - Zoom - Young Men Meeting',
                 link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
                 passcode: '434644',
