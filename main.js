@@ -450,11 +450,11 @@ class HomePageComponent {
         ];
         this.announcements = [
             {
-                title: 'Thurs 29 Oct - Food Bank',
-                description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.',
+                title: 'Thurs 29 Oct - 8:00am - Food Bank',
+                description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi. If you like to volunteer, be there 7:00am.',
             },
             {
-                title: 'Thur 29 Oct - Trunk or Treat Drive Through',
+                title: 'Thur 29 Oct - 5:30pm - Trunk or Treat Drive Through',
                 description: '1550s 1100w, Lehi UT. 5:30pm to 6:30pm.  Please enter through the North parking lot!.  Our Primary leaders will guide you between booths!  Don`t forget your costumes and trick or treat bag!',
             },
             {
