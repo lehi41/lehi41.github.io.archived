@@ -449,7 +449,7 @@ class HomePageComponent {
         this.announcements = [
             {
                 title: 'Thurs 29 Oct - 8:00am - Food Bank',
-                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
+                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
             },
             {
                 title: 'Thur 29 Oct - 5:30pm - Trunk or Treat Drive Through',
