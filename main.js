@@ -430,7 +430,7 @@ class HomePageComponent {
                 active: true,
                 label: 'Sunday 1:00pm - Zoom - Relief Society',
                 link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
-                passcode: '',
+                passcode: 'lehifataha',
                 meetingId: '801 628 0153',
             },
             {
