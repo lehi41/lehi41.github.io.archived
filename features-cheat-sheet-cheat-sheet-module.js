@@ -520,6 +520,8 @@ class CheatSheetComponent {
             felofiakiFetokai: { name: 'Felofiaki Fetokai' },
             natalieUnga: { name: 'Natalie Unga' },
             koloFunaki: { name: 'Kolo Funaki' },
+            sioneBrown: { name: 'Sione Brown' },
+            amberBrown: { name: 'Amber Brown' },
         };
         this.addresses = {
             chapel: {
@@ -634,7 +636,7 @@ class CheatSheetComponent {
                 sacramentSong: this.hymns['194'],
                 speakers: [
                     {
-                        person: this.people.melekisetekiFetokai,
+                        person: this.people.amberBrown,
                         index: 1,
                         beforeRestHymn: true,
                     },
@@ -644,7 +646,7 @@ class CheatSheetComponent {
                         beforeRestHymn: true,
                     },
                     {
-                        person: this.people.felofiakiFetokai,
+                        person: this.people.sioneBrown,
                         index: 1,
                         beforeRestHymn: false,
                     },
