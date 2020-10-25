@@ -436,9 +436,9 @@ class HomePageComponent {
             {
                 active: true,
                 label: 'Sunday 1:00pm - Zoom - Young Women Meeting',
-                link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
+                link: 'https://us02web.zoom.us/j/2101834721?pwd=UEl4NCt4SUx2TXpsVUtWbThqWUpuZz09',
                 passcode: 'strivetobe',
-                meetingId: '853 3058 6967',
+                meetingId: '210 183 4721',
             },
             {
                 active: false,

@@ -648,7 +648,7 @@ class CheatSheetComponent {
                     {
                         person: this.people.sioneBrown,
                         index: 1,
-                        beforeRestHymn: false,
+                        beforeRestHymn: true,
                     },
                 ],
                 closingSong: this.hymns['239'],
