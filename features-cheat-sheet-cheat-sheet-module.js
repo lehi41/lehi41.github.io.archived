@@ -638,6 +638,7 @@ class CheatSheetComponent {
             amberBrown: { name: 'Amber Brown' },
             kaiRaas: { name: 'Kai Raas' },
             patricRipley: { name: 'Patrick Ripley' },
+            joshTune: { name: 'Josh Tune' },
         };
         this.addresses = {
             chapel: {
@@ -797,7 +798,7 @@ class CheatSheetComponent {
                     },
                 ],
                 closingSong: this.hymns['294'],
-                benediction: this.people.tbd,
+                benediction: this.people.joshTune,
             },
             stakeVisitors: [],
             stakeBusinessAssignment: this.people.keliiUnga,
