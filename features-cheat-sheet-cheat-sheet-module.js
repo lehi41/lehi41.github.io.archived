@@ -637,6 +637,7 @@ class CheatSheetComponent {
             sioneBrown: { name: 'Sione Brown' },
             amberBrown: { name: 'Amber Brown' },
             kaiRaas: { name: 'Kai Raas' },
+            patricRipley: { name: 'Patrick Ripley' },
         };
         this.addresses = {
             chapel: {
@@ -774,7 +775,7 @@ class CheatSheetComponent {
                 conducting: this.people.memberOfBishopric,
                 chorister: this.people.tbd,
                 organist: this.people.kaiRaas,
-                invocation: this.people.tbd,
+                invocation: this.people.patricRipley,
                 openingSong: this.hymns['19'],
                 sacramentSong: this.hymns['83'],
                 testimonySunday: true,
