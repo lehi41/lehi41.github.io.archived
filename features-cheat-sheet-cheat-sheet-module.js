@@ -692,6 +692,11 @@ class CheatSheetComponent {
                 page: 136,
                 link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-know-that-my-redeemer-lives?lang=eng',
             },
+            169: {
+                title: 'As Now We Take the Sacrament',
+                page: 294,
+                link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament?lang=eng',
+            },
             187: {
                 title: 'Ofa ʻi ʻApi [Love at Home #294]',
                 page: 187,
@@ -778,7 +783,7 @@ class CheatSheetComponent {
                 organist: this.people.kaiRaas,
                 invocation: this.people.patricRipley,
                 openingSong: this.hymns['19'],
-                sacramentSong: this.hymns['83'],
+                sacramentSong: this.hymns['169'],
                 testimonySunday: true,
                 speakers: [
                     {

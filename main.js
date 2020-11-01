@@ -414,7 +414,7 @@ class HomePageComponent {
                 active: true,
                 label: 'Sunday 1:00pm - Zoom - Youth Sunday School Class',
                 link: 'https://us02web.zoom.us/j/9495708401',
-                passcode: '3jjQ0T',
+                passcode: 'Bz73hK',
                 meetingId: '949 570 8401',
             },
             {
@@ -448,12 +448,12 @@ class HomePageComponent {
         ];
         this.announcements = [
             {
-                title: 'Thurs 5 Nov - 8:00am - Food Bank',
-                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
-            },
-            {
                 title: 'Sun 1 Nov - Fast Sunday',
                 description: '',
+            },
+            {
+                title: 'Thurs 5 Nov - 8:00am - Food Bank',
+                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
             },
         ];
         this.zoomItems$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.zoomLinks.filter((z) => z.active));
