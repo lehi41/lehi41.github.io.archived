@@ -447,19 +447,10 @@ class HomePageComponent {
             },
         ];
         this.announcements = [
-            // {
-            //   title: 'Thurs 29 Oct - 8:00am - Food Bank',
-            //   description:
-            //     'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
-            // },
-            // {
-            //   title: 'Thur 29 Oct - 5:30pm - Trunk or Treat Drive Through',
-            //   description: '<a href="https://goo.gl/maps/ub1JdA9nBCsfojHG8" target="_blank">1550 South 1100 West, Lehi UT 84043</a>, 5:30pm to 6:30pm.  Please enter through the North parking lot.  Our Primary leaders will guide you between booths!  Don`t forget your costumes and trick or treat bag!',
-            // },
-            // {
-            //   title: 'Thurs 30 Oct - Stake Baptisms',
-            //   description: 'Lehi YSA Stake Building <a href="https://goo.gl/maps/spk1KJGL3ErASsgu6" target="_blank">1550 South 1100 West, Lehi UT 84043</a>.',
-            // },
+            {
+                title: 'Thurs 5 Nov - 8:00am - Food Bank',
+                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
+            },
             {
                 title: 'Sun 1 Nov - Fast Sunday',
                 description: '',

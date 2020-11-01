@@ -662,35 +662,35 @@ class CheatSheetComponent {
         };
         this.announcements = [
             {
-                title: 'Thurs 22 Oct - Food Bank',
-                description: 'Saratoga Spring 12 Branch Parking Lot, 8:00am, 1149 North 300 West Lehi.',
+                title: 'Thurs 5 Nov - 8:00am - Food Bank',
+                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
             },
             {
-                title: 'Thurs 31 Oct - Stake Baptisms',
-                description: 'Lehi YSA Stake Building 1550 South 1100 West, Lehi.',
-            },
+                title: 'Sun 1 Nov - Fast Sunday',
+                description: '',
+            }
         ];
         this.releases = [];
         this.sustainings = [];
         this.aaronicPriesthoodAdvancements = [];
         this.newMembers = [
             {
-                name: 'Berrett, Chris',
+                name: 'Nahinu, Aaron',
             },
             {
-                name: 'Berrett, Summer Kristen',
+                name: 'Nahinu, Kim',
             },
             {
-                name: 'Berrett, London-Rayn',
+                name: 'Lee, Eve',
             },
             {
-                name: 'Berrett, Bodhi',
+                name: 'Nahinu, Kaden',
             },
             {
-                name: 'Berrett, Jade',
+                name: 'Nahinu, Koa',
             },
             {
-                name: 'Iloa-Nautu, Ma`a',
+                name: 'Nahinu, Mary Kamlin Kuumomimakamae',
             }
         ];
         this.baptisms = [];
@@ -708,7 +708,7 @@ class CheatSheetComponent {
                 organist: this.people.organist,
                 invocation: this.people.tbd,
                 openingSong: this.hymns['5'],
-                sacramentSong: this.hymns['194'],
+                sacramentSong: this.hymns['83'],
                 testimonySunday: true,
                 speakers: [
                     {
