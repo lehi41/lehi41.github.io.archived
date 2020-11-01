@@ -710,6 +710,11 @@ class CheatSheetComponent {
                 page: 239,
                 link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng',
             },
+            294: {
+                title: 'Love at Home',
+                page: 294,
+                link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=eng',
+            },
         };
         this.announcements = [
             {
@@ -741,7 +746,17 @@ class CheatSheetComponent {
                 name: 'Nahinu, Mary Kamlin Kuumomimakamae',
             }
         ];
-        this.baptisms = [];
+        this.baptisms = [
+            {
+                name: 'Hettie Tonga'
+            },
+            {
+                name: 'Leilene Finau'
+            },
+            {
+                name: 'Manaia Moea’i'
+            },
+        ];
         this.babyBlessing = [
             {
                 name: 'Salt Family'
@@ -760,7 +775,7 @@ class CheatSheetComponent {
                 chorister: this.people.tbd,
                 organist: this.people.kaiRaas,
                 invocation: this.people.tbd,
-                openingSong: this.hymns['187'],
+                openingSong: this.hymns['19'],
                 sacramentSong: this.hymns['83'],
                 testimonySunday: true,
                 speakers: [
@@ -780,7 +795,7 @@ class CheatSheetComponent {
                         beforeRestHymn: true,
                     },
                 ],
-                closingSong: this.hymns['27'],
+                closingSong: this.hymns['294'],
                 benediction: this.people.tbd,
             },
             stakeVisitors: [],
