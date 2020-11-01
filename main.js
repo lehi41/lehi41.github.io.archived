@@ -98,7 +98,7 @@ class LoginPageComponent {
     }
 }
 LoginPageComponent.ɵfac = function LoginPageComponent_Factory(t) { return new (t || LoginPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_services_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-LoginPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LoginPageComponent, selectors: [["lehi41-login-page"]], decls: 13, vars: 1, consts: [[1, "l41-container", "pt-4", "mrg-horizon-auto"], [3, "formGroup"], [1, "mt-4", "mb-4", "text-center"], ["src", "./assets/logo.png", 1, "logo"], [1, "ml-2"], [1, "form-group"], ["type", "text", "formControlName", "username", "id", "user-username", "aria-describedby", "usernameHelp", "placeholder", "Username", 1, "form-control"], ["type", "password", "id", "user-password", "formControlName", "password", "placeholder", "Password", 1, "form-control"], [1, "form-group", "text-right"], [1, "btn", "btn-secondary", 3, "click"]], template: function LoginPageComponent_Template(rf, ctx) { if (rf & 1) {
+LoginPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LoginPageComponent, selectors: [["lehi41-login-page"]], decls: 13, vars: 1, consts: [[1, "l41-container", "pt-4", "mrg-horizon-auto"], [3, "formGroup"], [1, "mt-4", "mb-4", "text-center"], ["src", "./assets/logo.png", 1, "logo"], [1, "ml-2"], [1, "form-group"], ["type", "text", "formControlName", "username", "id", "user-username", "aria-xdescribedby", "usernameHelp", "placeholder", "Username", 1, "form-control"], ["type", "password", "id", "user-password", "formControlName", "password", "placeholder", "Password", 1, "form-control"], [1, "form-group", "text-right"], [1, "btn", "btn-secondary", 3, "click"]], template: function LoginPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "form", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "section", 2);
@@ -147,7 +147,7 @@ LoginPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
             formControlName="username"
             class="form-control"
             id="user-username"
-            aria-describedby="usernameHelp"
+            aria-xdescribedby="usernameHelp"
             placeholder="Username"
           />
         </div>
@@ -317,7 +317,7 @@ function HomePageComponent_li_8_span_15_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const zoomItem_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Passcode: ", zoomItem_r2.passcode, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Passcode: ", zoomItem_r2.passcode, " ");
 } }
 function HomePageComponent_li_8_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 8);
@@ -418,28 +418,28 @@ class HomePageComponent {
                 meetingId: '461 404 1790',
             },
             {
-                active: true,
+                active: false,
                 label: 'Sunday 1:00pm - Zoom - Elders Quorum Meeting',
                 link: 'https://us02web.zoom.us/j/87291506083?pwd=dUlZckNRMXdqWlFGakdUUlNVeHNJQT09',
                 passcode: '680378',
                 meetingId: '872 9150 6083',
             },
             {
-                active: true,
+                active: false,
                 label: 'Sunday 1:00pm - Zoom - Relief Society',
                 link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
                 passcode: 'lehifataha',
                 meetingId: '801 628 0153',
             },
             {
-                active: true,
+                active: false,
                 label: 'Sunday 1:00pm - Zoom - Young Women Meeting',
                 link: 'https://us02web.zoom.us/j/2101834721?pwd=UEl4NCt4SUx2TXpsVUtWbThqWUpuZz09',
                 passcode: 'strivetobe',
                 meetingId: '210 183 4721',
             },
             {
-                active: true,
+                active: false,
                 label: 'Sunday 1:00pm - Zoom - Young Men Meeting',
                 link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
                 passcode: '434644',
@@ -447,18 +447,19 @@ class HomePageComponent {
             },
         ];
         this.announcements = [
-            {
-                title: 'Thurs 29 Oct - 8:00am - Food Bank',
-                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
-            },
-            {
-                title: 'Thur 29 Oct - 5:30pm - Trunk or Treat Drive Through',
-                description: '<a href="https://goo.gl/maps/ub1JdA9nBCsfojHG8" target="_blank">1550 South 1100 West, Lehi UT 84043</a>, 5:30pm to 6:30pm.  Please enter through the North parking lot.  Our Primary leaders will guide you between booths!  Don`t forget your costumes and trick or treat bag!',
-            },
-            {
-                title: 'Thurs 30 Oct - Stake Baptisms',
-                description: 'Lehi YSA Stake Building <a href="https://goo.gl/maps/spk1KJGL3ErASsgu6" target="_blank">1550 South 1100 West, Lehi UT 84043</a>.',
-            },
+            // {
+            //   title: 'Thurs 29 Oct - 8:00am - Food Bank',
+            //   description:
+            //     'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
+            // },
+            // {
+            //   title: 'Thur 29 Oct - 5:30pm - Trunk or Treat Drive Through',
+            //   description: '<a href="https://goo.gl/maps/ub1JdA9nBCsfojHG8" target="_blank">1550 South 1100 West, Lehi UT 84043</a>, 5:30pm to 6:30pm.  Please enter through the North parking lot.  Our Primary leaders will guide you between booths!  Don`t forget your costumes and trick or treat bag!',
+            // },
+            // {
+            //   title: 'Thurs 30 Oct - Stake Baptisms',
+            //   description: 'Lehi YSA Stake Building <a href="https://goo.gl/maps/spk1KJGL3ErASsgu6" target="_blank">1550 South 1100 West, Lehi UT 84043</a>.',
+            // },
             {
                 title: 'Sun 1 Nov - Fast Sunday',
                 description: '',
@@ -530,14 +531,11 @@ HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
                     </h2>
                     <p>
                       Link:
-                      <a href="{{ zoomItem.link }}" target="_blank">{{
-                        zoomItem.link
-                      }}</a
-                      ><br />
+                      <a href="{{ zoomItem.link }}" target="_blank">{{zoomItem.link}}</a><br />
                       Meeting ID: {{ zoomItem.meetingId }}<br />
-                      <span *ngIf="zoomItem.passcode.length"
-                        >Passcode: {{ zoomItem.passcode }}</span
-                      >
+                      <span *ngIf="zoomItem.passcode.length">
+                        Passcode: {{ zoomItem.passcode }}
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -948,30 +946,23 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "vobO");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "sEIs");
-
-
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "sEIs");
 
 
 
 class AppComponent {
-    constructor(http) {
-        this.http = http;
-        this.hello$ = this.http.get('/api/hello');
-    }
 }
-AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
 AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["lehi41-root"]], decls: 1, vars: 0, template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "router-outlet");
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]], encapsulation: 2 });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'lehi41-root',
                 template: ` <router-outlet></router-outlet> `,
             }]
-    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }]; }, null); })();
+    }], null, null); })();
 
 
 /***/ }),
