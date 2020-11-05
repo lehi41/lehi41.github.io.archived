@@ -293,282 +293,6 @@ AuthService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
 
 /***/ }),
 
-/***/ "JFIp":
-/*!********************************************************!*\
-  !*** ./src/app/pages/home-page/home-page.component.ts ***!
-  \********************************************************/
-/*! exports provided: HomePageComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageComponent", function() { return HomePageComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "+kfY");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "2kYt");
-
-
-
-
-function HomePageComponent_li_8_span_15_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const zoomItem_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Passcode: ", zoomItem_r2.passcode, " ");
-} }
-function HomePageComponent_li_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h2", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Link: ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, HomePageComponent_li_8_span_15_Template, 2, 1, "span", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const zoomItem_r2 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", zoomItem_r2.label, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", zoomItem_r2.link, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](zoomItem_r2.link);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" Meeting ID: ", zoomItem_r2.meetingId, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", zoomItem_r2.passcode.length);
-} }
-function HomePageComponent_li_13_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](7, "date");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h2", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "p", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const announcement_r5 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](7, 3, announcement_r5.date, "d MMM"));
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", announcement_r5.title, " ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", announcement_r5.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
-} }
-class HomePageComponent {
-    constructor() {
-        this.zoomLinks = [
-            {
-                active: true,
-                label: 'Sunday 10:30am - Zoom - Sacrament',
-                link: 'https://us02web.zoom.us/j/89646695998',
-                passcode: '',
-                meetingId: '896 4669 5998',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Tongan - Gospel Doctrine',
-                link: 'https://us04web.zoom.us/j/7511959897?pwd=bGhReGlmalRhbE5nd1E1WWdCbUZpUT09',
-                passcode: '',
-                meetingId: '751 195 9897',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Gospel Doctrine',
-                link: 'https://us02web.zoom.us/j/88634218278?pwd=MUNiSE1OSHBQVHloQlY0VWFyL3Y0QT09',
-                passcode: '141180',
-                meetingId: '886 3421 8278',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Youth Sunday School Class',
-                link: 'https://us02web.zoom.us/j/9495708401',
-                passcode: 'Bz73hK',
-                meetingId: '949 570 8401',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Elders Quorum Meeting',
-                link: 'https://us02web.zoom.us/j/87291506083?pwd=dUlZckNRMXdqWlFGakdUUlNVeHNJQT09',
-                passcode: '680378',
-                meetingId: '872 9150 6083',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Relief Society',
-                link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
-                passcode: 'lehifataha',
-                meetingId: '801 628 0153',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Young Women Meeting',
-                link: 'https://us02web.zoom.us/j/2101834721?pwd=UEl4NCt4SUx2TXpsVUtWbThqWUpuZz09',
-                passcode: 'strivetobe',
-                meetingId: '210 183 4721',
-            },
-            {
-                active: false,
-                label: 'Sunday 1:00pm - Zoom - Young Men Meeting',
-                link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
-                passcode: '434644',
-                meetingId: '862 8129 6866',
-            },
-        ];
-        this.announcements = [
-            {
-                title: 'Sun 1 Nov - Fast Sunday',
-                description: '',
-            },
-            {
-                title: 'Thurs 5 Nov - 8:00am - Food Bank',
-                description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am.',
-            },
-        ];
-        this.zoomItems$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.zoomLinks.filter((z) => z.active));
-    }
-}
-HomePageComponent.ɵfac = function HomePageComponent_Factory(t) { return new (t || HomePageComponent)(); };
-HomePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomePageComponent, selectors: [["lehi41-home-page"]], decls: 14, vars: 4, consts: [[1, "row", "mb-4"], [1, "col-12"], [1, "card", "border-light"], ["src", "./assets/images/safe-sacrament/sacrament-seating-01.jpg", "alt", "Announcements Thumbnail", 1, "card-img-top", "l41-img-thumbnail"], [1, "card-body"], [1, "h4"], [1, "list-group", "list-group-flush"], ["class", "list-group-item ml-0 pl-0 mr-0 pr-0", 4, "ngFor", "ngForOf"], [1, "list-group-item", "ml-0", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "text-center"], [1, "fa-3x"], [1, "fas", "fa-calendar-day"], [1, "ml-4", "mt-2"], [1, "h6", "font-weight-bold"], ["target", "_blank", 3, "href"], [4, "ngIf"], [1, "far", "fa-calendar"], [1, "text-uppercase", "font-weight-bold", "font-size-10"], [3, "innerHTML"]], template: function HomePageComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h1", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Meeting Links");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "ul", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, HomePageComponent_li_8_Template, 16, 5, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](9, "async");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "h1", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Announcements");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "ul", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, HomePageComponent_li_13_Template, 12, 6, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](9, 2, ctx.zoomItems$));
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.announcements);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["AsyncPipe"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHBzL2NsaWVudC9zcmMvYXBwL3BhZ2VzL2hvbWUtcGFnZS9ob21lLXBhZ2UuY29tcG9uZW50LnNjc3MifQ== */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomePageComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
-        args: [{
-                selector: 'lehi41-home-page',
-                styleUrls: ['./home-page.component.scss'],
-                template: `
-    <div class="row mb-4">
-      <div class="col-12">
-        <div class="card border-light">
-          <img
-            class="card-img-top l41-img-thumbnail"
-            src="./assets/images/safe-sacrament/sacrament-seating-01.jpg"
-            alt="Announcements Thumbnail"
-          />
-          <div class="card-body">
-            <h1 class="h4">Meeting Links</h1>
-            <ul class="list-group list-group-flush">
-              <li
-                class="list-group-item ml-0 pl-0 mr-0 pr-0"
-                *ngFor="let zoomItem of zoomItems$ | async"
-              >
-                <div class="d-flex justify-content-start">
-                  <div class="text-center">
-                    <div class="fa-3x">
-                      <i class="fas fa-calendar-day"></i>
-                    </div>
-                  </div>
-                  <div class="ml-4 mt-2">
-                    <h2 class="h6 font-weight-bold">
-                      {{ zoomItem.label }}
-                    </h2>
-                    <p>
-                      Link:
-                      <a href="{{ zoomItem.link }}" target="_blank">{{zoomItem.link}}</a><br />
-                      Meeting ID: {{ zoomItem.meetingId }}<br />
-                      <span *ngIf="zoomItem.passcode.length">
-                        Passcode: {{ zoomItem.passcode }}
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-
-            <h1 class="h4">Announcements</h1>
-            <ul class="list-group list-group-flush">
-              <li
-                class="list-group-item ml-0 pl-0 mr-0 pr-0"
-                *ngFor="let announcement of announcements"
-              >
-                <div class="d-flex justify-content-start">
-                  <div class="text-center">
-                    <div class="fa-3x">
-                      <i class="far fa-calendar"></i>
-                    </div>
-                    <span
-                      class="text-uppercase font-weight-bold font-size-10"
-                      >{{ announcement.date | date: 'd MMM' }}</span
-                    >
-                  </div>
-                  <div class="ml-4 mt-2">
-                    <h2 class="h6 font-weight-bold">
-                      {{ announcement.title }}
-                    </h2>
-                    <p [innerHTML]="announcement.description"></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  `,
-            }]
-    }], null, null); })();
-
-
-/***/ }),
-
 /***/ "KDA1":
 /*!************************************************************!*\
   !*** ./src/app/layouts/navigation/navigation.component.ts ***!
@@ -1005,12 +729,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/pages.module */ "dgmN");
 /* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shared/shared.module */ "PCNd");
 /* harmony import */ var _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/fire/database */ "hQU3");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../environments/environment */ "AytR");
-/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/fire */ "xBdF");
-/* harmony import */ var _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./layouts/layouts.module */ "5wG6");
-
-
-
+/* harmony import */ var _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./layouts/layouts.module */ "5wG6");
 
 
 
@@ -1028,15 +747,17 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
             _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
             _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-            _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"],
-            _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig),
+            _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__["LayoutsModule"],
+            // AngularFireModule.initializeApp(environment.firebaseConfig),
             _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"],
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
         _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-        _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"], _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"]] }); })();
+        _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__["LayoutsModule"],
+        // AngularFireModule.initializeApp(environment.firebaseConfig),
+        _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -1046,8 +767,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
                     _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
                     _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-                    _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"],
-                    _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig),
+                    _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__["LayoutsModule"],
+                    // AngularFireModule.initializeApp(environment.firebaseConfig),
                     _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"],
                 ],
                 providers: [],
@@ -1070,11 +791,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PagesModule", function() { return PagesModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
-/* harmony import */ var _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home-page/home-page.component */ "JFIp");
-/* harmony import */ var _page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./page-not-found-page/page-not-found-page.component */ "ecl7");
-/* harmony import */ var _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./login-page/login-page.component */ "6V8c");
-/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../shared/shared.module */ "PCNd");
-
+/* harmony import */ var _page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./page-not-found-page/page-not-found-page.component */ "ecl7");
+/* harmony import */ var _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./login-page/login-page.component */ "6V8c");
+/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../shared/shared.module */ "PCNd");
 
 
 
@@ -1084,20 +803,18 @@ __webpack_require__.r(__webpack_exports__);
 class PagesModule {
 }
 PagesModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: PagesModule });
-PagesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function PagesModule_Factory(t) { return new (t || PagesModule)(); }, imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"]]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](PagesModule, { declarations: [_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__["HomePageComponent"],
-        _page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_3__["PageNotFoundPageComponent"],
-        _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_4__["LoginPageComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"]], exports: [_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__["HomePageComponent"], _page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_3__["PageNotFoundPageComponent"], _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_4__["LoginPageComponent"]] }); })();
+PagesModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function PagesModule_Factory(t) { return new (t || PagesModule)(); }, imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_4__["SharedModule"]]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](PagesModule, { declarations: [_page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_2__["PageNotFoundPageComponent"],
+        _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_3__["LoginPageComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_4__["SharedModule"]], exports: [_page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_2__["PageNotFoundPageComponent"], _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_3__["LoginPageComponent"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PagesModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
                 declarations: [
-                    _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__["HomePageComponent"],
-                    _page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_3__["PageNotFoundPageComponent"],
-                    _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_4__["LoginPageComponent"],
+                    _page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_2__["PageNotFoundPageComponent"],
+                    _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_3__["LoginPageComponent"],
                 ],
-                imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"]],
-                exports: [_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__["HomePageComponent"], _page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_3__["PageNotFoundPageComponent"], _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_4__["LoginPageComponent"]],
+                imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_4__["SharedModule"]],
+                exports: [_page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_2__["PageNotFoundPageComponent"], _login_page_login_page_component__WEBPACK_IMPORTED_MODULE_3__["LoginPageComponent"]],
             }]
     }], null, null); })();
 
@@ -1340,12 +1057,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "sEIs");
-/* harmony import */ var _pages_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/home-page/home-page.component */ "JFIp");
-/* harmony import */ var _pages_page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/page-not-found-page/page-not-found-page.component */ "ecl7");
-/* harmony import */ var _pages_login_page_login_page_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/login-page/login-page.component */ "6V8c");
-/* harmony import */ var _shared_auth_guard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shared/auth.guard */ "Cp0R");
-/* harmony import */ var _layouts_main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./layouts/main-layout/main-layout.component */ "rQ7a");
-
+/* harmony import */ var _pages_page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/page-not-found-page/page-not-found-page.component */ "ecl7");
+/* harmony import */ var _pages_login_page_login_page_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/login-page/login-page.component */ "6V8c");
+/* harmony import */ var _shared_auth_guard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./shared/auth.guard */ "Cp0R");
+/* harmony import */ var _layouts_main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layouts/main-layout/main-layout.component */ "rQ7a");
 
 
 
@@ -1362,36 +1077,26 @@ const routes = [
     },
     {
         path: 'login',
-        component: _pages_login_page_login_page_component__WEBPACK_IMPORTED_MODULE_4__["LoginPageComponent"],
+        component: _pages_login_page_login_page_component__WEBPACK_IMPORTED_MODULE_3__["LoginPageComponent"],
     },
     {
         path: '',
-        component: _layouts_main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_6__["MainLayoutComponent"],
+        component: _layouts_main_layout_main_layout_component__WEBPACK_IMPORTED_MODULE_5__["MainLayoutComponent"],
         children: [
             {
                 path: 'home',
-                component: _pages_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_2__["HomePageComponent"],
-            },
-            {
-                path: 'meet',
-                canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"]],
-                loadChildren: () => __webpack_require__.e(/*! import() | features-meet-meet-module */ "features-meet-meet-module").then(__webpack_require__.bind(null, /*! ./features/meet/meet.module */ "0rqF")).then((m) => m.MeetModule),
+                loadChildren: () => Promise.all(/*! import() | features-home-home-module */[__webpack_require__.e("common"), __webpack_require__.e("features-home-home-module")]).then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "fOOd")).then((m) => m.HomeModule),
             },
             {
                 path: 'cheat-sheet',
-                canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"]],
-                loadChildren: () => __webpack_require__.e(/*! import() | features-cheat-sheet-cheat-sheet-module */ "features-cheat-sheet-cheat-sheet-module").then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
-            },
-            {
-                path: 'zoom-meeting',
-                canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_5__["AuthGuard"]],
-                loadChildren: () => __webpack_require__.e(/*! import() | features-zoom-meeting-zoom-meeting-module */ "features-zoom-meeting-zoom-meeting-module").then(__webpack_require__.bind(null, /*! ./features/zoom-meeting/zoom-meeting.module */ "pRuw")).then((m) => m.ZoomMeetingModule),
-            },
+                canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]],
+                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("common"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
+            }
         ],
     },
     {
         path: '**',
-        component: _pages_page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_3__["PageNotFoundPageComponent"],
+        component: _pages_page_not_found_page_page_not_found_page_component__WEBPACK_IMPORTED_MODULE_2__["PageNotFoundPageComponent"],
     },
 ];
 class AppRoutingModule {
