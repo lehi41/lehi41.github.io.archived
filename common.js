@@ -177,11 +177,11 @@ DATA.zoomLinks = [
         meetingId: '801 628 0153',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Zoom - Young Women Meeting',
-        link: 'https://us02web.zoom.us/j/2101834721?pwd=UEl4NCt4SUx2TXpsVUtWbThqWUpuZz09',
-        passcode: 'strivetobe',
-        meetingId: '210 183 4721',
+        link: 'https://us02web.zoom.us/j/81808804908?pwd=Ujd4RmIvZkQxTC9BOGh3Z21WZ1IwQT09',
+        passcode: '909370',
+        meetingId: '818 0880 4908',
     },
     {
         active: false,
