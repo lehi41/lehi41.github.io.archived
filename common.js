@@ -170,6 +170,13 @@ DATA.zoomLinks = [
         meetingId: '872 9150 6083',
     },
     {
+        active: true,
+        label: 'Sunday 1:00pm - Zoom - Tongan - Elders Quorum Meeting',
+        link: 'https://us04web.zoom.us/j/7511959897?pwd=L2Rwb0FjRElDcTJQaW5KMTNmZ24vUT09',
+        passcode: '',
+        meetingId: '751 195 9897',
+    },
+    {
         active: false,
         label: 'Sunday 1:00pm - Zoom - Relief Society',
         link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
