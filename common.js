@@ -152,6 +152,13 @@ DATA.zoomLinks = [
         meetingId: '896 4669 5998',
     },
     {
+        active: true,
+        label: 'Sunday 12:00pm - Zoom - Relief Society',
+        link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
+        passcode: 'lehifataha',
+        meetingId: '801 628 0153',
+    },
+    {
         active: false,
         label: 'Sunday 1:00pm - Zoom - Tongan - Gospel Doctrine',
         link: 'https://us04web.zoom.us/j/7511959897?pwd=bGhReGlmalRhbE5nd1E1WWdCbUZpUT09',
@@ -185,13 +192,6 @@ DATA.zoomLinks = [
         link: 'https://us04web.zoom.us/j/7511959897?pwd=L2Rwb0FjRElDcTJQaW5KMTNmZ24vUT09',
         passcode: '',
         meetingId: '751 195 9897',
-    },
-    {
-        active: true,
-        label: 'Sunday 12:00pm - Zoom - Relief Society',
-        link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
-        passcode: 'lehifataha',
-        meetingId: '801 628 0153',
     },
     {
         active: true,
