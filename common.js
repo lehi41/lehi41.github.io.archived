@@ -37,7 +37,7 @@ DATA.people = {
     patricRipley: { name: 'Patrick Ripley' },
     joshTune: { name: 'Josh Tune' },
     moneAfu: { name: 'Mone Afu' },
-    charlotteAfu: { name: 'Charlotte Afu' }
+    charlotteAfu: { name: 'Charlotte Afu' },
 };
 DATA.addresses = {
     chapel: {
@@ -205,14 +205,14 @@ DATA.newMembers = [];
 DATA.baptisms = [];
 DATA.babyBlessing = [
     {
-        name: 'Salt Family'
-    }
+        name: 'Salt Family',
+    },
 ];
 DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2020, 7, 23),
+        date: new Date(2020, 10, 8),
         startTime: '10:30 AM',
         endTime: '11:10 AM',
         address: DATA.addresses.chapel,
@@ -231,7 +231,7 @@ DATA.cheatSheet = {
             },
             {
                 person: DATA.people.moneAfu,
-                index: 2
+                index: 2,
             },
         ],
         closingSong: DATA.hymns.tbd,

@@ -359,7 +359,7 @@ function CheatSheetComponent_div_0_div_66_li_2_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const baby_r34 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](baby_r34.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", baby_r34.name, " ");
 } }
 function CheatSheetComponent_div_0_div_66_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
@@ -630,7 +630,7 @@ CheatSheetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         args: [{
                 selector: 'lehi41-cheat-sheet',
                 styles: ['.highlight { color: #b8323e;}', '.assignment {color: darkgreen;}'],
-                templateUrl: './cheat-sheet.component.html'
+                templateUrl: './cheat-sheet.component.html',
             }]
     }], null, null); })();
 
