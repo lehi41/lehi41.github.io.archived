@@ -38,6 +38,8 @@ DATA.people = {
     joshTune: { name: 'Josh Tune' },
     moneAfu: { name: 'Mone Afu' },
     charlotteAfu: { name: 'Charlotte Afu' },
+    kelepiFinau: { name: 'Kelepi Finau' },
+    carmaBrown: { name: 'Carma Brown' },
 };
 DATA.addresses = {
     chapel: {
@@ -98,7 +100,7 @@ DATA.hymns = {
     },
     169: {
         title: 'As Now We Take the Sacrament',
-        page: 294,
+        page: 169,
         link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament?lang=eng',
     },
     187: {
@@ -216,13 +218,13 @@ DATA.cheatSheet = {
         startTime: '10:30 AM',
         endTime: '11:10 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.memberOfBishopric,
-        conducting: DATA.people.memberOfBishopric,
-        chorister: DATA.people.tbd,
+        presiding: DATA.people.samBrown,
+        conducting: DATA.people.samBrown,
+        chorister: DATA.people.kelepiFinau,
         organist: DATA.people.tbd,
-        invocation: DATA.people.tbd,
-        openingSong: DATA.hymns.tbd,
-        sacramentSong: DATA.hymns.tbd,
+        invocation: DATA.people.joshTune,
+        openingSong: DATA.hymns['27'],
+        sacramentSong: DATA.hymns['169'],
         testimonySunday: false,
         speakers: [
             {
@@ -234,8 +236,8 @@ DATA.cheatSheet = {
                 index: 2,
             },
         ],
-        closingSong: DATA.hymns.tbd,
-        benediction: DATA.people.tbd,
+        closingSong: DATA.hymns['294'],
+        benediction: DATA.people.carmaBrown,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.keliiUnga,
