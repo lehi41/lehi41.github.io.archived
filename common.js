@@ -173,11 +173,11 @@ DATA.zoomLinks = [
         meetingId: '949 570 8401',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Zoom - Elders Quorum Class',
-        link: 'https://us02web.zoom.us/j/87291506083?pwd=dUlZckNRMXdqWlFGakdUUlNVeHNJQT09',
-        passcode: '680378',
-        meetingId: '872 9150 6083',
+        link: 'https://us02web.zoom.us/j/81707850862',
+        passcode: '841679',
+        meetingId: '817 0785 0862',
     },
     {
         active: true,
