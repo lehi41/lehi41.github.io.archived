@@ -152,7 +152,7 @@ DATA.zoomLinks = [
         meetingId: '896 4669 5998',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 12:00pm - Zoom - Relief Society',
         link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
         passcode: 'lehifataha',
@@ -180,21 +180,21 @@ DATA.zoomLinks = [
         meetingId: '949 570 8401',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Zoom - Elders Quorum Class',
         link: 'https://us02web.zoom.us/j/81707850862',
         passcode: '841679',
         meetingId: '817 0785 0862',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Zoom - Tongan - Elders Quorum Class',
         link: 'https://us04web.zoom.us/j/7511959897?pwd=L2Rwb0FjRElDcTJQaW5KMTNmZ24vUT09',
         passcode: '',
         meetingId: '751 195 9897',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Zoom - Young Women Class',
         link: 'https://us02web.zoom.us/j/81808804908?pwd=Ujd4RmIvZkQxTC9BOGh3Z21WZ1IwQT09',
         passcode: '909370',
@@ -203,9 +203,9 @@ DATA.zoomLinks = [
     {
         active: false,
         label: 'Sunday 1:00pm - Zoom - Young Men Class',
-        link: 'https://us02web.zoom.us/j/85330586967?pwd=VUlDanBoWTA5YVFaNzRPallKNnVOZz09',
-        passcode: '434644',
-        meetingId: '862 8129 6866',
+        link: 'https://lucidsoftware.zoom.us/j/96870131780',
+        passcode: '',
+        meetingId: '968 7013 1780',
     },
 ];
 DATA.releases = [];
