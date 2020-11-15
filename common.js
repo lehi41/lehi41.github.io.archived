@@ -149,6 +149,10 @@ DATA.announcements = [
         description: 'A Special Video Message of Hope and Healing Is Coming From the Prophet, Russell M. Nelson, 11am, President Nelson’s social media accounts (Facebook, Instagram, Twitter) and on the Church’s main YouTube channel in 31 languages.*',
     },
     {
+        title: 'Sat 5 Dec - Primary Baptism',
+        description: 'Primary Baptism, Ward Level, 8:00am, Lehi YSA Stake Building 1550 South 1100 West, Lehi, Le42@8:30am & 9am, PG10@9:30am & 10am, EM13@10:30am & 11am, Le41@11:30am',
+    },
+    {
         title: 'Sun 6 Dec - Fast Sunday',
         description: '',
     },
