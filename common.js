@@ -40,6 +40,7 @@ DATA.people = {
     charlotteAfu: { name: 'Charlotte Afu' },
     kelepiFinau: { name: 'Kelepi Finau' },
     carmaBrown: { name: 'Carma Brown' },
+    suniaHalafuka: { name: 'Sunia Halafuka' },
 };
 DATA.addresses = {
     chapel: {
@@ -252,7 +253,7 @@ DATA.cheatSheet = {
         conducting: DATA.people.samBrown,
         chorister: DATA.people.kelepiFinau,
         organist: DATA.people.tbd,
-        invocation: DATA.people.tbd,
+        invocation: DATA.people.suniaHalafuka,
         openingSong: DATA.hymns['83'],
         sacramentSong: DATA.hymns['169'],
         testimonySunday: false,
