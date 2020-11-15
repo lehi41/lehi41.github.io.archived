@@ -224,7 +224,7 @@ DATA.cheatSheet = {
         chorister: DATA.people.kelepiFinau,
         organist: DATA.people.tbd,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns['27'],
+        openingSong: DATA.hymns['83'],
         sacramentSong: DATA.hymns['169'],
         testimonySunday: false,
         speakers: [
@@ -237,7 +237,7 @@ DATA.cheatSheet = {
                 index: 2,
             },
         ],
-        closingSong: DATA.hymns['294'],
+        closingSong: DATA.hymns['6'],
         benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
