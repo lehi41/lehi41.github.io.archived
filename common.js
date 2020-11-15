@@ -24,12 +24,12 @@ DATA.people = {
     adamChase: { name: 'Adam Chase' },
     mekeFinau: { name: 'Meke Finau' },
     keliiUnga: { name: 'Kelii Unga' },
+    natalieUnga: { name: 'Natalie Unga' },
     saaneQoro: { name: 'Saane Qoro' },
     folauKaveinga: { name: 'Folau Kaveinga' },
     kikiAmosa: { name: 'Kiki Amosa' },
     melekisetekiFetokai: { name: 'Melekiseteki Fetokai' },
     felofiakiFetokai: { name: 'Felofiaki Fetokai' },
-    natalieUnga: { name: 'Natalie Unga' },
     koloFunaki: { name: 'Kolo Funaki' },
     sioneBrown: { name: 'Sione Brown' },
     amberBrown: { name: 'Amber Brown' },
@@ -229,11 +229,11 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: DATA.people.tbd,
+                person: DATA.people.natalieUnga,
                 index: 1,
             },
             {
-                person: DATA.people.tbd,
+                person: DATA.people.keliiUnga,
                 index: 2,
             },
         ],
