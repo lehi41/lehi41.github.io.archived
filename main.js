@@ -869,7 +869,7 @@ FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || F
 FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["lehi41-footer"]], decls: 3, vars: 0, consts: [["id", "footer", 1, "container", "l41-container", "mrg-btm-150", "text-right"], ["src", "./assets/logo.png", 1, "footer-logo"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " \u00A9 Sept 2020 | Lehi Fataha Bishopric ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " \u00A9 2020 | Lehi Fataha Bishopric ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["#footer[_ngcontent-%COMP%] {position: relative; min-height: 200px; margin-top: 80px;}", "img.footer-logo[_ngcontent-%COMP%] {opacity: 0.09; position: absolute; right: 0; top: -23px;}"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FooterComponent, [{
@@ -883,7 +883,7 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
                 template: `
     <div class="container l41-container mrg-btm-150 text-right" id="footer">
       <img src="./assets/logo.png" class="footer-logo" />
-      &#169; Sept 2020 | Lehi Fataha Bishopric
+      &#169; 2020 | Lehi Fataha Bishopric
     </div>
   `,
             }]
