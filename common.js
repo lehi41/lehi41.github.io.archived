@@ -159,7 +159,7 @@ DATA.announcements = [
     {
         title: 'Sun 6 Dec - 6:00am - First Presidency Christmas Devotional',
         description: 'To view a livestream of the devotional, visit: <a href="https://ChurchofJesusChrist.org" target="_blank">ChurchofJesusChrist.org</a>, BYUtv, Mormon Channel (website, YouTube, mobile app, Roku), Local meetinghouse via Church satellite system',
-    },
+    }
 ];
 DATA.broadcastLinks = [
     {
@@ -224,7 +224,7 @@ DATA.broadcastLinks = [
     },
     {
         fixed: true,
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Young Men Class',
         link: 'https://lucidsoftware.zoom.us/j/96870131780',
         passcode: '',
@@ -250,7 +250,7 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2020, 10, 8),
+        date: new Date(2020, 10, 15),
         startTime: '10:30 AM',
         endTime: '11:10 AM',
         address: DATA.addresses.chapel,
