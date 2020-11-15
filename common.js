@@ -131,17 +131,9 @@ DATA.hymns = {
 };
 DATA.announcements = [
     {
-        title: 'Sun 8 Nov - FHE Districts',
-        description: 'Each District will be having FHE Meeting',
-    },
-    {
-        title: 'Thurs 12 Nov - 8:00am - Food Bank',
+        title: 'Thurs 19 Nov - 8:00am - Food Bank',
         description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide Instructions',
-    },
-    {
-        title: 'Sun 15 Nov - 4:00pm - Young Women Face to Face',
-        description: '"Young Women Celebrating 150 Years" Face to Face with the Young Women General Presidency, 4pm, church satellite system, ChurchofJesusChrist.org, Facebook, Youtube, BYUtv, and other',
-    },
+    }
 ];
 DATA.broadcastLinks = [
     {
@@ -214,28 +206,9 @@ DATA.broadcastLinks = [
     },
 ];
 DATA.releases = [];
-DATA.sustaining = [
-    {
-        name: 'Sione & Lindsey Tafengatoto',
-        calling: 'Sunday School - Teacher for 12 & 13yrs old'
-    },
-    {
-        name: 'Aaron Nahinu',
-        calling: 'Sunday School - Presidency 2nd Counselor'
-    },
-];
+DATA.sustaining = [];
 DATA.aaronicPriesthoodAdvancements = [];
-DATA.newMembers = [
-    {
-        name: 'Ika, Seini Falahola'
-    },
-    {
-        name: 'Wolfgramm, Ammaron'
-    },
-    {
-        name: 'Wolfgramm, Erin'
-    }
-];
+DATA.newMembers = [];
 DATA.baptisms = [];
 DATA.babyBlessing = [];
 DATA.cheatSheet = {
@@ -250,7 +223,7 @@ DATA.cheatSheet = {
         conducting: DATA.people.samBrown,
         chorister: DATA.people.kelepiFinau,
         organist: DATA.people.tbd,
-        invocation: DATA.people.joshTune,
+        invocation: DATA.people.tbd,
         openingSong: DATA.hymns['27'],
         sacramentSong: DATA.hymns['169'],
         testimonySunday: false,
@@ -265,7 +238,7 @@ DATA.cheatSheet = {
             },
         ],
         closingSong: DATA.hymns['294'],
-        benediction: DATA.people.carmaBrown,
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.keliiUnga,
