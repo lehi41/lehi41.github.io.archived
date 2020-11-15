@@ -229,11 +229,11 @@ DATA.cheatSheet = {
         testimonySunday: false,
         speakers: [
             {
-                person: DATA.people.charlotteAfu,
+                person: DATA.people.tbd,
                 index: 1,
             },
             {
-                person: DATA.people.moneAfu,
+                person: DATA.people.tbd,
                 index: 2,
             },
         ],
