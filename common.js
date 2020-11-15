@@ -145,15 +145,15 @@ DATA.announcements = [
         description: 'Contact Brother Lomu @ <a href="mailto:lomubl@churchofjesuschrist.org" target="_blank">lomubl@churchofjesuschrist.org</a> or <a href="tel:801-671-6371">801-671-6371</a> for Details',
     },
     {
-        title: 'Thurs 20 Nov - 11:00am - A Special Video Message',
+        title: 'Fri 20 Nov - 11:00am - A Special Video Message',
         description: 'A Special Video Message of Hope and Healing Is Coming From the Prophet, Russell M. Nelson, 11am, President Nelson’s social media accounts (Facebook, Instagram, Twitter) and on the Church’s main YouTube channel in 31 languages.*',
     },
     {
-        title: 'Thurs 6 Dec - Fast Sunday',
+        title: 'Sun 6 Dec - Fast Sunday',
         description: '',
     },
     {
-        title: 'Thurs 6 Dec - 6:00am - First Presidency Christmas Devotional',
+        title: 'Sun 6 Dec - 6:00am - First Presidency Christmas Devotional',
         description: 'To view a livestream of the devotional, visit: <a href="https://ChurchofJesusChrist.org" target="_blank">ChurchofJesusChrist.org</a>, BYUtv, Mormon Channel (website, YouTube, mobile app, Roku), Local meetinghouse via Church satellite system',
     },
 ];
