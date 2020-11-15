@@ -206,7 +206,12 @@ DATA.broadcastLinks = [
     },
 ];
 DATA.releases = [];
-DATA.sustaining = [];
+DATA.sustaining = [
+    {
+        name: 'Isi & Shanley Kaufusi',
+        calling: 'Temple Preparation Teachers'
+    }
+];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [];
 DATA.baptisms = [];
