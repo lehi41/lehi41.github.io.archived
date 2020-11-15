@@ -41,6 +41,7 @@ DATA.people = {
     kelepiFinau: { name: 'Kelepi Finau' },
     carmaBrown: { name: 'Carma Brown' },
     suniaHalafuka: { name: 'Sunia Halafuka' },
+    tuaTeriipaia: { name: 'Tua Teriipaia' },
 };
 DATA.addresses = {
     chapel: {
@@ -268,7 +269,7 @@ DATA.cheatSheet = {
             },
         ],
         closingSong: DATA.hymns['6'],
-        benediction: DATA.people.tbd,
+        benediction: DATA.people.tuaTeriipaia,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.keliiUnga,
