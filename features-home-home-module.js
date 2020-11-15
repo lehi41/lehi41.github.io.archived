@@ -143,7 +143,7 @@ AnnouncementListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
         args: [{
                 selector: 'lehi41-announcement-list',
                 templateUrl: './announcement-list.component.html',
-                styleUrls: ['./announcement-list.component.scss']
+                styleUrls: ['./announcement-list.component.scss'],
             }]
     }], null, { announcements: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -167,8 +167,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class ContactInfoComponent {
     constructor() { }
-    ngOnInit() {
-    }
+    ngOnInit() { }
 }
 ContactInfoComponent.ɵfac = function ContactInfoComponent_Factory(t) { return new (t || ContactInfoComponent)(); };
 ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactInfoComponent, selectors: [["lehi41-contact-info"]], decls: 87, vars: 0, consts: [[1, "card", "border-light"], ["src", "./assets/images/chapel.jpeg", 1, "card-img-top", "l41-img-thumbnail"], [1, "card-body"], [1, "broadcast-section"], [1, "h4"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "ml-2", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "fa-3x"], [1, "fas", "fa-user-tie"], [1, "ml-4", "w-100"], [1, "p-0", "m-0"], [1, "mt-2", "d-flex", "justify-content-between"], ["href", "tel:8018601598", "target", "_blank"], [1, "fas", "fa-sms"], [1, "fas", "fa-place-of-worship"], [1, "ml-4", "mt-2"], ["href", "https://goo.gl/maps/TLrPMMT1CpjijHnE7", "target", "_blank"], ["href", "tel:8014718893", "target", "_blank"], ["href", "tel:8012434881", "target", "_blank"], ["href", "tel:8018306979", "target", "_blank"], ["href", "https://goo.gl/maps/yMNWPjvQtTMa179p6", "target", "_blank"]], template: function ContactInfoComponent_Template(rf, ctx) { if (rf & 1) {
@@ -215,7 +214,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " 220 W 200 S, Lehi,");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " 220 W 200 S, Lehi");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](32, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " UT 84043 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "br");
@@ -315,7 +314,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         args: [{
                 selector: 'lehi41-contact-info',
                 templateUrl: './contact-info.component.html',
-                styleUrls: ['./contact-info.component.scss']
+                styleUrls: ['./contact-info.component.scss'],
             }]
     }], function () { return []; }, null); })();
 
@@ -474,7 +473,7 @@ BroadcastListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         args: [{
                 selector: 'lehi41-broadcast-list',
                 templateUrl: './broadcast-list.component.html',
-                styleUrls: ['./broadcast-list.component.scss']
+                styleUrls: ['./broadcast-list.component.scss'],
             }]
     }], null, { broadcastLinks: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -498,8 +497,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class AlertsComponent {
     constructor() { }
-    ngOnInit() {
-    }
+    ngOnInit() { }
 }
 AlertsComponent.ɵfac = function AlertsComponent_Factory(t) { return new (t || AlertsComponent)(); };
 AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["lehi41-alerts"]], decls: 9, vars: 0, consts: [["id", "alert"], ["role", "alert", 1, "alert", "alert-warning", "p-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://docs.google.com/document/d/11V65jpUgfazarUkN63ezuQy5wvGY19W6cY5xEWLKjWU/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-warning", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
@@ -524,7 +522,7 @@ AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         args: [{
                 selector: 'lehi41-alerts',
                 templateUrl: './alerts.component.html',
-                styleUrls: ['./alerts.component.scss']
+                styleUrls: ['./alerts.component.scss'],
             }]
     }], function () { return []; }, null); })();
 
@@ -568,11 +566,27 @@ class HomeModule {
 }
 HomeModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: HomeModule });
 HomeModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function HomeModule_Factory(t) { return new (t || HomeModule)(); }, imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_2__["HomeRoutingModule"]]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](HomeModule, { declarations: [_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__["BroadcastListComponent"], _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_6__["AnnouncementListComponent"], _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_7__["AlertsComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_8__["ContactInfoComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_9__["MissionaryListComponent"], _lesson_list_lesson_list_component__WEBPACK_IMPORTED_MODULE_10__["LessonListComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_2__["HomeRoutingModule"]] }); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](HomeModule, { declarations: [_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"],
+        _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentListComponent"],
+        _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__["BroadcastListComponent"],
+        _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_6__["AnnouncementListComponent"],
+        _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_7__["AlertsComponent"],
+        _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_8__["ContactInfoComponent"],
+        _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_9__["MissionaryListComponent"],
+        _lesson_list_lesson_list_component__WEBPACK_IMPORTED_MODULE_10__["LessonListComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_2__["HomeRoutingModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-                declarations: [_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__["BroadcastListComponent"], _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_6__["AnnouncementListComponent"], _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_7__["AlertsComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_8__["ContactInfoComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_9__["MissionaryListComponent"], _lesson_list_lesson_list_component__WEBPACK_IMPORTED_MODULE_10__["LessonListComponent"]],
+                declarations: [
+                    _home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"],
+                    _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentListComponent"],
+                    _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__["BroadcastListComponent"],
+                    _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_6__["AnnouncementListComponent"],
+                    _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_7__["AlertsComponent"],
+                    _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_8__["ContactInfoComponent"],
+                    _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_9__["MissionaryListComponent"],
+                    _lesson_list_lesson_list_component__WEBPACK_IMPORTED_MODULE_10__["LessonListComponent"],
+                ],
                 imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_2__["HomeRoutingModule"]],
             }]
     }], null, null); })();
@@ -595,8 +609,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class LessonListComponent {
     constructor() { }
-    ngOnInit() {
-    }
+    ngOnInit() { }
 }
 LessonListComponent.ɵfac = function LessonListComponent_Factory(t) { return new (t || LessonListComponent)(); };
 LessonListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LessonListComponent, selectors: [["lehi41-lesson-list"]], decls: 2, vars: 0, template: function LessonListComponent_Template(rf, ctx) { if (rf & 1) {
@@ -609,7 +622,7 @@ LessonListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         args: [{
                 selector: 'lehi41-lesson-list',
                 templateUrl: './lesson-list.component.html',
-                styleUrls: ['./lesson-list.component.scss']
+                styleUrls: ['./lesson-list.component.scss'],
             }]
     }], function () { return []; }, null); })();
 
@@ -633,8 +646,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class SacramentListComponent {
     constructor() { }
-    ngOnInit() {
-    }
+    ngOnInit() { }
 }
 SacramentListComponent.ɵfac = function SacramentListComponent_Factory(t) { return new (t || SacramentListComponent)(); };
 SacramentListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SacramentListComponent, selectors: [["lehi41-sacrament-list"]], decls: 33, vars: 2, consts: [[1, "card", "border-light"], ["src", "./assets/images/safe-sacrament/sacrament-blessers-wear-mask.jpg", 1, "card-img-top", "l41-img-thumbnail"], [1, "card-body"], [1, "h4"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "ml-0", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "text-center"], [1, "fa-3x"], [1, "fas", "fa-user-friends"], [1, "ml-4", "mt-2", "w-100"], [1, "h6", "font-weight-bold"], [1, "text-right", "w-100"], [1, "btn", "btn-primary", "btn-sm", 3, "routerLink"], [1, "fas", "fa-tv"]], template: function SacramentListComponent_Template(rf, ctx) { if (rf & 1) {
@@ -705,7 +717,7 @@ SacramentListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         args: [{
                 selector: 'lehi41-sacrament-list',
                 templateUrl: './sacrament-list.component.html',
-                styleUrls: ['./sacrament-list.component.scss']
+                styleUrls: ['./sacrament-list.component.scss'],
             }]
     }], function () { return []; }, null); })();
 
@@ -727,8 +739,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class MissionaryListComponent {
     constructor() { }
-    ngOnInit() {
-    }
+    ngOnInit() { }
 }
 MissionaryListComponent.ɵfac = function MissionaryListComponent_Factory(t) { return new (t || MissionaryListComponent)(); };
 MissionaryListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MissionaryListComponent, selectors: [["lehi41-missionary-list"]], decls: 2, vars: 0, template: function MissionaryListComponent_Template(rf, ctx) { if (rf & 1) {
@@ -741,7 +752,7 @@ MissionaryListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         args: [{
                 selector: 'lehi41-missionary-list',
                 templateUrl: './missionary-list.component.html',
-                styleUrls: ['./missionary-list.component.scss']
+                styleUrls: ['./missionary-list.component.scss'],
             }]
     }], function () { return []; }, null); })();
 

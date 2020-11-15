@@ -159,7 +159,7 @@ DATA.announcements = [
     {
         title: 'Sun 6 Dec - 6:00am - First Presidency Christmas Devotional',
         description: 'To view a livestream of the devotional, visit: <a href="https://ChurchofJesusChrist.org" target="_blank">ChurchofJesusChrist.org</a>, BYUtv, Mormon Channel (website, YouTube, mobile app, Roku), Local meetinghouse via Church satellite system',
-    }
+    },
 ];
 DATA.broadcastLinks = [
     {
@@ -241,8 +241,8 @@ DATA.sustaining = [
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
     {
-        name: 'Ofa Ke Ikuna Fifita'
-    }
+        name: 'Ofa Ke Ikuna Fifita',
+    },
 ];
 DATA.baptisms = [];
 DATA.babyBlessing = [];
