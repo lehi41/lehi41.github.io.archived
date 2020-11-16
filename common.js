@@ -150,7 +150,7 @@ DATA.announcements = [
     },
     {
         title: 'Sat 5 Dec - Primary Baptism',
-        description: 'Primary Baptism, Ward Level, 8:00am, <a href="https://goo.gl/maps/3yFKCXzoFB3hzTZN7" target="_blank">Lehi YSA Stake Building 1550 South 1100 West</a>, Lehi, Le42@8:30am & 9am, PG10@9:30am & 10am, EM13@10:30am & 11am, Le41@11:30am',
+        description: 'Primary Baptism, Ward Level, 8:00am, <a href="https://goo.gl/maps/3yFKCXzoFB3hzTZN7" target="_blank">Lehi YSA Stake Building 1550 South 1100 West</a>',
     },
     {
         title: 'Sun 6 Dec - Fast Sunday',
