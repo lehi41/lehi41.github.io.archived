@@ -171,7 +171,7 @@ DATA.broadcastLinks = [
         meetingId: '896 4669 5998',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 12:00pm - Relief Society',
         link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
         passcode: 'lehifataha',
@@ -179,7 +179,7 @@ DATA.broadcastLinks = [
     },
     {
         fixed: true,
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Sunday School - Tongan - Gospel Doctrine',
         link: 'https://cutt.ly/lehi_41st_sunday_school',
         passcode: '',
@@ -187,7 +187,7 @@ DATA.broadcastLinks = [
     },
     {
         fixed: true,
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Sunday School - English - Gospel Doctrine',
         link: 'https://cutt.ly/lehi_41st_sunday_school',
         passcode: '',
@@ -195,28 +195,28 @@ DATA.broadcastLinks = [
     },
     {
         fixed: true,
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Sunday School - Youth Class',
         link: 'https://cutt.ly/lehi_41st_sunday_school',
         passcode: '',
         meetingId: '',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Elders Quorum - English Class',
         link: 'https://us02web.zoom.us/j/81707850862',
         passcode: '841679',
         meetingId: '817 0785 0862',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Elders Quorum - Tongan Class',
         link: 'https://us04web.zoom.us/j/7511959897?pwd=L2Rwb0FjRElDcTJQaW5KMTNmZ24vUT09',
         passcode: '',
         meetingId: '751 195 9897',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/81808804908?pwd=Ujd4RmIvZkQxTC9BOGh3Z21WZ1IwQT09',
         passcode: '909370',
@@ -224,7 +224,7 @@ DATA.broadcastLinks = [
     },
     {
         fixed: true,
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Young Men Class',
         link: 'https://lucidsoftware.zoom.us/j/96870131780',
         passcode: '',
