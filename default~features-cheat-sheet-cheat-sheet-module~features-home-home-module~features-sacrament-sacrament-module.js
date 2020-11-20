@@ -42,6 +42,7 @@ DATA.people = {
     carmaBrown: { name: 'Carma Brown' },
     suniaHalafuka: { name: 'Sunia Halafuka' },
     tuaTeriipaia: { name: 'Tua Teriipaia' },
+    ionaTeriipaia: { name: 'Iona Teriipaia' },
 };
 DATA.addresses = {
     chapel: {
@@ -134,23 +135,32 @@ DATA.hymns = {
 DATA.announcements = [
     {
         title: 'Thurs 15 Nov - 4:00pm',
-        description: 'Young Women Celebrating 150 Years” Face to Face with the Young Women General Presidency, 4pm, church satellite system, ChurchofJesusChrist.org, Facebook, Youtube, BYUtv, and other',
+        description: 'Young Women Celebrating 150 Years” Face to Face with the Young Women General ' +
+            'Presidency, 4pm, church satellite system, ChurchofJesusChrist.org, Facebook, Youtube, BYUtv, and other',
     },
     {
         title: 'Thurs 19 Nov - 8:00am - Food Bank',
-        description: 'Saratoga Spring 12 Branch Parking Lot, <a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, 8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide Instructions',
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions',
     },
     {
         title: 'Thurs 19 Nov - 7:00pm - YSA Institute',
-        description: 'Contact Brother Lomu @ <a href="mailto:lomubl@churchofjesuschrist.org" target="_blank">lomubl@churchofjesuschrist.org</a> or <a href="tel:801-671-6371">801-671-6371</a> for Details',
+        description: 'Contact Brother Lomu @ ' +
+            '<a href="mailto:lomubl@churchofjesuschrist.org" target="_blank">lomubl@churchofjesuschrist.org</a> or ' +
+            '<a href="tel:801-671-6371">801-671-6371</a> for Details',
     },
     {
         title: 'Fri 20 Nov - 11:00am - A Special Video Message',
-        description: 'A Special Video Message of Hope and Healing Is Coming From the Prophet, Russell M. Nelson, 11am, President Nelson’s social media accounts (Facebook, Instagram, Twitter) and on the Church’s main YouTube channel in 31 languages.*',
+        description: 'A Special Video Message of Hope and Healing Is Coming From the Prophet, Russell M. Nelson, 11am, ' +
+            'President Nelson’s social media accounts (Facebook, Instagram, Twitter) and on the Church’s main ' +
+            'YouTube channel in 31 languages.*',
     },
     {
         title: 'Sat 5 Dec - Primary Baptism',
-        description: 'Primary Baptism - <a href="https://goo.gl/maps/3yFKCXzoFB3hzTZN7" target="_blank">Lehi YSA Stake Building 1550 South 1100 West</a>',
+        description: 'Primary Baptism - <a href="https://goo.gl/maps/3yFKCXzoFB3hzTZN7" target="_blank">Lehi YSA Stake ' +
+            'Building 1550 South 1100 West</a>',
     },
     {
         title: 'Sun 6 Dec - Fast Sunday',
@@ -158,7 +168,10 @@ DATA.announcements = [
     },
     {
         title: 'Sun 6 Dec - 6:00am - First Presidency Christmas Devotional',
-        description: 'To view a livestream of the devotional, visit: <a href="https://ChurchofJesusChrist.org" target="_blank">ChurchofJesusChrist.org</a>, BYUtv, Mormon Channel (website, YouTube, mobile app, Roku), Local meetinghouse via Church satellite system',
+        description: 'To view a livestream of the devotional, visit: ' +
+            '<a href="https://ChurchofJesusChrist.org" target="_blank">ChurchofJesusChrist.org</a>, ' +
+            'BYUtv, Mormon Channel (website, YouTube, mobile app, Roku), Local meetinghouse via Church ' +
+            'satellite system',
     },
 ];
 DATA.broadcastLinks = [
@@ -252,29 +265,29 @@ DATA.missionaries = [
         mission: 'Arizona Temple',
         startDate: new Date(2019, 11, 25),
         endDate: new Date(2021, 11, 15),
-        photoUrl: './assets/people/jarom-brown.png'
+        photoUrl: './assets/people/jarom-brown.png',
     },
     {
         name: 'Brooks Maile',
         mission: 'Minnesota Minneapolis',
         startDate: new Date(2019, 8, 21),
         endDate: new Date(2021, 8, 3),
-        photoUrl: './assets/people/brooks-maile.png'
+        photoUrl: './assets/people/brooks-maile.png',
     },
     {
         name: 'Peni Mounga',
         mission: 'New Jersey Morristown',
         startDate: new Date(2019, 12, 18),
         endDate: new Date(2022, 1, 4),
-        photoUrl: './assets/people/peni-mounga.png'
+        photoUrl: './assets/people/peni-mounga.png',
     },
     {
         name: 'Kaden Nahinu',
         mission: 'California San Diego',
         startDate: new Date(2020, 10, 7),
         endDate: new Date(2022, 10, 11),
-        photoUrl: './assets/people/kaden-nahinu.png'
-    }
+        photoUrl: './assets/people/kaden-nahinu.png',
+    },
 ];
 DATA.cheatSheet = {
     zoomSession: true,
@@ -288,22 +301,18 @@ DATA.cheatSheet = {
         conducting: DATA.people.samBrown,
         chorister: DATA.people.kelepiFinau,
         organist: DATA.people.tbd,
-        invocation: DATA.people.suniaHalafuka,
+        invocation: DATA.people.tbd,
         openingSong: DATA.hymns['83'],
         sacramentSong: DATA.hymns['169'],
         testimonySunday: false,
         speakers: [
             {
-                person: DATA.people.natalieUnga,
+                person: DATA.people.ionaTeriipaia,
                 index: 1,
-            },
-            {
-                person: DATA.people.keliiUnga,
-                index: 2,
             },
         ],
         closingSong: DATA.hymns['6'],
-        benediction: DATA.people.tuaTeriipaia,
+        benediction: DATA.people.tbd,
     },
     stakeVisitors: [],
     stakeBusinessAssignment: DATA.people.keliiUnga,
