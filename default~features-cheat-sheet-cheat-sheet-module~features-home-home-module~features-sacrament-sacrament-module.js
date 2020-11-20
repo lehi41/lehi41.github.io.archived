@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["common"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"],{
 
 /***/ "zf2y":
 /*!**********************************!*\
@@ -211,12 +211,12 @@ DATA.broadcastLinks = [
     {
         active: true,
         label: 'Sunday 1:00pm - Elders Quorum - Tongan Class',
-        link: 'https://us04web.zoom.us/j/7511959897?pwd=bGhReGlmalRhbE5nd1E1WWdCbUZpUT09',
+        link: 'https://us04web.zoom.us/j/7511959897?pwd=N1RJSUZDcmdNOG5xcFA1RkVpcXlNdz09',
         passcode: '',
         meetingId: '751 195 9897',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Young Women Class',
         link: 'https://us02web.zoom.us/j/81808804908?pwd=Ujd4RmIvZkQxTC9BOGh3Z21WZ1IwQT09',
         passcode: '909370',
@@ -246,6 +246,36 @@ DATA.newMembers = [
 ];
 DATA.baptisms = [];
 DATA.babyBlessing = [];
+DATA.missionaries = [
+    {
+        name: 'Jarom Brown',
+        mission: 'Arizona Temple',
+        startDate: new Date(2019, 11, 25),
+        endDate: new Date(2021, 11, 15),
+        photoUrl: './assets/people/jarom-brown.png'
+    },
+    {
+        name: 'Brooks Maile',
+        mission: 'Minnesota Minneapolis',
+        startDate: new Date(2019, 8, 21),
+        endDate: new Date(2021, 8, 3),
+        photoUrl: './assets/people/brooks-maile.png'
+    },
+    {
+        name: 'Peni Mounga',
+        mission: 'New Jersey Morristown',
+        startDate: new Date(2019, 12, 18),
+        endDate: new Date(2022, 1, 4),
+        photoUrl: './assets/people/peni-mounga.png'
+    },
+    {
+        name: 'Kaden Nahinu',
+        mission: 'California San Diego',
+        startDate: new Date(2020, 10, 7),
+        endDate: new Date(2022, 10, 11),
+        photoUrl: './assets/people/kaden-nahinu.png'
+    }
+];
 DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
@@ -290,4 +320,4 @@ DATA.cheatSheet = {
 /***/ })
 
 }]);
-//# sourceMappingURL=common.js.map
+//# sourceMappingURL=default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module.js.map
