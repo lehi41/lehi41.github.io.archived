@@ -204,12 +204,12 @@ DATA.broadcastLinks = [
     {
         active: true,
         label: 'Sunday 1:00pm - Elders Quorum - English Class',
-        link: 'https://us02web.zoom.us/j/81707850862',
-        passcode: '841679',
-        meetingId: '817 0785 0862',
+        link: 'https://us02web.zoom.us/j/85978679866?pwd=WEN0UmpZaHpUZjA2V0tlL2UralJtQT09',
+        passcode: '505817',
+        meetingId: '859 7867 9866',
     },
     {
-        active: true,
+        active: false,
         label: 'Sunday 1:00pm - Elders Quorum - Tongan Class',
         link: 'https://us04web.zoom.us/j/7511959897?pwd=L2Rwb0FjRElDcTJQaW5KMTNmZ24vUT09',
         passcode: '',
