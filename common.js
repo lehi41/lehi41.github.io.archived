@@ -209,9 +209,9 @@ DATA.broadcastLinks = [
         meetingId: '859 7867 9866',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Elders Quorum - Tongan Class',
-        link: 'https://us04web.zoom.us/j/7511959897?pwd=L2Rwb0FjRElDcTJQaW5KMTNmZ24vUT09',
+        link: 'https://us04web.zoom.us/j/7511959897?pwd=bGhReGlmalRhbE5nd1E1WWdCbUZpUT09',
         passcode: '',
         meetingId: '751 195 9897',
     },
