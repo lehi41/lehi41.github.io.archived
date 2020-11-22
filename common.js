@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["common"],{
 
 /***/ "zf2y":
 /*!**********************************!*\
@@ -229,12 +229,7 @@ DATA.broadcastLinks = [
     },
 ];
 DATA.releases = [];
-DATA.sustaining = [
-    {
-        name: 'Isi & Shanley Kaufusi',
-        calling: 'Temple Preparation Teachers',
-    },
-];
+DATA.sustaining = [];
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
     {
@@ -286,8 +281,8 @@ DATA.cheatSheet = {
         chorister: DATA.people.kelepiFinau,
         organist: DATA.people.tbd,
         invocation: DATA.people.tbd,
-        openingSong: DATA.hymns['83'],
-        sacramentSong: DATA.hymns['169'],
+        openingSong: DATA.hymns['7'],
+        sacramentSong: DATA.hymns['194'],
         testimonySunday: false,
         speakers: [
             {
@@ -313,4 +308,4 @@ DATA.cheatSheet = {
 /***/ })
 
 }]);
-//# sourceMappingURL=default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module.js.map
+//# sourceMappingURL=common.js.map

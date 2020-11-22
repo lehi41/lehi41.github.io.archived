@@ -1081,16 +1081,16 @@ const routes = [
         children: [
             {
                 path: 'home',
-                loadChildren: () => Promise.all(/*! import() | features-home-home-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-home-home-module")]).then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "fOOd")).then((m) => m.HomeModule),
+                loadChildren: () => Promise.all(/*! import() | features-home-home-module */[__webpack_require__.e("common"), __webpack_require__.e("features-home-home-module")]).then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "fOOd")).then((m) => m.HomeModule),
             },
             {
                 path: 'sacrament',
-                loadChildren: () => Promise.all(/*! import() | features-sacrament-sacrament-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-sacrament-sacrament-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament/sacrament.module */ "G9/G")).then((m) => m.SacramentModule),
+                loadChildren: () => Promise.all(/*! import() | features-sacrament-sacrament-module */[__webpack_require__.e("common"), __webpack_require__.e("features-sacrament-sacrament-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament/sacrament.module */ "G9/G")).then((m) => m.SacramentModule),
             },
             {
                 path: 'cheat-sheet',
                 canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]],
-                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
+                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("common"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
             },
         ],
     },
