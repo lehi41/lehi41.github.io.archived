@@ -133,30 +133,14 @@ DATA.hymns = {
     },
 };
 DATA.announcements = [
-    {
-        title: 'Thurs 15 Nov - 4:00pm',
-        description: 'Young Women Celebrating 150 Years” Face to Face with the Young Women General ' +
-            'Presidency, 4pm, church satellite system, ChurchofJesusChrist.org, Facebook, Youtube, BYUtv, and other',
-    },
-    {
-        title: 'Thurs 19 Nov - 8:00am - Food Bank',
-        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
-            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-            'Instructions',
-    },
-    {
-        title: 'Thurs 19 Nov - 7:00pm - YSA Institute',
-        description: 'Contact Brother Lomu @ ' +
-            '<a href="mailto:lomubl@churchofjesuschrist.org" target="_blank">lomubl@churchofjesuschrist.org</a> or ' +
-            '<a href="tel:801-671-6371">801-671-6371</a> for Details',
-    },
-    {
-        title: 'Fri 20 Nov - 11:00am - A Special Video Message',
-        description: 'A Special Video Message of Hope and Healing Is Coming From the Prophet, Russell M. Nelson, 11am, ' +
-            'President Nelson’s social media accounts (Facebook, Instagram, Twitter) and on the Church’s main ' +
-            'YouTube channel in 31 languages.*',
-    },
+    // {
+    //   title: 'Thurs 19 Nov - 8:00am - Food Bank',
+    //   description:
+    //     'Saratoga Spring 12 Branch Parking Lot, ' +
+    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+    //     'Instructions',
+    // },
     {
         title: 'Sat 5 Dec - Primary Baptism',
         description: 'Primary Baptism - <a href="https://goo.gl/maps/3yFKCXzoFB3hzTZN7" target="_blank">Lehi YSA Stake ' +
@@ -254,7 +238,7 @@ DATA.sustaining = [
 DATA.aaronicPriesthoodAdvancements = [];
 DATA.newMembers = [
     {
-        name: 'Ofa Ke Ikuna Fifita',
+        name: 'Raass, Maile',
     },
 ];
 DATA.baptisms = [];
