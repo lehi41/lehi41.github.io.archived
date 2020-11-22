@@ -43,6 +43,7 @@ DATA.people = {
     suniaHalafuka: { name: 'Sunia Halafuka' },
     tuaTeriipaia: { name: 'Tua Teriipaia' },
     ionaTeriipaia: { name: 'Iona Teriipaia' },
+    rockyKalamafoni: { name: 'Rocky Kalamafoni' },
 };
 DATA.addresses = {
     chapel: {
@@ -272,13 +273,13 @@ DATA.cheatSheet = {
     zoomSession: true,
     sacrament: {
         id: 1,
-        date: new Date(2020, 10, 15),
+        date: new Date(2020, 11, 22),
         startTime: '10:30 AM',
         endTime: '11:10 AM',
         address: DATA.addresses.chapel,
-        presiding: DATA.people.samBrown,
-        conducting: DATA.people.samBrown,
-        chorister: DATA.people.kelepiFinau,
+        presiding: DATA.people.rockyKalamafoni,
+        conducting: DATA.people.rockyKalamafoni,
+        chorister: DATA.people.tbd,
         organist: DATA.people.tbd,
         invocation: DATA.people.tbd,
         openingSong: DATA.hymns['7'],
