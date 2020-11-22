@@ -214,11 +214,11 @@ DATA.broadcastLinks = [
         meetingId: '751 195 9897',
     },
     {
-        active: false,
+        active: true,
         label: 'Sunday 1:00pm - Young Women Class',
-        link: 'https://us02web.zoom.us/j/81808804908?pwd=Ujd4RmIvZkQxTC9BOGh3Z21WZ1IwQT09',
-        passcode: '909370',
-        meetingId: '818 0880 4908',
+        link: 'https://us05web.zoom.us/j/84536107218?pwd=WTRVRTBxb0NodTZGaWFjRC9NMnl4UT09&fbclid=IwAR34fguFd26GSeID-_EBrTZS9H0vPGZ-h0iuXssrtEuU3jegcdT1Wji2QK4',
+        passcode: 'strivetobe',
+        meetingId: '845 3610 7218',
     },
     {
         fixed: true,
