@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["common"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"],{
 
 /***/ "zf2y":
 /*!**********************************!*\
@@ -44,6 +44,7 @@ DATA.people = {
     tuaTeriipaia: { name: 'Tua Teriipaia' },
     ionaTeriipaia: { name: 'Iona Teriipaia' },
     rockyKalamafoni: { name: 'Rocky Kalamafoni' },
+    mckenzieNeiufi: { name: 'Mckenzie Neiufi' },
 };
 DATA.addresses = {
     chapel: {
@@ -134,14 +135,13 @@ DATA.hymns = {
     },
 };
 DATA.announcements = [
-    // {
-    //   title: 'Thurs 19 Nov - 8:00am - Food Bank',
-    //   description:
-    //     'Saratoga Spring 12 Branch Parking Lot, ' +
-    //     '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
-    //     '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
-    //     'Instructions',
-    // },
+    {
+        title: 'Tue 24 Nov - 8:00am - Food Bank',
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions',
+    },
     {
         title: 'Sat 5 Dec - Primary Baptism',
         description: 'Primary Baptism - <a href="https://goo.gl/maps/3yFKCXzoFB3hzTZN7" target="_blank">Lehi YSA Stake ' +
@@ -236,6 +236,9 @@ DATA.newMembers = [
     {
         name: 'Raass, Maile',
     },
+    {
+        name: 'Fifita, Ofa',
+    },
 ];
 DATA.baptisms = [];
 DATA.babyBlessing = [];
@@ -280,7 +283,7 @@ DATA.cheatSheet = {
         presiding: DATA.people.rockyKalamafoni,
         conducting: DATA.people.rockyKalamafoni,
         chorister: DATA.people.tbd,
-        organist: DATA.people.tbd,
+        organist: DATA.people.mckenzieNeiufi,
         invocation: DATA.people.tbd,
         openingSong: DATA.hymns['7'],
         sacramentSong: DATA.hymns['194'],
@@ -309,4 +312,4 @@ DATA.cheatSheet = {
 /***/ })
 
 }]);
-//# sourceMappingURL=common.js.map
+//# sourceMappingURL=default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module.js.map
