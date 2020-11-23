@@ -192,20 +192,13 @@ __webpack_require__.r(__webpack_exports__);
 class DataModule {
 }
 DataModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: DataModule });
-DataModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function DataModule_Factory(t) { return new (t || DataModule)(); }, imports: [[
-            _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"],
-            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]
-        ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](DataModule, { imports: [_lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"],
-        _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]] }); })();
+DataModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function DataModule_Factory(t) { return new (t || DataModule)(); }, imports: [[_lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](DataModule, { imports: [_lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DataModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
                 declarations: [],
-                imports: [
-                    _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"],
-                    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]
-                ]
+                imports: [_lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]],
             }]
     }], null, null); })();
 
@@ -768,11 +761,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
 /* harmony import */ var _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/pages.module */ "dgmN");
 /* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shared/shared.module */ "PCNd");
-/* harmony import */ var _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/fire/database */ "hQU3");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../environments/environment */ "AytR");
-/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/fire */ "xBdF");
-/* harmony import */ var _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./layouts/layouts.module */ "5wG6");
-
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../environments/environment */ "AytR");
+/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/fire */ "xBdF");
+/* harmony import */ var _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./layouts/layouts.module */ "5wG6");
 
 
 
@@ -792,15 +783,14 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
             _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
             _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-            _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"],
-            _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig),
-            _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"],
+            _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_8__["LayoutsModule"],
+            _angular_fire__WEBPACK_IMPORTED_MODULE_7__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].firebaseConfig),
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
         _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-        _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"], _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"]] }); })();
+        _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_8__["LayoutsModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_7__["AngularFireModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -810,9 +800,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
                     _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
                     _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-                    _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"],
-                    _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig),
-                    _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"],
+                    _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_8__["LayoutsModule"],
+                    _angular_fire__WEBPACK_IMPORTED_MODULE_7__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].firebaseConfig),
                 ],
                 providers: [],
                 bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]],
@@ -1124,16 +1113,16 @@ const routes = [
         children: [
             {
                 path: 'home',
-                loadChildren: () => __webpack_require__.e(/*! import() | features-home-home-module */ "features-home-home-module").then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "fOOd")).then((m) => m.HomeModule),
+                loadChildren: () => Promise.all(/*! import() | features-home-home-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-home-home-module")]).then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "fOOd")).then((m) => m.HomeModule),
             },
             {
                 path: 'sacrament',
-                loadChildren: () => Promise.all(/*! import() | features-sacrament-sacrament-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-sacrament-sacrament-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament/sacrament.module */ "G9/G")).then((m) => m.SacramentModule),
+                loadChildren: () => Promise.all(/*! import() | features-sacrament-sacrament-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-sacrament-sacrament-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament/sacrament.module */ "G9/G")).then((m) => m.SacramentModule),
             },
             {
                 path: 'cheat-sheet',
                 canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]],
-                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
+                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
             },
         ],
     },
