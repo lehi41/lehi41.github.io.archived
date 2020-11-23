@@ -141,11 +141,11 @@ SacramentProgramRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SacramentBase", function() { return SacramentBase; });
-/* harmony import */ var _shared_data_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared/data/data */ "rSg4");
+/* harmony import */ var _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @lehi41/firebase-api */ "tqFo");
 
 class SacramentBase {
     constructor() {
-        this.data = _shared_data_data__WEBPACK_IMPORTED_MODULE_0__["DATA"];
+        this.data = _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_0__["DATA"];
     }
     sortSpeakers() {
         this.speakersBeforeRestHymn = this.data.cheatSheet.sacrament

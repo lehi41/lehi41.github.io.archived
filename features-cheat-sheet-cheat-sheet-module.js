@@ -48,7 +48,7 @@ CheatSheetModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheatSheetComponent", function() { return CheatSheetComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _shared_data_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/data/data */ "rSg4");
+/* harmony import */ var _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @lehi41/firebase-api */ "tqFo");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "2kYt");
 
 
@@ -616,7 +616,7 @@ function CheatSheetComponent_div_0_Template(rf, ctx) { if (rf & 1) {
 } }
 class CheatSheetComponent {
     constructor() {
-        this.data = _shared_data_data__WEBPACK_IMPORTED_MODULE_1__["DATA"];
+        this.data = _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_1__["DATA"];
     }
 }
 CheatSheetComponent.ɵfac = function CheatSheetComponent_Factory(t) { return new (t || CheatSheetComponent)(); };

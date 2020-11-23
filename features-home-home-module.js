@@ -12,17 +12,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "+kfY");
-/* harmony import */ var _shared_data_announcement_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/data/announcement.service */ "52xg");
-/* harmony import */ var _shared_data_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/data/data */ "rSg4");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "0Wlh");
-/* harmony import */ var _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./alerts/alerts.component */ "bQN8");
-/* harmony import */ var _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sacrament-list/sacrament-list.component */ "ud7l");
-/* harmony import */ var _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./broadcast-list/broadcast-list.component */ "a9Fh");
-/* harmony import */ var _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./announcement-list/announcement-list.component */ "2MiQ");
-/* harmony import */ var _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contact-info/contact-info.component */ "KmN4");
-/* harmony import */ var _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./missionary-list/missionary-list.component */ "umAq");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common */ "2kYt");
-
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "0Wlh");
+/* harmony import */ var _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @lehi41/firebase-api */ "tqFo");
+/* harmony import */ var _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./alerts/alerts.component */ "bQN8");
+/* harmony import */ var _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sacrament-list/sacrament-list.component */ "ud7l");
+/* harmony import */ var _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./broadcast-list/broadcast-list.component */ "a9Fh");
+/* harmony import */ var _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./announcement-list/announcement-list.component */ "2MiQ");
+/* harmony import */ var _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./contact-info/contact-info.component */ "KmN4");
+/* harmony import */ var _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./missionary-list/missionary-list.component */ "umAq");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ "2kYt");
 
 
 
@@ -39,13 +37,13 @@ __webpack_require__.r(__webpack_exports__);
 class HomeComponent {
     constructor(announcementService) {
         this.announcementService = announcementService;
-        this.data = _shared_data_data__WEBPACK_IMPORTED_MODULE_3__["DATA"];
+        this.data = _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_3__["DATA"];
         this.announcements$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"]([]);
         this.missionaries$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.data.missionaries);
         this.broadcastLinks$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.data.broadcastLinks.filter((z) => z.active));
         this.announcementService
             .getAll()
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((announcements) => {
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])((announcements) => {
             announcements.forEach((a) => {
                 a.date = new Date(a.date);
             });
@@ -54,7 +52,7 @@ class HomeComponent {
             .subscribe((r) => this.announcements$.next(r));
     }
 }
-HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_data_announcement_service__WEBPACK_IMPORTED_MODULE_2__["AnnouncementService"])); };
+HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_3__["AnnouncementService"])); };
 HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["lehi41-home"]], decls: 16, vars: 9, consts: [[1, "row", "mb-4"], [1, "col-12", "mb-3"], [3, "broadcastLinks"], [3, "announcements"], [3, "missionaries"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
@@ -86,7 +84,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("announcements", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 5, ctx.announcements$));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("missionaries", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](15, 7, ctx.missionaries$));
-    } }, directives: [_alerts_alerts_component__WEBPACK_IMPORTED_MODULE_5__["AlertsComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_6__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_7__["BroadcastListComponent"], _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_8__["AnnouncementListComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_9__["ContactInfoComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_10__["MissionaryListComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_11__["AsyncPipe"]], styles: ["#alert[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  font-size: 50px;\n  height: 90px;\n  width: 90px;\n  border-radius: 50%;\n  border: #b8daff 1px solid;\n  background: #ebf4ff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNFO0VBQ0UsZUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtFQUNBLG1CQUFBO0VBQ0EsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtBQUFKIiwiZmlsZSI6ImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI2FsZXJ0IHtcbiAgLmljb24ge1xuICAgIGZvbnQtc2l6ZTogNTBweDtcbiAgICBoZWlnaHQ6IDkwcHg7XG4gICAgd2lkdGg6IDkwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGJvcmRlcjogbGlnaHRlbigjMDA3YmZmLCAzNiUpIDFweCBzb2xpZDtcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGVuKCMwMDdiZmYsIDQ2JSk7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIG1hcmdpbi1yaWdodDogMTVweDtcbiAgfVxufVxuIl19 */"] });
+    } }, directives: [_alerts_alerts_component__WEBPACK_IMPORTED_MODULE_4__["AlertsComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_5__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_6__["BroadcastListComponent"], _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_7__["AnnouncementListComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_8__["ContactInfoComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_9__["MissionaryListComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_10__["AsyncPipe"]], styles: ["#alert[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  font-size: 50px;\n  height: 90px;\n  width: 90px;\n  border-radius: 50%;\n  border: #b8daff 1px solid;\n  background: #ebf4ff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNFO0VBQ0UsZUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtFQUNBLG1CQUFBO0VBQ0EsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtBQUFKIiwiZmlsZSI6ImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI2FsZXJ0IHtcbiAgLmljb24ge1xuICAgIGZvbnQtc2l6ZTogNTBweDtcbiAgICBoZWlnaHQ6IDkwcHg7XG4gICAgd2lkdGg6IDkwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGJvcmRlcjogbGlnaHRlbigjMDA3YmZmLCAzNiUpIDFweCBzb2xpZDtcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGVuKCMwMDdiZmYsIDQ2JSk7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIG1hcmdpbi1yaWdodDogMTVweDtcbiAgfVxufVxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -94,7 +92,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
                 templateUrl: './home.component.html',
                 styleUrls: ['./home.component.scss'],
             }]
-    }], function () { return [{ type: _shared_data_announcement_service__WEBPACK_IMPORTED_MODULE_2__["AnnouncementService"] }]; }, null); })();
+    }], function () { return [{ type: _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_3__["AnnouncementService"] }]; }, null); })();
 
 
 /***/ }),
@@ -178,81 +176,6 @@ AnnouncementListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
 
 /***/ }),
 
-/***/ "52xg":
-/*!*****************************************************!*\
-  !*** ./src/app/shared/data/announcement.service.ts ***!
-  \*****************************************************/
-/*! exports provided: AnnouncementService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnnouncementService", function() { return AnnouncementService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _data_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./data-base */ "DZn/");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "vobO");
-/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire/firestore */ "Czmw");
-
-
-
-
-
-
-
-class AnnouncementService extends _data_base__WEBPACK_IMPORTED_MODULE_1__["DataBase"] {
-    constructor(http, firestore) {
-        super(http, 'announcements', firestore);
-        this.http = http;
-        this.firestore = firestore;
-    }
-}
-AnnouncementService.ɵfac = function AnnouncementService_Factory(t) { return new (t || AnnouncementService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"])); };
-AnnouncementService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: AnnouncementService, factory: AnnouncementService.ɵfac, providedIn: 'root' });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AnnouncementService, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
-        args: [{
-                providedIn: 'root',
-            }]
-    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }, { type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"] }]; }, null); })();
-
-
-/***/ }),
-
-/***/ "DZn/":
-/*!******************************************!*\
-  !*** ./src/app/shared/data/data-base.ts ***!
-  \******************************************/
-/*! exports provided: DataBase */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataBase", function() { return DataBase; });
-class DataBase {
-    constructor(http, collectionName, firestore) {
-        this.http = http;
-        this.collectionName = collectionName;
-        this.firestore = firestore;
-    }
-    getAll() {
-        return this.firestore
-            .collection(this.collectionName)
-            .valueChanges();
-    }
-    set(item) {
-        return this.firestore.collection(this.collectionName).add(item);
-    }
-    update(id, item) {
-        return this.firestore.collection(this.collectionName).doc(id).update(item);
-    }
-    delete(id) {
-        return this.firestore.collection(this.collectionName).doc(id).delete();
-    }
-}
-
-
-/***/ }),
-
 /***/ "KmN4":
 /*!**********************************************************************!*\
   !*** ./src/app/features/home/contact-info/contact-info.component.ts ***!
@@ -267,8 +190,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class ContactInfoComponent {
-    constructor() { }
-    ngOnInit() { }
 }
 ContactInfoComponent.ɵfac = function ContactInfoComponent_Factory(t) { return new (t || ContactInfoComponent)(); };
 ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactInfoComponent, selectors: [["lehi41-contact-info"]], decls: 87, vars: 0, consts: [[1, "card", "border-light"], ["src", "./assets/images/chapel.jpeg", 1, "card-img-top", "l41-img-thumbnail"], [1, "card-body"], [1, "broadcast-section"], [1, "h4"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "ml-2", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "fa-3x"], [1, "fas", "fa-user-tie"], [1, "ml-4", "w-100"], [1, "p-0", "m-0"], [1, "mt-2", "d-flex", "justify-content-between"], ["href", "tel:8018601598", "target", "_blank"], [1, "fas", "fa-sms"], [1, "fas", "fa-place-of-worship"], [1, "ml-4", "mt-2"], ["href", "https://goo.gl/maps/TLrPMMT1CpjijHnE7", "target", "_blank"], ["href", "tel:8014718893", "target", "_blank"], ["href", "tel:8012434881", "target", "_blank"], ["href", "tel:8018306979", "target", "_blank"], ["href", "https://goo.gl/maps/yMNWPjvQtTMa179p6", "target", "_blank"]], template: function ContactInfoComponent_Template(rf, ctx) { if (rf & 1) {
@@ -417,7 +338,7 @@ ContactInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
                 templateUrl: './contact-info.component.html',
                 styleUrls: ['./contact-info.component.scss'],
             }]
-    }], function () { return []; }, null); })();
+    }], null, null); })();
 
 
 /***/ }),
@@ -597,8 +518,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class AlertsComponent {
-    constructor() { }
-    ngOnInit() { }
 }
 AlertsComponent.ɵfac = function AlertsComponent_Factory(t) { return new (t || AlertsComponent)(); };
 AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlertsComponent, selectors: [["lehi41-alerts"]], decls: 9, vars: 0, consts: [["id", "alert"], ["role", "alert", 1, "alert", "alert-warning", "p-3"], [1, "alert-heading"], [1, "text-right", "mb-0"], ["href", "https://docs.google.com/document/d/11V65jpUgfazarUkN63ezuQy5wvGY19W6cY5xEWLKjWU/edit?usp=sharing", "target", "_blank", 1, "btn", "btn-warning", "btn-sm"]], template: function AlertsComponent_Template(rf, ctx) { if (rf & 1) {
@@ -625,7 +544,7 @@ AlertsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
                 templateUrl: './alerts.component.html',
                 styleUrls: ['./alerts.component.scss'],
             }]
-    }], function () { return []; }, null); })();
+    }], null, null); })();
 
 
 /***/ }),
@@ -709,8 +628,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class LessonListComponent {
-    constructor() { }
-    ngOnInit() { }
 }
 LessonListComponent.ɵfac = function LessonListComponent_Factory(t) { return new (t || LessonListComponent)(); };
 LessonListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LessonListComponent, selectors: [["lehi41-lesson-list"]], decls: 2, vars: 0, template: function LessonListComponent_Template(rf, ctx) { if (rf & 1) {
@@ -725,7 +642,7 @@ LessonListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
                 templateUrl: './lesson-list.component.html',
                 styleUrls: ['./lesson-list.component.scss'],
             }]
-    }], function () { return []; }, null); })();
+    }], null, null); })();
 
 
 /***/ }),
@@ -746,8 +663,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class SacramentListComponent {
-    constructor() { }
-    ngOnInit() { }
 }
 SacramentListComponent.ɵfac = function SacramentListComponent_Factory(t) { return new (t || SacramentListComponent)(); };
 SacramentListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SacramentListComponent, selectors: [["lehi41-sacrament-list"]], decls: 33, vars: 2, consts: [[1, "card", "border-light"], ["src", "./assets/images/safe-sacrament/sacrament-blessers-wear-mask.jpg", 1, "card-img-top", "l41-img-thumbnail"], [1, "card-body"], [1, "h4"], [1, "list-group", "list-group-flush"], [1, "list-group-item", "ml-0", "pl-0", "mr-0", "pr-0"], [1, "d-flex", "justify-content-start"], [1, "text-center"], [1, "fa-3x"], [1, "fas", "fa-user-friends"], [1, "ml-4", "mt-2", "w-100"], [1, "h6", "font-weight-bold"], [1, "text-right", "w-100"], [1, "btn", "btn-primary", "btn-sm", 3, "routerLink"], [1, "fas", "fa-tv"]], template: function SacramentListComponent_Template(rf, ctx) { if (rf & 1) {
@@ -820,7 +735,7 @@ SacramentListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
                 templateUrl: './sacrament-list.component.html',
                 styleUrls: ['./sacrament-list.component.scss'],
             }]
-    }], function () { return []; }, null); })();
+    }], null, null); })();
 
 
 /***/ }),
