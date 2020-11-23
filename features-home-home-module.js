@@ -11,15 +11,20 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data */ "zf2y");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "+kfY");
-/* harmony import */ var _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./alerts/alerts.component */ "bQN8");
-/* harmony import */ var _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sacrament-list/sacrament-list.component */ "ud7l");
-/* harmony import */ var _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./broadcast-list/broadcast-list.component */ "a9Fh");
-/* harmony import */ var _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./announcement-list/announcement-list.component */ "2MiQ");
-/* harmony import */ var _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contact-info/contact-info.component */ "KmN4");
-/* harmony import */ var _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./missionary-list/missionary-list.component */ "umAq");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ "2kYt");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "+kfY");
+/* harmony import */ var _shared_data_announcement_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/data/announcement.service */ "52xg");
+/* harmony import */ var _shared_data_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../shared/data/data */ "rSg4");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "0Wlh");
+/* harmony import */ var _alerts_alerts_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./alerts/alerts.component */ "bQN8");
+/* harmony import */ var _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sacrament-list/sacrament-list.component */ "ud7l");
+/* harmony import */ var _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./broadcast-list/broadcast-list.component */ "a9Fh");
+/* harmony import */ var _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./announcement-list/announcement-list.component */ "2MiQ");
+/* harmony import */ var _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contact-info/contact-info.component */ "KmN4");
+/* harmony import */ var _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./missionary-list/missionary-list.component */ "umAq");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common */ "2kYt");
+
+
+
 
 
 
@@ -32,14 +37,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class HomeComponent {
-    constructor() {
-        this.data = _data__WEBPACK_IMPORTED_MODULE_1__["DATA"];
-        this.missionaries$ = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](this.data.missionaries);
-        this.broadcastLinks$ = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](this.data.broadcastLinks.filter((z) => z.active));
+    constructor(announcementService) {
+        this.announcementService = announcementService;
+        this.data = _shared_data_data__WEBPACK_IMPORTED_MODULE_3__["DATA"];
+        this.announcements$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"]([]);
+        this.missionaries$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.data.missionaries);
+        this.broadcastLinks$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["BehaviorSubject"](this.data.broadcastLinks.filter((z) => z.active));
+        this.announcementService.getAll()
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])((announcements) => {
+            announcements.forEach(a => {
+                a.date = new Date(a.date);
+            });
+            return announcements.sort((b, a) => new Date(b.date).getTime() - new Date(a.date).getTime());
+        }))
+            .subscribe(r => this.announcements$.next(r));
     }
 }
-HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["lehi41-home"]], decls: 15, vars: 7, consts: [[1, "row", "mb-4"], [1, "col-12", "mb-3"], [3, "broadcastLinks"], [3, "announcements"], [3, "missionaries"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_data_announcement_service__WEBPACK_IMPORTED_MODULE_2__["AnnouncementService"])); };
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["lehi41-home"]], decls: 16, vars: 9, consts: [[1, "row", "mb-4"], [1, "col-12", "mb-3"], [3, "broadcastLinks"], [3, "announcements"], [3, "missionaries"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "lehi41-alerts");
@@ -53,23 +68,24 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "lehi41-announcement-list", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](10, "async");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "lehi41-contact-info");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "lehi41-contact-info");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "lehi41-missionary-list", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](14, "async");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "lehi41-missionary-list", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](15, "async");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("broadcastLinks", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](7, 3, ctx.broadcastLinks$));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("announcements", ctx.data.announcements);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("missionaries", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](14, 5, ctx.missionaries$));
-    } }, directives: [_alerts_alerts_component__WEBPACK_IMPORTED_MODULE_3__["AlertsComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_4__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_5__["BroadcastListComponent"], _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_6__["AnnouncementListComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_7__["ContactInfoComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_8__["MissionaryListComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_9__["AsyncPipe"]], styles: ["#alert[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  font-size: 50px;\n  height: 90px;\n  width: 90px;\n  border-radius: 50%;\n  border: #b8daff 1px solid;\n  background: #ebf4ff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNFO0VBQ0UsZUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtFQUNBLG1CQUFBO0VBQ0EsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtBQUFKIiwiZmlsZSI6ImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI2FsZXJ0IHtcbiAgLmljb24ge1xuICAgIGZvbnQtc2l6ZTogNTBweDtcbiAgICBoZWlnaHQ6IDkwcHg7XG4gICAgd2lkdGg6IDkwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGJvcmRlcjogbGlnaHRlbigjMDA3YmZmLCAzNiUpIDFweCBzb2xpZDtcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGVuKCMwMDdiZmYsIDQ2JSk7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIG1hcmdpbi1yaWdodDogMTVweDtcbiAgfVxufVxuIl19 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("announcements", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](10, 5, ctx.announcements$));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("missionaries", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](15, 7, ctx.missionaries$));
+    } }, directives: [_alerts_alerts_component__WEBPACK_IMPORTED_MODULE_5__["AlertsComponent"], _sacrament_list_sacrament_list_component__WEBPACK_IMPORTED_MODULE_6__["SacramentListComponent"], _broadcast_list_broadcast_list_component__WEBPACK_IMPORTED_MODULE_7__["BroadcastListComponent"], _announcement_list_announcement_list_component__WEBPACK_IMPORTED_MODULE_8__["AnnouncementListComponent"], _contact_info_contact_info_component__WEBPACK_IMPORTED_MODULE_9__["ContactInfoComponent"], _missionary_list_missionary_list_component__WEBPACK_IMPORTED_MODULE_10__["MissionaryListComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_11__["AsyncPipe"]], styles: ["#alert[_ngcontent-%COMP%]   .icon[_ngcontent-%COMP%] {\n  font-size: 50px;\n  height: 90px;\n  width: 90px;\n  border-radius: 50%;\n  border: #b8daff 1px solid;\n  background: #ebf4ff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNFO0VBQ0UsZUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtFQUNBLG1CQUFBO0VBQ0EsYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtBQUFKIiwiZmlsZSI6ImFwcHMvY2xpZW50L3NyYy9hcHAvZmVhdHVyZXMvaG9tZS9ob21lLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI2FsZXJ0IHtcbiAgLmljb24ge1xuICAgIGZvbnQtc2l6ZTogNTBweDtcbiAgICBoZWlnaHQ6IDkwcHg7XG4gICAgd2lkdGg6IDkwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICAgIGJvcmRlcjogbGlnaHRlbigjMDA3YmZmLCAzNiUpIDFweCBzb2xpZDtcbiAgICBiYWNrZ3JvdW5kOiBsaWdodGVuKCMwMDdiZmYsIDQ2JSk7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIG1hcmdpbi1yaWdodDogMTVweDtcbiAgfVxufVxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -77,7 +93,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
                 templateUrl: './home.component.html',
                 styleUrls: ['./home.component.scss'],
             }]
-    }], null, null); })();
+    }], function () { return [{ type: _shared_data_announcement_service__WEBPACK_IMPORTED_MODULE_2__["AnnouncementService"] }]; }, null); })();
 
 
 /***/ }),
@@ -157,6 +173,79 @@ AnnouncementListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
     }], null, { announcements: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
+
+
+/***/ }),
+
+/***/ "52xg":
+/*!*****************************************************!*\
+  !*** ./src/app/shared/data/announcement.service.ts ***!
+  \*****************************************************/
+/*! exports provided: AnnouncementService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnnouncementService", function() { return AnnouncementService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _data_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./data-base */ "DZn/");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "vobO");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/fire/firestore */ "Czmw");
+
+
+
+
+
+
+
+class AnnouncementService extends _data_base__WEBPACK_IMPORTED_MODULE_1__["DataBase"] {
+    constructor(http, firestore) {
+        super(http, 'announcements', firestore);
+        this.http = http;
+        this.firestore = firestore;
+    }
+}
+AnnouncementService.ɵfac = function AnnouncementService_Factory(t) { return new (t || AnnouncementService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"])); };
+AnnouncementService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: AnnouncementService, factory: AnnouncementService.ɵfac, providedIn: 'root' });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AnnouncementService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{
+                providedIn: 'root'
+            }]
+    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }, { type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "DZn/":
+/*!******************************************!*\
+  !*** ./src/app/shared/data/data-base.ts ***!
+  \******************************************/
+/*! exports provided: DataBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataBase", function() { return DataBase; });
+class DataBase {
+    constructor(http, collectionName, firestore) {
+        this.http = http;
+        this.collectionName = collectionName;
+        this.firestore = firestore;
+    }
+    getAll() {
+        return this.firestore.collection(this.collectionName).valueChanges();
+    }
+    set(item) {
+        return this.firestore.collection(this.collectionName).add(item);
+    }
+    update(id, item) {
+        return this.firestore.collection(this.collectionName).doc(id).update(item);
+    }
+    delete(id) {
+        return this.firestore.collection(this.collectionName).doc(id).delete();
+    }
+}
 
 
 /***/ }),
@@ -634,6 +723,321 @@ LessonListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
                 styleUrls: ['./lesson-list.component.scss'],
             }]
     }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "rSg4":
+/*!*************************************!*\
+  !*** ./src/app/shared/data/data.ts ***!
+  \*************************************/
+/*! exports provided: DATA */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DATA", function() { return DATA; });
+const DATA = {};
+DATA.people = {
+    memberOfBishopric: { name: 'Member of Bishopric' },
+    chorister: { name: 'Ward Chorister' },
+    organist: { name: 'Ward Organist' },
+    tbd: { name: 'TBD' },
+    stakeRepresentative: { name: 'Stake Representative' },
+    jasonFaga: { name: 'Jason Faga' },
+    gursteenMoeai: { name: 'Gursteen Moeai' },
+    jaredAva: { name: 'Jared Ava' },
+    samBrown: { name: 'Sam Brown' },
+    adamChase: { name: 'Adam Chase' },
+    mekeFinau: { name: 'Meke Finau' },
+    keliiUnga: { name: 'Kelii Unga' },
+    natalieUnga: { name: 'Natalie Unga' },
+    saaneQoro: { name: 'Saane Qoro' },
+    folauKaveinga: { name: 'Folau Kaveinga' },
+    kikiAmosa: { name: 'Kiki Amosa' },
+    melekisetekiFetokai: { name: 'Melekiseteki Fetokai' },
+    felofiakiFetokai: { name: 'Felofiaki Fetokai' },
+    koloFunaki: { name: 'Kolo Funaki' },
+    sioneBrown: { name: 'Sione Brown' },
+    amberBrown: { name: 'Amber Brown' },
+    kaiRaas: { name: 'Kai Raas' },
+    patricRipley: { name: 'Patrick Ripley' },
+    joshTune: { name: 'Josh Tune' },
+    moneAfu: { name: 'Mone Afu' },
+    charlotteAfu: { name: 'Charlotte Afu' },
+    kelepiFinau: { name: 'Kelepi Finau' },
+    carmaBrown: { name: 'Carma Brown' },
+    suniaHalafuka: { name: 'Sunia Halafuka' },
+    tuaTeriipaia: { name: 'Tua Teriipaia' },
+    ionaTeriipaia: { name: 'Iona Teriipaia' },
+    rockyKalamafoni: { name: 'Rocky Kalamafoni' },
+    mckenzieNeiufi: { name: 'Mckenzie Neiufi' },
+};
+DATA.addresses = {
+    chapel: {
+        reference: '220 W 200 S, Lehi, UT 84043',
+        link: 'https://goo.gl/maps/UCX6H9QWRjoZPNTt9',
+    },
+};
+DATA.hymns = {
+    tbd: {
+        title: 'To Be Determined',
+        page: 0,
+        link: 'null',
+    },
+    5: {
+        title: 'High on the Mountain Top',
+        page: 6,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/high-on-the-mountain-top?lang=eng',
+    },
+    6: {
+        title: 'Redeemer of Israel',
+        page: 6,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/redeemer-of-israel?lang=eng',
+    },
+    7: {
+        title: 'Israel, Israel, God Is Calling',
+        page: 7,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/israel-israel-god-is-calling?lang=eng',
+    },
+    19: {
+        title: 'We Thank Thee, O God, for a Prophet',
+        page: 19,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/we-thank-thee-o-god-for-a-prophet?lang=eng',
+    },
+    27: {
+        title: 'Folofola Mai ʻa Sīsū',
+        page: 27,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/thus-sayeth-the-lord?lang=ton',
+    },
+    66: {
+        title: 'Rejoice, the Lord Is King!',
+        page: 66,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/rejoice-the-lord-is-king?lang=eng',
+    },
+    83: {
+        title: 'Guide Us, O Thou Great Jehovah',
+        page: 83,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/guide-us-o-thou-great-jehovah?lang=eng',
+    },
+    85: {
+        title: 'How Firm a Foundation',
+        page: 85,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/how-firm-a-foundation?lang=eng',
+    },
+    136: {
+        title: 'I Know That My Redeemer Lives',
+        page: 136,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/i-know-that-my-redeemer-lives?lang=eng',
+    },
+    169: {
+        title: 'As Now We Take the Sacrament',
+        page: 169,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/as-now-we-take-the-sacrament?lang=eng',
+    },
+    187: {
+        title: 'Ofa ʻi ʻApi [Love at Home #294]',
+        page: 187,
+        link: 'https://www.churchofjesuschrist.org/study/manual/hymns/love-at-home?lang=ton',
+    },
+    194: {
+        title: 'There Is a Green Hill Far Away',
+        page: 194,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/there-is-a-green-hill-far-away?lang=eng',
+    },
+    227: {
+        title: 'There Is Sunshine in My Soul Today',
+        page: 227,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/there-is-sunshine-in-my-soul-today?lang=eng',
+    },
+    239: {
+        title: 'Choose the Right',
+        page: 239,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/choose-the-right?lang=eng',
+    },
+    294: {
+        title: 'Love at Home',
+        page: 294,
+        link: 'https://www.churchofjesuschrist.org/music/library/hymns/love-at-home?lang=eng',
+    },
+};
+DATA.announcements = [
+    {
+        title: 'Tue 24 Nov - 8:00am - Food Bank',
+        date: new Date(2020, 10, 24).toUTCString(),
+        description: 'Saratoga Spring 12 Branch Parking Lot, ' +
+            '<a href="https://goo.gl/maps/GCA2rMwdfKwQbxZu5" target="_blank">1149 North 300 West Lehi UT 84043</a>, ' +
+            '8:00am. If you like to volunteer, be there 7:00am. High Councilor Brother Brigham Johnson Will Provide ' +
+            'Instructions',
+    },
+    {
+        title: 'Sat 5 Dec - Primary Baptism',
+        date: new Date(2020, 11, 5).toUTCString(),
+        description: 'Primary Baptism - <a href="https://goo.gl/maps/3yFKCXzoFB3hzTZN7" target="_blank">Lehi YSA Stake ' +
+            'Building 1550 South 1100 West</a>',
+    },
+    {
+        title: 'Sun 6 Dec - Fast Sunday',
+        date: new Date(2020, 11, 6).toUTCString(),
+        description: '',
+    },
+    {
+        title: 'Sun 6 Dec - 6:00am - First Presidency Christmas Devotional',
+        date: new Date(2020, 11, 6).toUTCString(),
+        description: 'To view a livestream of the devotional, visit: ' +
+            '<a href="https://ChurchofJesusChrist.org" target="_blank">ChurchofJesusChrist.org</a>, ' +
+            'BYUtv, Mormon Channel (website, YouTube, mobile app, Roku), Local meetinghouse via Church ' +
+            'satellite system',
+    },
+];
+DATA.broadcastLinks = [
+    {
+        fixed: true,
+        active: true,
+        label: 'Sunday 10:30am - Sacrament',
+        link: 'https://us02web.zoom.us/j/89646695998',
+        passcode: '',
+        meetingId: '896 4669 5998',
+    },
+    {
+        active: true,
+        label: 'Sunday 12:00pm - Relief Society',
+        link: 'https://us02web.zoom.us/j/8016280153?pwd=R0xKL0tQTnZhVkV4UFgxR2hlMllXUT09',
+        passcode: 'lehifataha',
+        meetingId: '801 628 0153',
+    },
+    {
+        fixed: true,
+        active: false,
+        label: 'Sunday 1:00pm - Sunday School - Tongan - Gospel Doctrine',
+        link: 'https://cutt.ly/lehi_41st_sunday_school',
+        passcode: '',
+        meetingId: '',
+    },
+    {
+        fixed: true,
+        active: false,
+        label: 'Sunday 1:00pm - Sunday School - English - Gospel Doctrine',
+        link: 'https://cutt.ly/lehi_41st_sunday_school',
+        passcode: '',
+        meetingId: '',
+    },
+    {
+        fixed: true,
+        active: false,
+        label: 'Sunday 1:00pm - Sunday School - Youth Class',
+        link: 'https://cutt.ly/lehi_41st_sunday_school',
+        passcode: '',
+        meetingId: '',
+    },
+    {
+        active: true,
+        label: 'Sunday 1:00pm - Elders Quorum - English Class',
+        link: 'https://us02web.zoom.us/j/85978679866?pwd=WEN0UmpZaHpUZjA2V0tlL2UralJtQT09',
+        passcode: '505817',
+        meetingId: '859 7867 9866',
+    },
+    {
+        active: true,
+        label: 'Sunday 1:00pm - Elders Quorum - Tongan Class',
+        link: 'https://us04web.zoom.us/j/7511959897?pwd=N1RJSUZDcmdNOG5xcFA1RkVpcXlNdz09',
+        passcode: '',
+        meetingId: '751 195 9897',
+    },
+    {
+        active: true,
+        label: 'Sunday 1:00pm - Young Women Class',
+        link: 'https://us05web.zoom.us/j/84536107218?pwd=WTRVRTBxb0NodTZGaWFjRC9NMnl4UT09&fbclid=IwAR34fguFd26GSeID-_EBrTZS9H0vPGZ-h0iuXssrtEuU3jegcdT1Wji2QK4',
+        passcode: 'strivetobe',
+        meetingId: '845 3610 7218',
+    },
+    {
+        fixed: true,
+        active: true,
+        label: 'Sunday 1:00pm - Young Men Class',
+        link: 'https://lucidsoftware.zoom.us/j/96870131780',
+        passcode: '',
+        meetingId: '968 7013 1780',
+    },
+];
+DATA.releases = [];
+DATA.sustaining = [];
+DATA.aaronicPriesthoodAdvancements = [];
+DATA.newMembers = [
+    {
+        name: 'Raass, Maile',
+    },
+    {
+        name: 'Fifita, Ofa',
+    },
+];
+DATA.baptisms = [];
+DATA.babyBlessing = [];
+DATA.missionaries = [
+    {
+        name: 'Jarom Brown',
+        mission: 'Arizona Temple',
+        startDate: new Date(2019, 11, 25),
+        endDate: new Date(2021, 11, 15),
+        photoUrl: './assets/people/jarom-brown.png',
+    },
+    {
+        name: 'Brooks Maile',
+        mission: 'Minnesota Minneapolis',
+        startDate: new Date(2019, 8, 21),
+        endDate: new Date(2021, 8, 3),
+        photoUrl: './assets/people/brooks-maile.png',
+    },
+    {
+        name: 'Peni Mounga',
+        mission: 'New Jersey Morristown',
+        startDate: new Date(2019, 12, 18),
+        endDate: new Date(2022, 1, 4),
+        photoUrl: './assets/people/peni-mounga.png',
+    },
+    {
+        name: 'Kaden Nahinu',
+        mission: 'California San Diego',
+        startDate: new Date(2020, 10, 7),
+        endDate: new Date(2022, 10, 11),
+        photoUrl: './assets/people/kaden-nahinu.png',
+    },
+];
+DATA.cheatSheet = {
+    zoomSession: true,
+    sacrament: {
+        id: 1,
+        date: new Date(2020, 11, 22),
+        startTime: '10:30 AM',
+        endTime: '11:10 AM',
+        address: DATA.addresses.chapel,
+        presiding: DATA.people.rockyKalamafoni,
+        conducting: DATA.people.rockyKalamafoni,
+        chorister: DATA.people.tbd,
+        organist: DATA.people.mckenzieNeiufi,
+        invocation: DATA.people.tbd,
+        openingSong: DATA.hymns['7'],
+        sacramentSong: DATA.hymns['194'],
+        testimonySunday: false,
+        speakers: [
+            {
+                person: DATA.people.ionaTeriipaia,
+                index: 1,
+            },
+        ],
+        closingSong: DATA.hymns['6'],
+        benediction: DATA.people.tbd,
+    },
+    stakeVisitors: [],
+    stakeBusinessAssignment: DATA.people.keliiUnga,
+    announcements: DATA.announcements,
+    releases: DATA.releases,
+    sustaining: DATA.sustaining,
+    newMembers: DATA.newMembers,
+    babyBlessing: DATA.babyBlessing,
+    aaronicPriesthoodAdvancements: DATA.aaronicPriesthoodAdvancements,
+    baptisms: DATA.baptisms,
+};
 
 
 /***/ }),

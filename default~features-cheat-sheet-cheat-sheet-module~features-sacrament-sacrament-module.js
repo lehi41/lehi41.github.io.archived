@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~features-cheat-sheet-cheat-sheet-module~features-sacrament-sacrament-module"],{
 
 /***/ "zf2y":
 /*!**********************************!*\
@@ -312,4 +312,4 @@ DATA.cheatSheet = {
 /***/ })
 
 }]);
-//# sourceMappingURL=default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module.js.map
+//# sourceMappingURL=default~features-cheat-sheet-cheat-sheet-module~features-sacrament-sacrament-module.js.map

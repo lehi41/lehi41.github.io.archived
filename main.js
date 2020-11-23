@@ -172,6 +172,46 @@ LoginPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 
 /***/ }),
 
+/***/ "98aY":
+/*!********************************************!*\
+  !*** ./src/app/shared/data/data.module.ts ***!
+  \********************************************/
+/*! exports provided: DataModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DataModule", function() { return DataModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "EM62");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "2kYt");
+/* harmony import */ var _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @lehi41/firebase-api */ "tqFo");
+
+
+
+
+class DataModule {
+}
+DataModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: DataModule });
+DataModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function DataModule_Factory(t) { return new (t || DataModule)(); }, imports: [[
+            _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](DataModule, { imports: [_lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"],
+        _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DataModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                declarations: [],
+                imports: [
+                    _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_2__["FirebaseApiModule"],
+                    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]
+                ]
+            }]
+    }], null, null); })();
+
+
+/***/ }),
+
 /***/ "AytR":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -245,7 +285,7 @@ AuthGuard.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecta
 /*! exports provided: firebaseConfig, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"firebaseConfig\":{\"apiKey\":\"AIzaSyDA1u2jKZj4oUS-PrelGx2ydZrn08UiIRI\",\"authDomain\":\"lehi41.firebaseapp.com\\\",\",\"databaseURL\":\"https://lehi41.firebaseio.com\\\",\",\"projectId\":\"lehi41\\\",\",\"storageBucket\":\"lehi41.appspot.com\\\",\",\"messagingSenderId\":\"1013729335532\\\",\",\"appId\":\"1:1013729335532:web:53a666427e5b11af95edc9\\\",\",\"measurementId\":\"G-VFV4136BY6\"}}");
+module.exports = JSON.parse("{\"firebaseConfig\":{\"apiKey\":\"AIzaSyCUiCVG8zhWOFEvs2LFCVURPy-0KxUwEDU\",\"authDomain\":\"lehi41-ce07f.firebaseapp.com\",\"databaseURL\":\"https://lehi41-ce07f.firebaseio.com\",\"projectId\":\"lehi41-ce07f\",\"storageBucket\":\"lehi41-ce07f.appspot.com\",\"messagingSenderId\":\"421527237245\",\"appId\":\"1:421527237245:web:f7d913239c662e6b7d3714\",\"measurementId\":\"G-GCRPN8B8HB\"}}");
 
 /***/ }),
 
@@ -567,8 +607,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "vobO");
 /* harmony import */ var ngx_cookie_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ngx-cookie-service */ "2JYy");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser */ "e4iD");
-/* harmony import */ var _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @lehi41/firebase-api */ "tqFo");
-/* harmony import */ var _components_video_video_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/video/video.component */ "kEUT");
+/* harmony import */ var _components_video_video_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/video/video.component */ "kEUT");
+/* harmony import */ var _data_data_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./data/data.module */ "98aY");
 
 
 
@@ -589,36 +629,36 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
             _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
-            _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_8__["FirebaseApiModule"],
+            _data_data_module__WEBPACK_IMPORTED_MODULE_9__["DataModule"],
         ], _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"],
         _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
-        _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_8__["FirebaseApiModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](SharedModule, { declarations: [_components_video_video_component__WEBPACK_IMPORTED_MODULE_9__["VideoComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _data_data_module__WEBPACK_IMPORTED_MODULE_9__["DataModule"]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](SharedModule, { declarations: [_components_video_video_component__WEBPACK_IMPORTED_MODULE_8__["VideoComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"],
         _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
-        _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_8__["FirebaseApiModule"]], exports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _data_data_module__WEBPACK_IMPORTED_MODULE_9__["DataModule"]], exports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"],
         _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
         _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
-        _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_8__["FirebaseApiModule"],
-        _components_video_video_component__WEBPACK_IMPORTED_MODULE_9__["VideoComponent"]] }); })();
+        _data_data_module__WEBPACK_IMPORTED_MODULE_9__["DataModule"],
+        _components_video_video_component__WEBPACK_IMPORTED_MODULE_8__["VideoComponent"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SharedModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-                declarations: [_components_video_video_component__WEBPACK_IMPORTED_MODULE_9__["VideoComponent"]],
+                declarations: [_components_video_video_component__WEBPACK_IMPORTED_MODULE_8__["VideoComponent"]],
                 imports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
                     _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"],
                     _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
                     _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
                     _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
-                    _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_8__["FirebaseApiModule"],
+                    _data_data_module__WEBPACK_IMPORTED_MODULE_9__["DataModule"],
                 ],
                 exports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
@@ -626,8 +666,8 @@ SharedModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
                     _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"],
                     _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
                     _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
-                    _lehi41_firebase_api__WEBPACK_IMPORTED_MODULE_8__["FirebaseApiModule"],
-                    _components_video_video_component__WEBPACK_IMPORTED_MODULE_9__["VideoComponent"],
+                    _data_data_module__WEBPACK_IMPORTED_MODULE_9__["DataModule"],
+                    _components_video_video_component__WEBPACK_IMPORTED_MODULE_8__["VideoComponent"],
                 ],
                 providers: [ngx_cookie_service__WEBPACK_IMPORTED_MODULE_6__["CookieService"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_7__["Title"]],
             }]
@@ -729,7 +769,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/pages.module */ "dgmN");
 /* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shared/shared.module */ "PCNd");
 /* harmony import */ var _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/fire/database */ "hQU3");
-/* harmony import */ var _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./layouts/layouts.module */ "5wG6");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../environments/environment */ "AytR");
+/* harmony import */ var _angular_fire__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/fire */ "xBdF");
+/* harmony import */ var _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./layouts/layouts.module */ "5wG6");
+
+
+
 
 
 
@@ -747,17 +792,15 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
             _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
             _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-            _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__["LayoutsModule"],
-            // AngularFireModule.initializeApp(environment.firebaseConfig),
+            _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"],
+            _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig),
             _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"],
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
         _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-        _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__["LayoutsModule"],
-        // AngularFireModule.initializeApp(environment.firebaseConfig),
-        _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"]] }); })();
+        _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"], _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -767,8 +810,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
                     _pages_pages_module__WEBPACK_IMPORTED_MODULE_4__["PagesModule"],
                     _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
-                    _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_7__["LayoutsModule"],
-                    // AngularFireModule.initializeApp(environment.firebaseConfig),
+                    _layouts_layouts_module__WEBPACK_IMPORTED_MODULE_9__["LayoutsModule"],
+                    _angular_fire__WEBPACK_IMPORTED_MODULE_8__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig),
                     _angular_fire_database__WEBPACK_IMPORTED_MODULE_6__["AngularFireDatabaseModule"],
                 ],
                 providers: [],
@@ -1081,16 +1124,16 @@ const routes = [
         children: [
             {
                 path: 'home',
-                loadChildren: () => Promise.all(/*! import() | features-home-home-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-home-home-module")]).then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "fOOd")).then((m) => m.HomeModule),
+                loadChildren: () => __webpack_require__.e(/*! import() | features-home-home-module */ "features-home-home-module").then(__webpack_require__.bind(null, /*! ./features/home/home.module */ "fOOd")).then((m) => m.HomeModule),
             },
             {
                 path: 'sacrament',
-                loadChildren: () => Promise.all(/*! import() | features-sacrament-sacrament-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-sacrament-sacrament-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament/sacrament.module */ "G9/G")).then((m) => m.SacramentModule),
+                loadChildren: () => Promise.all(/*! import() | features-sacrament-sacrament-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-sacrament-sacrament-module")]).then(__webpack_require__.bind(null, /*! ./features/sacrament/sacrament.module */ "G9/G")).then((m) => m.SacramentModule),
             },
             {
                 path: 'cheat-sheet',
                 canActivate: [_shared_auth_guard__WEBPACK_IMPORTED_MODULE_4__["AuthGuard"]],
-                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-home-home-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
+                loadChildren: () => Promise.all(/*! import() | features-cheat-sheet-cheat-sheet-module */[__webpack_require__.e("default~features-cheat-sheet-cheat-sheet-module~features-sacrament-sacrament-module"), __webpack_require__.e("features-cheat-sheet-cheat-sheet-module")]).then(__webpack_require__.bind(null, /*! ./features/cheat-sheet/cheat-sheet.module */ "/gp7")).then((m) => m.CheatSheetModule),
             },
         ],
     },
