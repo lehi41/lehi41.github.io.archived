@@ -92,9 +92,6 @@ firebase/app
 
 firebase/firestore
 
-lehi41
-MIT
-
 ngx-cookie-service
 MIT
 
